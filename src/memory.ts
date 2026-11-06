@@ -27,6 +27,7 @@ export async function recentCoverage(today: string, days = 4, distDir = path.res
     const file = path.join(distDir, name, "issue.json");
     if (!existsSync(file)) continue;
     const issue = JSON.parse(await readFile(file, "utf8")) as Issue;
+    if (issue.dryRun) continue; // test drafts were never posted
     for (const s of issue.sections) {
       for (const md of [s.body, s.soWhat ?? "", ...s.items.map((i) => i.text)]) {
         for (const [, label, url] of md.matchAll(/\[([^\]]+)\]\(([^)\s]+)\)/g)) {
