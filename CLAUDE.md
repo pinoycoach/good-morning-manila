@@ -10,6 +10,9 @@ for the owner, the working rules and the guardrails, which all apply here). Buil
 - **Flow:** `draft.yml` (05:00 Manila, outside timer; backups 05:20/05:45) → draft in `dist/issue-<date>/` →
   preview copied to diskartedaily.com/drafts/<DRAFT_TOKEN>/gmm-<date>/ (via DISKARTE_PUSH_TOKEN) → Telegram ping
   to the GMM desk group (not Diskarte's chat). No approve workflow: posting is by hand.
+- **Telegram:** pings go to the "GMM desk" group (created 2026-11-06) through the same bot as Diskarte. Bots in
+  groups only see commands addressed to them (`/start@diskarte_daily_bot`). If the group is ever upgraded (made public,
+  special admin rights, large), its id changes to `-100…`: update the `TELEGRAM_CHAT_ID` secret.
 - **Numbers:** peso rates come from `src/rates.ts` (ECB via Frankfurter; BSP refused cloud fetches 2026-11-06).
   The writer must never restate or compute rate numbers.
 - **14-day test** (from `diskarte-daily/ideas/good-morning-manila.md`): baseline reach = first 3 days' median.
