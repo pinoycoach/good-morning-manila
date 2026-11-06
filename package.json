@@ -1,0 +1,29 @@
+{
+  "name": "good-morning-manila",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Good Morning Manila: a daily, sourced, economy-first brief for Filipinos at home and abroad. Harvest, score, write, legal desk, then post by hand.",
+  "scripts": {
+    "draft": "tsx src/preview-and-publish.ts draft",
+    "rebuild": "tsx src/preview-and-publish.ts rebuild",
+    "ping": "tsx src/preview-and-publish.ts ping",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.11.2",
+    "resend": "^6.35.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
