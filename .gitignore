@@ -1,0 +1,6 @@
+node_modules/
+.env
+logs/
+site-repo/
+# Drafts are committed so the workflow keeps them; only superseded drafts stay out.
+dist/*-replaced-*/

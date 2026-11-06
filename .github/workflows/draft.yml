@@ -1,0 +1,89 @@
+name: Daily draft
+
+on:
+  schedule:
+    # Backups only: the main start should be an outside timer at 05:00 Manila (GitHub's own timer can run late or skip).
+    # 05:20 Manila (UTC+8) Monday to Friday = 21:20 UTC Sunday to Thursday; second backup at 05:45.
+    - cron: "20 21 * * 0-4"
+    - cron: "45 21 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Draft again even if today's draft exists (moves the old one aside; costs one Claude call)"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Test run: no Claude call, placeholder text"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      TZ: Asia/Manila
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      # A separate Telegram group for this publication, so its ping never mixes with Diskarte Daily's.
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      DRAFT_TOKEN: ${{ secrets.DRAFT_TOKEN }}
+      NEWSLETTER_EDITOR: ${{ vars.NEWSLETTER_EDITOR || 'Napoleon Beltran' }}
+      SITE_URL: ${{ vars.SITE_URL || 'https://diskartedaily.com' }}
+      PAGE_NAME: ${{ vars.PAGE_NAME || 'Digitally Manila' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Fonts for the cover card
+        run: sudo apt-get install -y -q fonts-liberation
+      - run: npm ci
+      - name: Draft today's brief
+        id: draft
+        run: npm run draft -- --no-ping ${{ inputs.force && '--force' || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Save the draft in this repo
+        run: |
+          git config user.name "gmm-bot"
+          git config user.email "bot@diskartedaily.com"
+          git add dist
+          git commit -m "draft: $(date +%F)" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push
+      # The private preview lives on diskartedaily.com/drafts/<token>/gmm-<date>/, served by the Diskarte Daily site.
+      # Needs DISKARTE_PUSH_TOKEN: a fine-grained token with Contents read/write on pinoycoach/diskarte-daily only.
+      - name: Put the preview online
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
+        env:
+          PUSH_TOKEN: ${{ secrets.DISKARTE_PUSH_TOKEN }}
+        run: |
+          DAY=$(date +%F)
+          if [ ! -f "dist/issue-$DAY/index.html" ]; then echo "No draft for $DAY; nothing to publish."; exit 0; fi
+          if [ -z "$PUSH_TOKEN" ]; then echo "::warning::DISKARTE_PUSH_TOKEN is not set; the preview link will not work."; exit 0; fi
+          git clone --depth 1 "https://x-access-token:${PUSH_TOKEN}@github.com/pinoycoach/diskarte-daily.git" site-repo
+          DEST="site-repo/dist/site/drafts/$DRAFT_TOKEN/gmm-$DAY"
+          rm -rf "$DEST" && mkdir -p "$DEST"
+          for f in index.html facebook.html review.md og; do
+            [ -e "dist/issue-$DAY/$f" ] && cp -r "dist/issue-$DAY/$f" "$DEST/"
+          done
+          cd site-repo
+          git config user.name "gmm-bot"
+          git config user.email "bot@diskartedaily.com"
+          git add dist/site/drafts
+          git commit -m "gmm preview: $DAY" || { echo "preview unchanged"; exit 0; }
+          # Diskarte's own draft may have pushed meanwhile: replay on top and retry.
+          for i in 1 2 3 4; do git pull --rebase origin main && git push && break; sleep $((i * 5)); done
+      - name: Wait for the site to publish the preview
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
+        run: sleep 60
+      - name: Telegram ping
+        if: ${{ steps.draft.outputs.drafted == 'true' }}
+        run: npm run ping
