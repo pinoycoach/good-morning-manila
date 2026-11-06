@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-06",
+  "newsletterName": "Good Morning Manila",
+  "editor": "Napoleon Beltran",
+  "title": "Fuel price rollbacks seen after Democrat wave in US midterms",
+  "teaser": "US midterm results may cut fuel prices by up to P13.50/L, Palace tells Filipinos to upskill as ‘AI era’ sets in",
+  "sections": [
+    {
+      "number": 1,
+      "kicker": "Balita",
+      "headline": "Fuel price rollbacks seen after Democrat wave in US midterms",
+      "body": "[DRY RUN, no Claude call] *PhilStar Business*: [Fuel price rollbacks seen after Democrat wave in US midterms](https://www.philstar.com/business/2026/11/06/2568283/fuel-price-rollbacks-seen-after-democrat-wave-us-midterms). Rollbacks are expected for gasoline, diesel and kerosene next week as the price of fuel continues to drop in the world market.",
+      "items": [],
+      "socialHook": "Fuel price rollbacks seen after Democrat wave in US midterms",
+      "soWhat": "[DRY RUN] What this means for the family goes here."
+    },
+    {
+      "number": 2,
+      "kicker": "Balita",
+      "headline": "US midterm results may cut fuel prices by up to P13.50/L",
+      "body": "[DRY RUN, no Claude call] *Inquirer Business*: [US midterm results may cut fuel prices by up to P13.50/L](https://business.inquirer.net/619824/us-midterm-results-may-cut-fuel-prices-by-up-to-p13-50-l). MANILA, Philippines — Motorists will breathe a sigh of relief next week as fuel prices may drop amid renewed optimism that the Middle East war will end after Democrats won control of the United States (US) Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50 per liter starting",
+      "items": [],
+      "socialHook": "US midterm results may cut fuel prices by up to P13.50/L",
+      "soWhat": "[DRY RUN] What this means for the family goes here."
+    },
+    {
+      "number": 3,
+      "kicker": "Balita",
+      "headline": "Palace tells Filipinos to upskill as ‘AI era’ sets in",
+      "body": "[DRY RUN, no Claude call] *Inquirer*: [Palace tells Filipinos to upskill as ‘AI era’ sets in](https://newsinfo.inquirer.net/2337215/palace-tells-filipinos-to-upskill-as-ai-era-sets-in). MANILA, Philippines — Malacañang on Friday urged Filipino workers to acquire artificial intelligence (AI)-related skills to keep pace with changing labor market demands as the country navigates the “AI era.” Palace Press Officer Claire Castro said that while AI may lead to job losses in some sectors, it could also create new employment opportunities, including higher-paying jobs.",
+      "items": [],
+      "socialHook": "Palace tells Filipinos to upskill as ‘AI era’ sets in",
+      "soWhat": "[DRY RUN] What this means for the family goes here."
+    },
+    {
+      "number": 4,
+      "kicker": "Diskarte",
+      "headline": "SSS death benefits climb to P63.7B in Jan-Sept",
+      "body": "[DRY RUN, no Claude call] *Inquirer Business*: [SSS death benefits climb to P63.7B in Jan-Sept](https://business.inquirer.net/619847/sss-death-benefits-climb-to-p63-7b-in-jan-sept). MANILA, Philippines — Death benefits disbursed by the Social Security System (SSS) jumped to P63.74 billion in the first three quarters of the year, driven by the early implementation of a pension increase for surviving spouses or death pensioners in June. In a statement, the SSS said death benefit payouts through the end of September rose 10.4",
+      "items": [],
+      "socialHook": "SSS death benefits climb to P63.7B in Jan-Sept",
+      "soWhat": "[DRY RUN]"
+    },
+    {
+      "number": 5,
+      "kicker": "Sabi nila",
+      "headline": "Sabi nila",
+      "body": "",
+      "items": [
+        {
+          "leadIn": "PhilStar Opinion",
+          "text": "*PhilStar Opinion*: [FMRs for food security?](https://www.philstar.com/opinion/2026/11/06/2568151/fmrs-food-security)"
+        },
+        {
+          "leadIn": "PhilStar Opinion",
+          "text": "*PhilStar Opinion*: [Ex-generals, social activists denounce political plunder](https://www.philstar.com/opinion/2026/11/06/2568152/ex-generals-social-activists-denounce-political-plunder)"
+        }
+      ],
+      "socialHook": "Sabi nila."
+    },
+    {
+      "number": 6,
+      "kicker": "Iba pang balita",
+      "headline": "Iba pang balita",
+      "body": "",
+      "items": [
+        {
+          "leadIn": "Inquirer Global Nation",
+          "text": "*Inquirer Global Nation*: [BI deports 115 Chinese allegedly involved in illegal POGOs](https://globalnation.inquirer.net/346080/bi-deports-115-chinese-allegedly-involved-in-illegal-pogos)"
+        },
+        {
+          "leadIn": "Inquirer Business",
+          "text": "*Inquirer Business*: [Inflation jumps to three-year high of 7.8% in October](https://business.inquirer.net/619815/inflation-jumps-to-three-year-high-of-7-8-in-october)"
+        },
+        {
+          "leadIn": "Inquirer Business",
+          "text": "*Inquirer Business*: [Peso, stocks stage relief rally on US election results](https://business.inquirer.net/619781/peso-stocks-stage-relief-rally-on-us-election-results)"
+        },
+        {
+          "leadIn": "Inquirer Business",
+          "text": "*Inquirer Business*: [PH jobless rate inches up to 5.4% in September](https://business.inquirer.net/619828/ph-jobless-rate-inches-up-to-5-4-in-september)"
+        }
+      ],
+      "socialHook": "Iba pang balita."
+    },
+    {
+      "number": 7,
+      "kicker": "Noong araw",
+      "headline": "Noong araw",
+      "body": "",
+      "items": [],
+      "socialHook": "Noong araw."
+    }
+  ],
+  "rates": {
+    "data": {
+      "date": "2026-11-05",
+      "source": "European Central Bank reference rates (via Frankfurter)",
+      "sourceUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "rates": [
+        {
+          "code": "USD",
+          "label": "US dollar",
+          "php": 62.99609424215699,
+          "prev": 63.528365415157865,
+          "monthAgo": 62.81012499214873
+        },
+        {
+          "code": "CAD",
+          "label": "Canadian dollar",
+          "php": 45.10803374080923,
+          "prev": 45.587162654996355,
+          "monthAgo": 44.06645220993258
+        },
+        {
+          "code": "GBP",
+          "label": "British pound",
+          "php": 84.78887569950822,
+          "prev": 85.76329331046313,
+          "monthAgo": 82.9393713195654
+        },
+        {
+          "code": "EUR",
+          "label": "Euro",
+          "php": 70.70635650144948,
+          "prev": 71.57683773530886,
+          "monthAgo": 70.20499859590002
+        },
+        {
+          "code": "SGD",
+          "label": "Singapore dollar",
+          "php": 49.31939238508582,
+          "prev": 49.71414367387521,
+          "monthAgo": 49.05567819475104
+        },
+        {
+          "code": "HKD",
+          "label": "Hong Kong dollar",
+          "php": 8.029548739360848,
+          "prev": 8.097165991902834,
+          "monthAgo": 8.003201280512204
+        },
+        {
+          "code": "AUD",
+          "label": "Australian dollar",
+          "php": 44.09948844593402,
+          "prev": 44.56725198324271,
+          "monthAgo": 43.66049598323437
+        },
+        {
+          "code": "JPY",
+          "label": "Japanese yen",
+          "php": 0.3975668906293484,
+          "prev": 0.40144520272982737,
+          "monthAgo": 0.3969671708149736
+        }
+      ]
+    },
+    "lines": [
+      "$1 = ₱63.00 (down ₱0.53 from the previous day; up ₱0.19 in about a month)",
+      "$500 sent home = about ₱31,498 at the reference rate, before fees."
+    ]
+  },
+  "dryRun": true,
+  "warnings": [
+    "DRY RUN: placeholder text, not written by Claude. This issue cannot be published.",
+    "Section 1: main paragraph is 39 words (target 100-180).",
+    "Section 2: contains an em dash (house style: never).",
+    "Section 2: main paragraph is 73 words (target 100-180).",
+    "Section 2 (\"US midterm results may cut fuel prices by up to P13.50/L\"): the article could not be read, so this rests on the headline and summary only. Verify before sending.",
+    "Section 3: contains an em dash (house style: never).",
+    "Section 3: main paragraph is 73 words (target 100-180).",
+    "Section 3 (\"Palace tells Filipinos to upskill as ‘AI era’ sets in\"): the article could not be read, so this rests on the headline and summary only. Verify before sending.",
+    "Section 4: contains an em dash (house style: never).",
+    "Section 5: LEGAL CHECK, accusation language (\"plunder\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")?",
+    "Section 6: LEGAL CHECK, accusation language (\"allegedly\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")?"
+  ]
+}
