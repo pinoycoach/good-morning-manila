@@ -80,7 +80,8 @@ export async function harvestHistory(today = todayLocal()): Promise<Story[]> {
     .filter((e) => PH_HISTORY.test(e.text) || (e.pages ?? []).some((p) => PH_HISTORY.test(p.titles?.normalized ?? "")))
     .slice(0, 4)
     .map((e, i): Story => {
-      const page = (e.pages ?? []).find((p) => PH_HISTORY.test(p.titles?.normalized ?? "")) ?? e.pages?.[0];
+      // The first page is the event's own article (e.g. "Typhoon Haiyan"); later ones are places and people.
+      const page = e.pages?.[0];
       return {
         id: `history-${i}`,
         kind: "history",
