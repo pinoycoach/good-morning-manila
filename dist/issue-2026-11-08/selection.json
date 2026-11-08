@@ -1,0 +1,368 @@
+{
+  "deepDives": [
+    {
+      "id": "rss-businessworld-2",
+      "kind": "news",
+      "title": "ERC considering power-reserve trading price cap",
+      "url": "https://bworldonline.com/economy/2026/11/08/792135/erc-considering-power-reserve-trading-price-cap/",
+      "source": "BusinessWorld",
+      "publishedAt": "2026-11-08T12:17:17.000Z",
+      "summary": "THE Energy Regulatory Commission (ERC) plans to impose a secondary price cap (SPC) on the trading of power…",
+      "score": 2.786367337037037,
+      "weird": 0,
+      "reasons": [
+        "relevance 1 (money)",
+        "BusinessWorld, 2.6h old",
+        "peso or prices",
+        "promoted to deep dive in place of \"DMW: Filipino seafarer killed in drone attack on P\""
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "THE Energy Regulatory Commission (ERC) plans to impose a secondary price cap (SPC) on the trading of power reserves after suspending the market due to persistently high prices.\n“We are putting this safeguard on the table now so that it is ready before the reserve market resumes,” ERC Chairman and Chief Executive Officer Francis Saturnino C. Juan said in a statement at the weekend.\nMr. Juan said the proposed move forms part of the government’s plan to revise the ancillary services (AS) policy and regulatory framework.\nAS, or power reserves, are used by the grid operator to support power transmission and maintain grid reliability.\nThese services are procured through the reserve market or from providers through ancillary service procurement agreements (ASPAs) with the National Grid Corp. of the Philippines to help stabilize the grid when electricity supply and demand are imbalanced.\nThe reserve market began commercial operations in January 2024 with an interim limit on offers of P0 to P25,000 per megawatt-hour (MWh). However, the regulator found that power reserves bought from the spot market in 2025 were higher compared to ASPAs.\nAn ERC review found that power reserves purchased from the reserve market added an estimated P1.29 per kilowatt-hour (kWh) to electricity rates in the Visayas while those bought under ASPAs added only P0.02 per kWh.\nThis has led the ERC to suspend the operations of the reserve market on Oct. 14 to curb high AS prices and review the rules governing the mechanism.\nSimilar to the Wholesale Electricity Spot Market, where electricity is traded as a commodity, the regulator wants to impose an SPC on the reserve market to limit price spikes once a specified cumulative price threshold is breached.\nUnder the draft rules, the Independent Electricity Market Operator of the Philippines will monitor average prices over a three-day period, with the monitoring period depending on the type of reserve.\nAn SPC will be triggered when the three-day average price breaches the prescribed threshold, effectively limiting how high prices can rise.\nThe draft sets SPC levels at P14,115 per MWh for regulating-up reserves, P14,548 per MWh for regulating-down reserves, P5,187 per MWh for contingency reserves, and P3,216 per MWh for dispatchable reserves.\nThese caps will take effect once the respective trigger thresholds of P15,816, P16,104.75, P8,940.89, and P7,830.07 per MWh are breached.\nThe ERC noted that these caps trigger independently across Luzon, the Visayas, and Mindanao, ensuring that localized price spikes do not penalize neighboring regions.\nAccording to the ERC, the proposed price caps were based on actual reserve prices recorded between February 2024 and December 2025. When tested against market prices between Aug. 26 and Sept. 25, 2026, the ERC said the mechanism could have reduced average reserve prices by 12% to 50% in the Visayas and by 17% to 33% in Mindanao.\n“This shows the cap acts only where prices stay excessive and leaves normal pricing alone,” the ERC said. — Sheldeen Joy Talavera"
+      }
+    },
+    {
+      "id": "rss-inquirer-global-nation-5",
+      "kind": "news",
+      "title": "Updated pact expected to open more Taiwan jobs for OFWs",
+      "url": "https://globalnation.inquirer.net/346297/updated-pact-expected-to-open-more-taiwan-jobs-for-ofws",
+      "source": "Inquirer Global Nation",
+      "publishedAt": "2026-11-08T14:43:00.000Z",
+      "summary": "MANILA, Philippines — A updated agreement between the Philippines and Taiwan is expected to create more employment opportunities for qualified Filipino workers, particularly in the hospitality sector, according to the Department of Migrant Workers (DMW). In a statement on Saturday, the DMW welcomed the signing of a new Memorandum of Understanding (MOU) between the Manila",
+      "score": 3.2883791500000004,
+      "weird": 0,
+      "reasons": [
+        "relevance 1.5 (OFW) (money)",
+        "Inquirer Global Nation, 0.2h old"
+      ],
+      "article": {
+        "status": "unavailable",
+        "text": "",
+        "reason": "https://globalnation.inquirer.net/346297/updated-pact-expected-to-open-more-taiwan-jobs-for-ofws -> HTTP 403"
+      }
+    },
+    {
+      "id": "rss-inquirer-global-nation-7",
+      "kind": "news",
+      "title": "DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos",
+      "url": "https://globalnation.inquirer.net/346278/dmw-ph-luxembourg-eye-labor-pact-to-open-more-jobs-for-filipinos",
+      "source": "Inquirer Global Nation",
+      "publishedAt": "2026-11-08T11:55:19.000Z",
+      "summary": "MANILA, Philippines — The Philippines and Luxembourg are exploring a labor cooperation agreement that could open up more overseas employment opportunities for skilled Filipino workers in the European country, the Department of Migrant Workers (DMW) said on Saturday. The proposed Joint Declaration of Intent (JDI) on labor cooperation seeks to expand job opportunities for overseas",
+      "score": 3.1206958166666663,
+      "weird": 0,
+      "reasons": [
+        "relevance 1.5 (OFW) (money)",
+        "Inquirer Global Nation, 3.0h old"
+      ],
+      "article": {
+        "status": "unavailable",
+        "text": "",
+        "reason": "https://globalnation.inquirer.net/346278/dmw-ph-luxembourg-eye-labor-pact-to-open-more-jobs-for-filipinos -> HTTP 403"
+      }
+    }
+  ],
+  "gem": {
+    "id": "rss-inquirer-global-nation-4",
+    "kind": "news",
+    "title": "DFA hits back at Ombudsman, defends authority to issue PH visas",
+    "url": "https://globalnation.inquirer.net/346301/dfa-hits-back-at-ombudsman-defends-authority-to-issue-ph-visas",
+    "source": "Inquirer Global Nation",
+    "publishedAt": "2026-11-08T16:38:44.000Z",
+    "summary": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has defended its legal authority to issue Philippine visas, rejecting anew Ombudsman Jesus Crispin Remulla’s claim that such powers belong exclusively to immigration authorities under the Department of Justice (DOJ). In a statement on Sunday, the DFA said its authority to issue visas was expressly provided",
+    "score": 2.94,
+    "weird": 0,
+    "reasons": [
+      "relevance 1.2 (OFW)",
+      "Inquirer Global Nation, 0.0h old",
+      "something to act on"
+    ],
+    "article": {
+      "status": "unavailable",
+      "text": "",
+      "reason": "https://globalnation.inquirer.net/346301/dfa-hits-back-at-ombudsman-defends-authority-to-issue-ph-visas -> HTTP 403"
+    }
+  },
+  "quickHits": [
+    {
+      "id": "rss-inquirer-global-nation-1",
+      "kind": "news",
+      "title": "Iran says 3 tankers caught fire in Strait of Hormuz",
+      "url": "https://globalnation.inquirer.net/346316/iran-says-3-tankers-caught-fire-in-strait-of-hormuz",
+      "source": "Inquirer Global Nation",
+      "publishedAt": "2026-11-08T19:54:14.000Z",
+      "summary": "TEHRAN, Iran – Three oil tankers caught fire on Sunday in the Strait of Hormuz, where Iran regularly targets ships that transit without its authorisation, the Revolutionary Guards said in a statement. Since the outbreak of the Iran war in late February, Tehran has severely restricted traffic through the strategic waterway, insisting vessels use routes authorised",
+      "score": 2.8000000000000003,
+      "weird": 0,
+      "reasons": [
+        "relevance 1 (money)",
+        "Inquirer Global Nation, 0.0h old",
+        "peso or prices"
+      ],
+      "article": {
+        "status": "unavailable",
+        "text": "",
+        "reason": "https://globalnation.inquirer.net/346316/iran-says-3-tankers-caught-fire-in-strait-of-hormuz -> HTTP 403"
+      }
+    },
+    {
+      "id": "rss-businessworld-1",
+      "kind": "news",
+      "title": "P65.6-M rice processing facility turned over to Nueva Ecija co-op",
+      "url": "https://bworldonline.com/economy/2026/11/08/792142/p65-6-m-rice-processing-facility-turned-over-to-nueva-ecija-co-op/",
+      "source": "BusinessWorld",
+      "publishedAt": "2026-11-08T12:17:57.000Z",
+      "summary": "THE Department of Agriculture (DA) said a P65.6-million rice processing facility has been handed over to a farmers’…",
+      "score": 2.7868488185185187,
+      "weird": 0,
+      "reasons": [
+        "relevance 1 (money)",
+        "BusinessWorld, 2.6h old",
+        "peso or prices"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "thin",
+        "text": "THE Department of Agriculture (DA) said a P65.6-million rice processing facility has been handed over to a farmers’ cooperative in Nueva Ecija to help mechanize the production process.\nThe Talabutab Norte Primary Multipurpose Cooperative was the recipient of the new rice processing system which includes a P54.7-million multi-stage rice mill with a processing capacity of 2-3 tons per hour. It also received two recirculating-type mechanical dryers worth P10.88 million.\nThe facility allows for pre-cleaning, de-stoning, hulling, polishing, grading, and color-sorting and features an automatic milled-rice packing machine.\nThe Philippine Center for Postharvest Development and Mechanization (PHilMech) and the Rice Competitiveness Enhancement Fund (RCEF) Mechanization Program distribute machinery to qualified farmer cooperatives and associations.\nThe program estimates that mechanization can cut production costs by P2 to P3 per kilogram, while postharvest technologies can cut losses by 3% to 5%.\nThe RCEF Mechanization Program has been extended until 2031 with annual allocations increasing from P5 billion to P9 billion. The program is authorized by Republic Act (RA) No. 12078 or the Agricultural Tariffication Act, which amended RA No. 11203 or the Rice Tariffication Law. — Marie Mikaela H. Tormon"
+      }
+    },
+    {
+      "id": "rss-inquirer-global-nation-8",
+      "kind": "news",
+      "title": "DMW: Filipino seafarer killed in drone attack on Persian Gulf tanker",
+      "url": "https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker",
+      "source": "Inquirer Global Nation",
+      "publishedAt": "2026-11-08T11:30:45.000Z",
+      "summary": "MANILA, Philippines — A Filipino seafarer died after a suspected drone attack hit the Marshall Islands-flagged oil products tanker MT Velos Sapphire in the Persian Gulf last Thursday, Nov. 5, according to the Department of Migrant Workers (DMW). The DMW said on Saturday that 21 other Filipino crew members onboard the vessel were unharmed. READ:",
+      "score": 3.69612915,
+      "weird": 0,
+      "reasons": [
+        "relevance 1.5 (OFW) (money) (politics)",
+        "Inquirer Global Nation, 3.4h old",
+        "peso or prices",
+        "moved to quick hits (lead was unreadable)"
+      ],
+      "article": {
+        "status": "unavailable",
+        "text": "",
+        "reason": "https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker -> HTTP 403"
+      }
+    },
+    {
+      "id": "rss-inquirer-global-nation-17",
+      "kind": "news",
+      "title": "China cites PH help in Pogo, scam hub arrests",
+      "url": "https://globalnation.inquirer.net/346200/china-cites-ph-help-in-pogo-scam-hub-arrests",
+      "source": "Inquirer Global Nation",
+      "publishedAt": "2026-11-08T05:35:00.000Z",
+      "summary": "More than 2,600 suspects have been repatriated through joint Philippine-Chinese law enforcement efforts since 2023, Beijing said following the deportation of 115 Chinese arrested last month for suspected illegal offshore gaming. In a statement on Saturday, its embassy in Manila said “China appreciates the assistance provided by relevant Philippine law enforcement authorities.” READ: China thanks",
+      "score": 2.4923033066666664,
+      "weird": 0,
+      "reasons": [
+        "relevance 1.2 (OFW) (politics)",
+        "Inquirer Global Nation, 9.3h old",
+        "something to act on"
+      ],
+      "article": {
+        "status": "unavailable",
+        "text": "",
+        "reason": "https://globalnation.inquirer.net/346200/china-cites-ph-help-in-pogo-scam-hub-arrests -> HTTP 403"
+      }
+    }
+  ],
+  "offbeat": [
+    {
+      "id": "history-0",
+      "kind": "history",
+      "title": "2013: Typhoon Haiyan, one of the strongest tropical cyclones ever recorded, strikes the Visayas region of the Philippines; the storm left at least 6,340 people dead with over 1,000 still missing, and caused $2.86 billion (2013 USD; equivalent to $3.95 billion in 2025) in damage.",
+      "url": "https://en.wikipedia.org/wiki/Visayas",
+      "source": "Wikipedia",
+      "summary": "Typhoon Haiyan, one of the strongest tropical cyclones ever recorded, strikes the Visayas region of the Philippines; the storm left at least 6,340 people dead with over 1,000 still missing, and caused $2.86 billion (2013 USD; equivalent to $3.95 billion in 2025) in damage.",
+      "score": 0,
+      "weird": 0,
+      "reasons": [
+        "today in history"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "Visayans AklanonBoholanoButuanonCapiznonCebuanoCuyunonEskayaHiligaynonKaray-aMasbateñoPorohanonRomblomanonSuludnonSurigaononWaray\nThe Visayas (/vəˈsaɪəz/ və-SY-əz), or the Visayan Islands[2] (Visayan: Kabisay-an, Cebuano pronunciation: [kabiˈsajʔan]; Filipino: Kabisayaan [kɐbɪsɐˈjaʔan]), are one of the three principal geographical divisions of the Philippines, along with Luzon and Mindanao. Located in the central part of the archipelago, it consists of several islands, primarily surrounding the Visayan Sea, although the Visayas are also considered the northeast extremity of the entire Sulu Sea.[3] Its inhabitants are predominantly the Visayan peoples.\nThe major islands of the Visayas are Panay, Negros, Cebu, Bohol, Leyte and Samar.[6] The region may also include the provinces of Palawan, Romblon, and Masbate, whose populations identify as Visayan and whose languages are more closely related to other Visayan languages than to the major languages of Luzon.\nThere are four administrative regions in the Visayas: Western Visayas (pop. 4.86 million), Negros Island Region (pop. 4.90 million), Central Visayas (6.64 million) and Eastern Visayas (4.63 million).[1]\nFrom the 1950s to 1960s there were spurious claims by various authors that \"Bisaya\" is derived from the historical empire of \"Sri Vijaya\" which came from the Sanskrit term \"Śrīvijaya\" (श्रीविजय), arguing that the Visayans were either settlers from Sri Vijaya or were subjects of it. This claim is largely based only on the rese…"
+      }
+    },
+    {
+      "id": "history-1",
+      "kind": "history",
+      "title": "1614: Japanese daimyō Dom Justo Takayama is exiled to the Philippines by shōgun Tokugawa Ieyasu for being Christian.",
+      "url": "https://en.wikipedia.org/wiki/Daimyo",
+      "source": "Wikipedia",
+      "summary": "Japanese daimyō Dom Justo Takayama is exiled to the Philippines by shōgun Tokugawa Ieyasu for being Christian.",
+      "score": 0,
+      "weird": 0,
+      "reasons": [
+        "today in history"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "Daimyo or daimio[1][2] (大名, daimyō; English: /ˈdaɪm.joʊ/, DIME-yoh;[3] Japanese: [dai.mʲoꜜː] ⓘ[4]) were powerful Japanese magnates,[5] feudal lords[6] who, from the 15th century to the early Meiji period in the middle 19th century, ruled most of Japan from their vast hereditary land holdings. They were subordinate to the shogun and nominally to the emperor and the kuge (an aristocratic class). In the term, dai (大) means 'large', and myō stands for myōden (名田), meaning 'private land'.[7]\nFrom the shugo of the Muromachi period through the Sengoku period to the daimyo of the Edo period, the rank had a long and varied history. The backgrounds of daimyo also varied considerably; while some daimyo clans, notably the Mōri, Shimazu and Hosokawa, were cadet branches of the Imperial family or were descended from the kuge, other daimyo were promoted from the ranks of the samurai, notably during the Edo period.\nDaimyo often hired samurai to guard their land, and paid them in land or food, as relatively few could afford to pay them in money. The daimyo era ended soon after the Meiji Restoration, with the adoption of the prefecture system in 1871.\nThe shugo daimyō (守護大名) were the first group of men to hold the title daimyō. They arose from among the shugo during the Muromachi period (approximately 1336–1573). The shugo-daimyo held not only military and police powers, but also economic power within a province. They accumulated these powers throughout the first decades of the Muromachi peri…"
+      }
+    }
+  ],
+  "opinions": [
+    {
+      "id": "rss-philstar-opinion-0",
+      "kind": "news",
+      "title": "Don’t travel on advance parole!",
+      "url": "https://www.philstar.com/opinion/2026/11/08/2568570/dont-travel-advance-parole",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "summary": "The Board of Immigration Appeals recently ruled that a person who departs the US on advance parole could trigger the 3/10-year bar and may not be able to return for a decade.",
+      "opinion": true,
+      "score": 1.3985102544444443,
+      "weird": 0,
+      "reasons": [
+        "relevance 1.2 (OFW)",
+        "PhilStar Opinion, 22.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "thin",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nThe Board of Immigration Appeals (BIA) recently ruled that a person who departs the US on advance parole could trigger the 3/10-year bar and may not be able to return for a decade. My advice: if you have advance parole (through Deferred Action for Childhood Arrivals [DACA] or a pending adjustment of status application), do not travel outside the US. Or first consult with an immigration attorney before doing so.\nAdvance parole (AP) is permission to leave the US for a brief trip abroad, but more importantly, permission to return to the US after that trip. Many DACA recipients, as well as those with pending adjustment of status applications, would apply for advance parole. This was important, because there is a law that if a person has been out of status for more than 180 days and then departs the US, they could be banned from returning for between three and 10 years.\nFor over 14 years,…"
+      }
+    },
+    {
+      "id": "rss-philstar-opinion-1",
+      "kind": "news",
+      "title": "A strong economy secures the West Philippine Sea",
+      "url": "https://www.philstar.com/opinion/2026/11/08/2568571/strong-economy-secures-west-philippine-sea",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "summary": "Civil society this week called on the Philippines to strengthen its economy rather than compromise its sovereignty to appease China and ease tensions in the West Philippine Sea.",
+      "opinion": true,
+      "score": 1.165425212037037,
+      "weird": 0,
+      "reasons": [
+        "relevance 1 (money)",
+        "PhilStar Opinion, 22.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nCivil society this week called on the Philippines to strengthen its economy rather than compromise its sovereignty to appease China and ease tensions in the West Philippine Sea. It asserted that economic strength should enable the country to defend its sovereignty, not become a reason to surrender it. The call comes in response to certain Philippine business groups urging Manila and Beijing to de-escalate tensions amid concerns over trade, investment and employment.\nI totally agree. These so-called business groups’ blanket call for de-escalation is an exercise in selective blindness, conveniently glossing over who the aggressor is and the glaring power imbalance between the Philippines and China. How exactly does our country escalate tensions against a vastly more powerful neighbor that keeps intruding into our waters, harassing our fishers and picking fights through its troll embassy…"
+      }
+    },
+    {
+      "id": "rss-philstar-opinion-5",
+      "kind": "news",
+      "title": "EDITORIAL — A continuing shortage",
+      "url": "https://www.philstar.com/opinion/2026/11/08/2568575/editorial-continuing-shortage",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "summary": "Filipinos know only too well that the country is suffering from an acute shortage of health professionals.",
+      "opinion": true,
+      "score": 0.5827126060185185,
+      "weird": 0,
+      "reasons": [
+        "relevance 0.5",
+        "PhilStar Opinion, 22.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "thin",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nFilipinos know only too well that the country is suffering from an acute shortage of health professionals.\nThis has been validated anew by the chairperson of the Commission on Higher Education. CHED’s Shirley Agrupis said recently that as of 2025, the country had a shortage of up to 190,000 nurses. At current trends, she warned that this could hit 250,000 by 2030.\nLatest data from the Professional Regulation Commission showed over one million registered nurses in the country, but only about 500,000 are estimated to be working in the Philippines, while over 300,000 are practicing their profession in other countries.\nThe exodus of nurses for better paying jobs abroad has been a problem in the country for decades. Because of low pay, there are nurses who have opted to work in call centers and other areas that offer higher compensation instead of practicing their profession.\nThis problem…"
+      }
+    },
+    {
+      "id": "rss-philstar-opinion-4",
+      "kind": "news",
+      "title": "As the world watched, we continue to move forward with our alliance",
+      "url": "https://www.philstar.com/opinion/2026/11/08/2568574/world-watched-we-continue-move-forward-our-alliance",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "summary": "The world watched as Americans went to the polls in their midterm elections. As a longstanding treaty ally and friend, the Philippines’ interest goes beyond the political fortunes of either party.",
+      "opinion": true,
+      "score": 0.2330850424074074,
+      "weird": 0,
+      "reasons": [
+        "relevance 0.2 (politics)",
+        "PhilStar Opinion, 22.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nThe world watched as Americans went to the polls in their midterm elections. As a longstanding treaty ally and friend, the Philippines’ interest goes beyond the political fortunes of either party. Decisions made in Washington reach across oceans, affecting security, investment, trade and everyday lives of people whose futures are increasingly connected.\nWe congratulate the United States and the American people on the successful conduct of their elections. We extend our congratulations to those elected to serve and everyone who participated in the democratic process. Seeking public office requires commitment, while casting a ballot carries the responsibility of helping determine a country’s direction.\nAs reports indicated, Democrats are poised to control both chambers of Congress. The political implications will understandably occupy Washington in the weeks ahead. Our responsibility as…"
+      }
+    }
+  ],
+  "recent": [],
+  "rates": {
+    "data": {
+      "date": "2026-11-06",
+      "source": "European Central Bank reference rates (via Frankfurter)",
+      "sourceUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "rates": [
+        {
+          "code": "USD",
+          "label": "US dollar",
+          "php": 63.01594303358749,
+          "prev": 62.99609424215699,
+          "monthAgo": 62.82196255811031
+        },
+        {
+          "code": "CAD",
+          "label": "Canadian dollar",
+          "php": 44.798853149359374,
+          "prev": 45.10803374080923,
+          "monthAgo": 44.157908681444844
+        },
+        {
+          "code": "GBP",
+          "label": "British pound",
+          "php": 84.34547908232119,
+          "prev": 84.78887569950822,
+          "monthAgo": 83.04958059961797
+        },
+        {
+          "code": "EUR",
+          "label": "Euro",
+          "php": 70.3581228452825,
+          "prev": 70.70635650144948,
+          "monthAgo": 70.39774727208729
+        },
+        {
+          "code": "SGD",
+          "label": "Singapore dollar",
+          "php": 49.17146088410286,
+          "prev": 49.31939238508582,
+          "monthAgo": 49.062898636051415
+        },
+        {
+          "code": "HKD",
+          "label": "Hong Kong dollar",
+          "php": 8.04052424218059,
+          "prev": 8.029548739360848,
+          "monthAgo": 8.005123278898495
+        },
+        {
+          "code": "AUD",
+          "label": "Australian dollar",
+          "php": 43.29754069968826,
+          "prev": 44.09948844593402,
+          "monthAgo": 43.85580212262082
+        },
+        {
+          "code": "JPY",
+          "label": "Japanese yen",
+          "php": 0.3980257920713262,
+          "prev": 0.3975668906293484,
+          "monthAgo": 0.3969671708149736
+        }
+      ]
+    },
+    "lines": [
+      "$1 = ₱63.02 (up ₱0.02 from the previous day; up ₱0.19 in about a month)",
+      "$500 sent home = about ₱31,508 at the reference rate, before fees."
+    ]
+  }
+}
