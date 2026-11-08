@@ -2,44 +2,54 @@
   "date": "2026-11-08",
   "newsletterName": "Good Morning Manila",
   "editor": "Napoleon Beltran",
-  "title": "ERC considering power-reserve trading price cap",
-  "teaser": "Updated pact expected to open more Taiwan jobs for OFWs, DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos",
+  "title": "Filipino seafarer dies in Persian Gulf tanker blast",
+  "teaser": "Power regulator drafts cap on reserve prices, Updated Taiwan pact may open more jobs, Storm 'Samuel' to stay far offshore",
   "sections": [
     {
       "number": 1,
       "kicker": "Balita",
-      "headline": "ERC considering power-reserve trading price cap",
-      "body": "[DRY RUN, no Claude call] *BusinessWorld*: [ERC considering power-reserve trading price cap](https://bworldonline.com/economy/2026/11/08/792135/erc-considering-power-reserve-trading-price-cap/). THE Energy Regulatory Commission (ERC) plans to impose a secondary price cap (SPC) on the trading of power…",
-      "items": [],
-      "socialHook": "ERC considering power-reserve trading price cap",
-      "soWhat": "[DRY RUN] What this means for the family goes here."
+      "headline": "Filipino seafarer dies in Gulf tanker blast",
+      "body": "A Filipino seafarer has died after an explosion on the MT Velos Sapphire, a Marshall Islands-flagged tanker carrying oil products, in the Persian Gulf in the early hours of November 5. The Department of Migrant Workers (DMW) confirmed it in a statement on Saturday. The ship was on its way to Sitrah, Bahrain. The 21 other Filipino crew members on board are safe and unharmed. Initial reports point to a possible drone attack, but the DMW said the exact cause has not been verified. No oil spill or environmental damage has been reported. The manning agency, the licensed company that deployed the crew, told the family after the shipowner confirmed the death, and the shipowner has pledged full support. The seafarer's name does not appear in the coverage. Migrant Workers Secretary Hans Leo Cacdac said: \"We will provide all the support and guidance the bereaved family needs during this difficult time.\" Still unknown is what caused the blast. The DMW says it is working with the shipowner and international authorities to find out. *PhilStar*: [One Pinoy dead in Persian Gulf tanker explosion](https://www.philstar.com/headlines/2026/11/08/2568735/one-pinoy-dead-persian-gulf-tanker-explosion)",
+      "items": [
+        {
+          "leadIn": "",
+          "text": "*Inquirer Global Nation* also reports the death, citing the DMW: [DMW: Filipino seafarer killed in drone attack on Persian Gulf tanker](https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker). We have only the headline. In its statement, the DMW said the cause is still unverified."
+        }
+      ],
+      "socialHook": "A Filipino seafarer died in a tanker explosion in the Persian Gulf. His 21 Filipino crewmates are safe, and the DMW says the cause is still being verified.",
+      "soWhat": "If a family member works on a ship in the Gulf, their licensed manning agency is the first place to ask for crew updates."
     },
     {
       "number": 2,
       "kicker": "Balita",
-      "headline": "Updated pact expected to open more Taiwan jobs for OFWs",
-      "body": "[DRY RUN, no Claude call] *Inquirer Global Nation*: [Updated pact expected to open more Taiwan jobs for OFWs](https://globalnation.inquirer.net/346297/updated-pact-expected-to-open-more-taiwan-jobs-for-ofws). MANILA, Philippines — A updated agreement between the Philippines and Taiwan is expected to create more employment opportunities for qualified Filipino workers, particularly in the hospitality sector, according to the Department of Migrant Workers (DMW). In a statement on Saturday, the DMW welcomed the signing of a new Memorandum of Understanding (MOU) between the Manila",
+      "headline": "Power regulator drafts cap on reserve prices",
+      "body": "The Energy Regulatory Commission (ERC) wants a ceiling on what power reserves can cost before that market reopens. Power reserves, also called ancillary services, are backup supply the grid operator buys to keep electricity steady when supply and demand do not match. The ERC suspended the reserve market on Oct. 14 after prices stayed high. Its review found that reserves bought from that market added an estimated P1.29 per kilowatt-hour to Visayas power rates. Reserves bought under contracts with the National Grid Corp. of the Philippines added only P0.02. Under the draft rules, a \"secondary price cap\" would kick in once the three-day average price passes a set level. It would apply separately in Luzon, the Visayas and Mindanao. ERC Chairman Francis Saturnino C. Juan said: \"We are putting this safeguard on the table now so that it is ready before the reserve market resumes.\" The ERC tested the cap on prices from Aug. 26 to Sept. 25, 2026. It says the cap could have cut average reserve prices by 12% to 50% in the Visayas. Still unknown are the date the market resumes and the final rules. *BusinessWorld*: [ERC considering power-reserve trading price cap](https://bworldonline.com/economy/2026/11/08/792135/erc-considering-power-reserve-trading-price-cap/)",
       "items": [],
-      "socialHook": "Updated pact expected to open more Taiwan jobs for OFWs",
-      "soWhat": "[DRY RUN] What this means for the family goes here."
+      "socialHook": "Power reserves added an estimated P1.29 per kWh to Visayas rates. Now the ERC is drafting a price cap before that market reopens.",
+      "soWhat": "No change to the electric bill yet. These are draft rules, and the reserve market behind higher Visayas rates is still suspended."
     },
     {
       "number": 3,
       "kicker": "Balita",
-      "headline": "DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos",
-      "body": "[DRY RUN, no Claude call] *Inquirer Global Nation*: [DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos](https://globalnation.inquirer.net/346278/dmw-ph-luxembourg-eye-labor-pact-to-open-more-jobs-for-filipinos). MANILA, Philippines — The Philippines and Luxembourg are exploring a labor cooperation agreement that could open up more overseas employment opportunities for skilled Filipino workers in the European country, the Department of Migrant Workers (DMW) said on Saturday. The proposed Joint Declaration of Intent (JDI) on labor cooperation seeks to expand job opportunities for overseas",
+      "headline": "Updated Taiwan pact may open more jobs",
+      "body": "The Philippines and Taiwan have signed an updated Memorandum of Understanding (MOU), a formal agreement on how Filipino workers are hired. The Department of Migrant Workers (DMW) expects it to open more jobs for qualified Filipinos, especially in hospitality: hotels, restaurants and similar services. The DMW welcomed the signing in a statement on Saturday. That is as far as we can confirm, because we have only the headline and summary of the report, not the full article. Still unknown are how many jobs there will be, which positions, what pay and requirements apply, and when hiring under the updated agreement begins. Until the DMW publishes details, treat any job offer that cites this pact with care. *Inquirer Global Nation*: [Updated pact expected to open more Taiwan jobs for OFWs](https://globalnation.inquirer.net/346297/updated-pact-expected-to-open-more-taiwan-jobs-for-ofws)",
       "items": [],
-      "socialHook": "DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos",
-      "soWhat": "[DRY RUN] What this means for the family goes here."
+      "socialHook": "An updated Philippines-Taiwan agreement is expected to open more jobs for Filipino workers, especially in hospitality, the DMW says. Details are still to come.",
+      "soWhat": "If someone offers a Taiwan hospitality job, check that the agency is DMW-licensed before paying any fee or handing over documents."
     },
     {
       "number": 4,
       "kicker": "Diskarte",
-      "headline": "DFA hits back at Ombudsman, defends authority to issue PH visas",
-      "body": "[DRY RUN, no Claude call] *Inquirer Global Nation*: [DFA hits back at Ombudsman, defends authority to issue PH visas](https://globalnation.inquirer.net/346301/dfa-hits-back-at-ombudsman-defends-authority-to-issue-ph-visas). MANILA, Philippines — The Department of Foreign Affairs (DFA) has defended its legal authority to issue Philippine visas, rejecting anew Ombudsman Jesus Crispin Remulla’s claim that such powers belong exclusively to immigration authorities under the Department of Justice (DOJ). In a statement on Sunday, the DFA said its authority to issue visas was expressly provided",
-      "items": [],
-      "socialHook": "DFA hits back at Ombudsman, defends authority to issue PH visas",
-      "soWhat": "[DRY RUN]"
+      "headline": "Storm 'Samuel' to stay far offshore",
+      "body": "This is a heads-up more than a to-do. As of 10 a.m. Sunday, Severe Tropical Storm Cempaka was 1,720 kilometers east of Extreme Northern Luzon. PAGASA expects it to enter the Philippine area of responsibility (PAR), the zone PAGASA monitors, between Sunday evening and early Monday. Inside the PAR it will be called \"Samuel.\" It should turn away and exit by Monday afternoon or evening, and PAGASA says it will not directly affect the country. The thing to watch is amihan, the northeast monsoon. It brings very rough seas off Northern Luzon from Tuesday, and a Gale Warning is likely Monday. *PhilStar*: ['Cempaka' expected to intensify into typhoon before entering PAR](https://www.philstar.com/weather/2026/11/08/2568769/cempaka-expected-intensify-typhoon-entering-par)",
+      "items": [
+        {
+          "leadIn": "",
+          "text": "*Inquirer* reports the storm has since strengthened: [Cempaka intensifies into typhoon outside PAR](https://newsinfo.inquirer.net/2338055/cempaka-intensifies-into-typhoon-outside-par). We have only the headline."
+        }
+      ],
+      "socialHook": "Storm Cempaka, to be named 'Samuel', will pass far from land. The thing to watch is amihan: very rough seas off Northern Luzon from Tuesday.",
+      "soWhat": "If family in Northern Luzon plans a boat trip from Tuesday, check PAGASA for a Gale Warning before leaving."
     },
     {
       "number": 5,
@@ -48,15 +58,15 @@
       "body": "",
       "items": [
         {
-          "leadIn": "PhilStar Opinion",
-          "text": "*PhilStar Opinion*: [Don’t travel on advance parole!](https://www.philstar.com/opinion/2026/11/08/2568570/dont-travel-advance-parole)"
+          "leadIn": "PhilStar Opinion immigration column",
+          "text": "The column writes that the Board of Immigration Appeals recently ruled that leaving the US on advance parole, a permit to travel abroad and return, could trigger a 3- or 10-year bar on coming back. It argues that DACA recipients and people with pending adjustment of status applications should stay put: \"do not travel outside the US. Or first consult with an immigration attorney before doing so.\" *PhilStar Opinion*: [Don’t travel on advance parole!](https://www.philstar.com/opinion/2026/11/08/2568570/dont-travel-advance-parole)"
         },
         {
-          "leadIn": "PhilStar Opinion",
-          "text": "*PhilStar Opinion*: [A strong economy secures the West Philippine Sea](https://www.philstar.com/opinion/2026/11/08/2568571/strong-economy-secures-west-philippine-sea)"
+          "leadIn": "Editorial, PhilStar Opinion",
+          "text": "The editorial argues that the country still faces an acute shortage of health professionals, citing CHED's estimate of a shortage of up to 190,000 nurses as of 2025: \"The exodus of nurses for better paying jobs abroad has been a problem in the country for decades.\" *PhilStar Opinion*: [EDITORIAL — A continuing shortage](https://www.philstar.com/opinion/2026/11/08/2568575/editorial-continuing-shortage)"
         }
       ],
-      "socialHook": "Sabi nila."
+      "socialHook": "Two views worth reading today: a warning for Filipinos in the US about travel on advance parole, and an editorial on the nurse shortage at home."
     },
     {
       "number": 6,
@@ -65,23 +75,19 @@
       "body": "",
       "items": [
         {
-          "leadIn": "Inquirer Global Nation",
-          "text": "*Inquirer Global Nation*: [Iran says 3 tankers caught fire in Strait of Hormuz](https://globalnation.inquirer.net/346316/iran-says-3-tankers-caught-fire-in-strait-of-hormuz)"
+          "leadIn": "Strait of Hormuz",
+          "text": "Iran's Revolutionary Guards said three oil tankers caught fire on Sunday in the Strait of Hormuz, where Tehran has restricted ship traffic since the Iran war began in late February. We have only the summary of this report. *Inquirer Global Nation*: [Iran says 3 tankers caught fire in Strait of Hormuz](https://globalnation.inquirer.net/346316/iran-says-3-tankers-caught-fire-in-strait-of-hormuz)"
         },
         {
-          "leadIn": "BusinessWorld",
-          "text": "*BusinessWorld*: [P65.6-M rice processing facility turned over to Nueva Ecija co-op](https://bworldonline.com/economy/2026/11/08/792142/p65-6-m-rice-processing-facility-turned-over-to-nueva-ecija-co-op/)"
+          "leadIn": "Who issues visas",
+          "text": "The Department of Foreign Affairs said on Sunday it has legal authority to issue Philippine visas. It again rejected Ombudsman Jesus Crispin Remulla's claim that this power belongs only to immigration authorities under the Department of Justice. *Inquirer Global Nation*: [DFA hits back at Ombudsman, defends authority to issue PH visas](https://globalnation.inquirer.net/346301/dfa-hits-back-at-ombudsman-defends-authority-to-issue-ph-visas)"
         },
         {
-          "leadIn": "Inquirer Global Nation",
-          "text": "*Inquirer Global Nation*: [DMW: Filipino seafarer killed in drone attack on Persian Gulf tanker](https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker)"
-        },
-        {
-          "leadIn": "Inquirer Global Nation",
-          "text": "*Inquirer Global Nation*: [China cites PH help in Pogo, scam hub arrests](https://globalnation.inquirer.net/346200/china-cites-ph-help-in-pogo-scam-hub-arrests)"
+          "leadIn": "Jobs in Luxembourg",
+          "text": "The DMW said the Philippines and Luxembourg are exploring a labor cooperation agreement, a Joint Declaration of Intent, that could open more jobs for skilled Filipino workers there. It is still at the exploring stage. *Inquirer Global Nation*: [DMW: PH, Luxembourg eye labor pact to open more jobs for Filipinos](https://globalnation.inquirer.net/346278/dmw-ph-luxembourg-eye-labor-pact-to-open-more-jobs-for-filipinos)"
         }
       ],
-      "socialHook": "Iba pang balita."
+      "socialHook": "Also today: tanker fires in the Strait of Hormuz, the DFA defends its power to issue visas, and possible new jobs for Filipinos in Luxembourg."
     },
     {
       "number": 7,
@@ -91,10 +97,10 @@
       "items": [
         {
           "leadIn": "2013",
-          "text": "*Wikipedia*: [2013: Typhoon Haiyan, one of the strongest tropical cyclones ever recorded, strikes the Visayas region of the Philippines; the storm left at least 6,340 people dead with over 1,000 still missing, and caused $2.86 billion (2013 USD; equivalent to $3.95 billion in 2025) in damage.](https://en.wikipedia.org/wiki/Visayas)"
+          "text": "Typhoon Haiyan, one of the strongest tropical cyclones ever recorded, struck the Visayas on this day. It left at least 6,340 people dead, over 1,000 still missing and $2.86 billion in damage. It is still a reason to read storm advisories closely, even on a calm morning. *Wikipedia*: [Visayas](https://en.wikipedia.org/wiki/Visayas)"
         }
       ],
-      "socialHook": "Noong araw."
+      "socialHook": "On this day in 2013, Typhoon Haiyan struck the Visayas, leaving at least 6,340 people dead and over 1,000 missing."
     }
   ],
   "rates": {
@@ -166,18 +172,13 @@
       "$500 sent home = about ₱31,508 at the reference rate, before fees."
     ]
   },
-  "dryRun": true,
+  "dryRun": false,
   "warnings": [
-    "DRY RUN: placeholder text, not written by Claude. This issue cannot be published.",
-    "Section 1: main paragraph is 30 words (target 100-180).",
-    "Section 2: contains an em dash (house style: never).",
-    "Section 2: main paragraph is 73 words (target 100-180).",
-    "Section 2 (\"Updated pact expected to open more Taiwan jobs for OFWs\"): the article could not be read, so this rests on the headline and summary only. Verify before sending.",
-    "Section 3: contains an em dash (house style: never).",
-    "Section 3: main paragraph is 75 words (target 100-180).",
-    "Section 3 (\"DMW: PH, Luxembourg eye labor pact to open more jobs for Fil\"): the article could not be read, so this rests on the headline and summary only. Verify before sending.",
-    "Section 4: contains an em dash (house style: never).",
-    "Section 4: LEGAL CHECK, accusation language (\"Ombudsman\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")?",
-    "Section 6: LEGAL CHECK, accusation language (\"scam\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")?"
+    "Section 1: main paragraph is 182 words (target 100-180).",
+    "Section 2: main paragraph is 195 words (target 100-180).",
+    "Section 2: LEGAL CHECK, accusation language (\"suspended\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")? Only 1 report in the material; house rule is two independent sources.",
+    "Section 3 (\"Updated pact expected to open more Taiwan jobs for OFWs\"): the article could not be read, so this rests on the headline and summary only. Verify before sending.",
+    "Section 5: contains an em dash (house style: never).",
+    "Section 6: LEGAL CHECK, accusation language (\"Ombudsman\"). Open the sources: is it \"alleged\", attributed, straight in tone, and is the accused side's response included (or \"no response in the coverage\")?"
   ]
 }
