@@ -38,6 +38,9 @@ jobs:
       NEWSLETTER_EDITOR: ${{ vars.NEWSLETTER_EDITOR || 'Napoleon Beltran' }}
       SITE_URL: ${{ vars.SITE_URL || 'https://diskartedaily.com' }}
       PAGE_NAME: ${{ vars.PAGE_NAME || 'Digitally Manila' }}
+      # New way (2026-11-09): this token can only START workflows on diskarte-daily; Diskarte copies the preview in
+      # itself. Until it is set, the old DISKARTE_PUSH_TOKEN way below keeps working.
+      NEW_PREVIEW: ${{ secrets.DISKARTE_DISPATCH_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -62,10 +65,35 @@ jobs:
           done
           echo "::error::Could not save the draft after 3 tries."; exit 1
       # The private preview lives on diskartedaily.com/drafts/<token>/gmm-<date>/, served by the Diskarte Daily site.
+      # Starts diskarte-daily's "GMM preview" workflow, which reads this draft and copies it in, then waits for it.
+      - name: Put the preview online (Diskarte copies it in)
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' && env.NEW_PREVIEW == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.DISKARTE_DISPATCH_TOKEN }}
+        run: |
+          DAY=$(date +%F)
+          API=https://api.github.com/repos/pinoycoach/diskarte-daily/actions/workflows/gmm-preview.yml
+          SINCE=$(date -u -d '-2 minutes' +%Y-%m-%dT%H:%M:%SZ)
+          gh_api() { curl -fsS -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "$@"; }
+          gh_api -X POST "$API/dispatches" -d "{\"ref\":\"main\",\"inputs\":{\"date\":\"$DAY\"}}"
+          echo "Asked Diskarte to copy the preview for $DAY."
+          for i in $(seq 1 40); do
+            sleep 15
+            RUN=$(gh_api "$API/runs?event=workflow_dispatch&per_page=1&created=%3E%3D$SINCE" || echo '{}')
+            STATUS=$(jq -r '.workflow_runs[0].status // "not started"' <<<"$RUN")
+            echo "copy run: $STATUS $(jq -r '.workflow_runs[0].conclusion // ""' <<<"$RUN")"
+            if [ "$STATUS" = completed ]; then
+              [ "$(jq -r '.workflow_runs[0].conclusion' <<<"$RUN")" = success ] && exit 0
+              echo "::error::Diskarte could not copy the preview: $(jq -r '.workflow_runs[0].html_url' <<<"$RUN")"; exit 1
+            fi
+          done
+          echo "::error::Diskarte's copy did not finish in 10 minutes."; exit 1
+      # OLD WAY (remove once DISKARTE_DISPATCH_TOKEN is set and DISKARTE_PUSH_TOKEN deleted).
+      # The private preview lives on diskartedaily.com/drafts/<token>/gmm-<date>/, served by the Diskarte Daily site.
       # Needs DISKARTE_PUSH_TOKEN (Contents read/write on pinoycoach/diskarte-daily only). actions/checkout keeps
       # the token out of the clone URL and the logs.
       - name: Check out the Diskarte site (for the preview)
-        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' && env.NEW_PREVIEW != 'true' }}
         uses: actions/checkout@v5
         with:
           repository: pinoycoach/diskarte-daily
@@ -73,7 +101,7 @@ jobs:
           path: site-repo
           fetch-depth: 1
       - name: Put the preview online
-        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' && env.NEW_PREVIEW != 'true' }}
         run: |
           DAY=$(date +%F)
           DEST="site-repo/dist/site/drafts/$DRAFT_TOKEN/gmm-$DAY"
