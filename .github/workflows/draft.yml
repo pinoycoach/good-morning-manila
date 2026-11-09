@@ -56,19 +56,26 @@ jobs:
           git config user.email "bot@diskartedaily.com"
           git add dist
           git commit -m "draft: $(date +%F)" || echo "nothing to commit"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then exit 0; fi
+            sleep $((i * 5))
+          done
+          echo "::error::Could not save the draft after 3 tries."; exit 1
       # The private preview lives on diskartedaily.com/drafts/<token>/gmm-<date>/, served by the Diskarte Daily site.
-      # Needs DISKARTE_PUSH_TOKEN: a fine-grained token with Contents read/write on pinoycoach/diskarte-daily only.
+      # Needs DISKARTE_PUSH_TOKEN (Contents read/write on pinoycoach/diskarte-daily only). actions/checkout keeps
+      # the token out of the clone URL and the logs.
+      - name: Check out the Diskarte site (for the preview)
+        if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
+        uses: actions/checkout@v5
+        with:
+          repository: pinoycoach/diskarte-daily
+          token: ${{ secrets.DISKARTE_PUSH_TOKEN }}
+          path: site-repo
+          fetch-depth: 1
       - name: Put the preview online
         if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
-        env:
-          PUSH_TOKEN: ${{ secrets.DISKARTE_PUSH_TOKEN }}
         run: |
           DAY=$(date +%F)
-          if [ ! -f "dist/issue-$DAY/index.html" ]; then echo "No draft for $DAY; nothing to publish."; exit 0; fi
-          if [ -z "$PUSH_TOKEN" ]; then echo "::warning::DISKARTE_PUSH_TOKEN is not set; the preview link will not work."; exit 0; fi
-          git clone --depth 1 "https://x-access-token:${PUSH_TOKEN}@github.com/pinoycoach/diskarte-daily.git" site-repo
           DEST="site-repo/dist/site/drafts/$DRAFT_TOKEN/gmm-$DAY"
           rm -rf "$DEST" && mkdir -p "$DEST"
           for f in index.html facebook.html review.md og; do
@@ -79,11 +86,21 @@ jobs:
           git config user.email "bot@diskartedaily.com"
           git add dist/site/drafts
           git commit -m "gmm preview: $DAY" || { echo "preview unchanged"; exit 0; }
-          # Diskarte's own draft may have pushed meanwhile: replay on top and retry.
-          for i in 1 2 3 4; do git pull --rebase origin main && git push && break; sleep $((i * 5)); done
+          # Diskarte's own draft may push in the same minute: replay on top and retry; fail loudly if it never lands.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then exit 0; fi
+            sleep $((i * 5))
+          done
+          echo "::error::Could not put the preview online after 5 tries."; exit 1
       - name: Wait for the site to publish the preview
         if: ${{ steps.draft.outputs.drafted == 'true' && env.DRAFT_TOKEN != '' }}
         run: sleep 60
       - name: Telegram ping
         if: ${{ steps.draft.outputs.drafted == 'true' }}
         run: npm run ping
+      - name: Tell the owner if the preview or save failed
+        if: ${{ failure() && steps.draft.outcome == 'success' }}
+        run: |
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠ Good Morning Manila for $(date +%F) was written, but saving it or putting the preview online failed, so the links may not open. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
