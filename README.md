@@ -28,8 +28,9 @@ on every brief. `review.md` carries the legal-desk checklist. A lawyer before ke
    - `TELEGRAM_BOT_TOKEN`: same bot as Diskarte Daily.
    - `TELEGRAM_CHAT_ID`: the new **GMM desk** Telegram group's id (not Diskarte's).
    - `DRAFT_TOKEN`: the private path segment for previews (Claude gives you one).
-   - `DISKARTE_PUSH_TOKEN`: a fine-grained GitHub token with **Contents: read and write** on `pinoycoach/diskarte-daily`
-     only, so the preview can be placed on diskartedaily.com/drafts/.
+   - `DISKARTE_DISPATCH_TOKEN`: a fine-grained GitHub token with **Actions: read and write** on
+     `pinoycoach/diskarte-daily` only. It can start Diskarte's "GMM preview" workflow but cannot change its code.
+     Diskarte holds the other half: `GMM_READ_TOKEN` (Contents: read on this repo only) to copy the preview in.
 2. **Timer:** a cron-job.org job at **05:00 Manila, Monday to Friday**, posting to this repo's `draft.yml`
    workflow_dispatch API (same setup as Diskarte's 04:40 job). GitHub's own backups run at 05:20 and 05:45.
 
