@@ -10,6 +10,9 @@ for the owner, the working rules and the guardrails, which all apply here). Buil
 - **Flow:** `draft.yml` (05:00 Manila, outside timer; backups 05:20/05:45) → draft in `dist/issue-<date>/` →
   preview copied to diskartedaily.com/drafts/<DRAFT_TOKEN>/gmm-<date>/ (via DISKARTE_PUSH_TOKEN) → Telegram ping
   to the GMM desk group (not Diskarte's chat). No approve workflow: posting is by hand.
+- **Timer:** cron-job.org job "Good Morning Manila draft", 05:00 Manila Mon-Fri, cloned from Diskarte's job and
+  using the same fine-grained token (access extended to this repo 2026-11-09, so renewing it before 2027-02-01 covers
+  both). Tested 204. Why: on 2026-11-09 GitHub's 05:20/05:45 crons fired at 08:56 and 09:13.
 - **Telegram:** pings go to the "GMM desk" group (created 2026-11-06) through the same bot as Diskarte. Bots in
   groups only see commands addressed to them (`/start@diskarte_daily_bot`). If the group is ever upgraded (made public,
   special admin rights, large), its id changes to `-100…`: update the `TELEGRAM_CHAT_ID` secret.
