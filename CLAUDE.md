@@ -8,7 +8,9 @@ for the owner, the working rules and the guardrails, which all apply here). Buil
 - **Where it goes:** posted by hand on the Digitally Manila Facebook page (189k followers, owner's number).
   Owner is monetized there and on @callmenapoleon; subscriptions come after the 14-day test.
 - **Flow:** `draft.yml` (05:00 Manila, outside timer; backups 05:20/05:45) → draft in `dist/issue-<date>/` →
-  preview copied to diskartedaily.com/drafts/<DRAFT_TOKEN>/gmm-<date>/ (via DISKARTE_PUSH_TOKEN) → Telegram ping
+  preview copied to diskartedaily.com/drafts/<DRAFT_TOKEN>/gmm-<date>/ (this repo starts Diskarte's `gmm-preview.yml`
+  with DISKARTE_DISPATCH_TOKEN, Actions only; Diskarte reads the draft with GMM_READ_TOKEN, Contents read only;
+  the old DISKARTE_PUSH_TOKEN way stays as a fallback until that secret is deleted) → Telegram ping
   to the GMM desk group (not Diskarte's chat). No approve workflow: posting is by hand.
 - **Timer:** cron-job.org job "Good Morning Manila draft", 05:00 Manila Mon-Fri, cloned from Diskarte's job and
   using the same fine-grained token (access extended to this repo 2026-11-09, so renewing it before 2027-02-01 covers
