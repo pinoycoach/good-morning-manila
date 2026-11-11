@@ -23,5 +23,13 @@ for the owner, the working rules and the guardrails, which all apply here). Buil
 - **14-day test** (from `diskarte-daily/ideas/good-morning-manila.md`): baseline reach = first 3 days' median.
   Pass: reach ≥ 2× baseline, saves+shares ≥ 1% of reach on 5+ issues, ≥ 20 real comments per issue,
   ≥ 300 email signups or ≥ 100 taps on a subscribe-interest link. Fail: any wrong number needing a correction.
+- **Results log:** `results.csv`, one row per post (reach, reactions, comments, shares, saves, link clicks, and
+  `post_form`: full or short). The owner sends a screenshot of Facebook Insights or the numbers; Claude fills the row.
+  The 14-day test is judged from this file.
+- **Facebook page (`facebook.html`), since 2026-11-12:** a short post (~2,100 characters, no links), a first comment
+  holding every source link, and the full brief kept as a third box. Audit 2026-11-11: the full post ran 7,700+ characters.
+- **Sources, since 2026-11-12:** Inquirer's pages refuse our reader, so its feeds are weighted down and GMA Pinoy
+  Abroad, GMA Money and Manila Times Business were added [check after the first run that GitHub Actions can read them].
+  Feed items dated in the future are dropped; Mondays look back 78 hours.
 - **Not built yet:** email list, web archive, subscriptions, sponsors. Each needs its own yes.
 - Run `npx tsc --noEmit` before committing; `npm run draft -- --dry-run --no-ping` tests end to end for free.

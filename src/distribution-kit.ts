@@ -8,7 +8,7 @@ import { escapeHtml, mdToText } from "./util.js";
 /** Light markdown -> HTML. Escapes first, so model text can never inject markup. */
 export function inline(md: string): string {
   return escapeHtml(md)
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, `<a href="$2">$1</a>`)
+    .replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\((https?:\/\/[^)\s]+)\)/g, `<a href="$2">$1</a>`)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>");
 }
@@ -16,7 +16,7 @@ export function inline(md: string): string {
 /** Markdown -> plain text for Facebook, with each link written out after its label. */
 export function plain(md: string): string {
   return md
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, "$1 ($2)")
+    .replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\((https?:\/\/[^)\s]+)\)/g, "$1 ($2)")
     .replace(/\*\*(.+?)\*\*/g, "$1")
     .replace(/\*(.+?)\*/g, "$1");
 }
@@ -107,6 +107,61 @@ export function facebookPost(issue: Issue): string {
   return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 
+/** The first `n` sentences of a paragraph, as plain text without links (the links go in the first comment). */
+function opening(md: string, n: number, maxChars: number): string {
+  const text = mdToText(md).replace(/\s+/g, " ").trim();
+  // A sentence ends at . ! or ? followed by a space and a capital or quote: "P7.83 per kWh" and "U.S." stay whole.
+  const sentences = text.split(/(?<=[.!?])\s+(?=["“A-Z0-9])/).reduce<string[]>((acc, part) => {
+    // "Rep. Santos" is one sentence: a piece ending in a title or abbreviation joins the next one.
+    const last = acc[acc.length - 1];
+    if (last && /\b(Rep|Sen|Sec|Usec|Gov|Atty|Dr|Mr|Ms|Mrs|Fr|Jr|Sr|St|No|vs|Gen|Col|Engr|Pres|Inc|Corp|Co|Ltd|U\.S|a\.m|p\.m)\.$/.test(last)) acc[acc.length - 1] = `${last} ${part}`;
+    else acc.push(part);
+    return acc;
+  }, []);
+  let out = "";
+  for (const s of sentences.slice(0, n)) {
+    if (out && (out + " " + s).length > maxChars) break;
+    out = out ? `${out} ${s}` : s;
+  }
+  return out;
+}
+
+/**
+ * The short Facebook post: the rate block, then each lead story as a headline, its opening and "Para sa pamilya".
+ * No links in the body (Facebook shows link-heavy posts to fewer people); every source goes in the first comment.
+ * The 2026-11-11 audit found the full post ran 7,700 to 8,700 characters with 10 to 15 raw links.
+ */
+export function facebookShortPost(issue: Issue): string {
+  const leads = issue.sections.filter((s) => !isEmptySection(s) && s.number <= 4);
+  const lines: string[] = [`☀️ ${issue.newsletterName}, ${issue.date}`, ""];
+  if (issue.rates) lines.push("💵 PISO NGAYON", ...issue.rates.lines, `(Reference rate, ${issue.rates.data.date}. Remittance rates and fees differ.)`, "");
+  for (const s of leads) {
+    lines.push(`▪️ ${s.headline}`);
+    if (s.body) lines.push(opening(s.body, 2, 300));
+    if (s.soWhat) lines.push(`👉 Para sa pamilya: ${mdToText(s.soWhat)}`);
+    lines.push("");
+  }
+  lines.push("Sources and more stories are in the first comment. 👇", "", "AI-drafted from the linked sources, checked by a person. Information, not financial advice.", `⚠️ ${NEVER_DM}`);
+  return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+/** The first comment: every source link in the brief, in order, then the quick items. */
+export function facebookSourcesComment(issue: Issue): string {
+  const seen = new Set<string>();
+  const links = (md: string) =>
+    [...md.matchAll(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\((https?:\/\/[^)\s]+)\)/g)]
+      .filter((m) => !seen.has(m[2]) && seen.add(m[2]))
+      .map((m) => `• ${m[1]}: ${m[2]}`);
+  const lines: string[] = ["Sources for today's brief:"];
+  for (const s of issue.sections.filter((x) => !isEmptySection(x) && x.number <= 4)) {
+    lines.push(...links([s.body ?? "", ...s.items.map((i) => i.text)].join("\n")));
+  }
+  const more = issue.sections.filter((x) => !isEmptySection(x) && x.number > 4).flatMap((s) => s.items.map((i) => `• ${mdToText(plain(i.text))}`));
+  if (more.length) lines.push("", "Iba pang balita:", ...more);
+  if (issue.rates) lines.push("", `Peso rates: ${issue.rates.data.source}, ${issue.rates.data.sourceUrl}`);
+  return lines.join("\n");
+}
+
 export const BTN = "font:600 15px system-ui,sans-serif;padding:8px 14px;margin:4px 6px 4px 0;cursor:pointer;border:1px solid #111;border-radius:6px;background:#fff;color:#111";
 export const COPY_SCRIPT = `function flash(b,t){const o=b.dataset.label||b.textContent;b.dataset.label=o;b.textContent=t;setTimeout(()=>b.textContent=o,2500)}
 function copyText(t,b){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>flash(b,"Copied"),()=>{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove();flash(b,"Copied")})}
@@ -116,6 +171,9 @@ if(b.dataset.copyFrom){const el=document.getElementById(b.dataset.copyFrom);copy
 /** Preview page for the Facebook step: image and the full post text, each one tap. Nothing posts by itself. */
 export function renderFacebookPage(issue: Issue): string {
   const post = facebookPost(issue);
+  const short = facebookShortPost(issue);
+  const comment = facebookSourcesComment(issue);
+  const AREA = "width:100%;font:15px/1.5 system-ui,sans-serif;padding:10px;border:1px solid #eadfce;border-radius:6px";
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Facebook: ${escapeHtml(issue.title)}</title></head>
 <body style="margin:0;background:#fffaf2;font:16px/1.5 system-ui,sans-serif;color:#1d1b18">
 <main style="max-width:640px;margin:0 auto;padding:16px">
@@ -124,9 +182,16 @@ export function renderFacebookPage(issue: Issue): string {
 <h2 style="font-size:16px;margin:16px 0 6px">1. Image</h2>
 <img src="og/cover.png" alt="Cover card: ${escapeHtml(issue.title)}" style="width:100%;border-radius:6px;border:1px solid #eadfce">
 <p><a href="og/cover.png" download="good-morning-manila-${escapeHtml(issue.date)}.png" style="${BTN};display:inline-block;text-decoration:none">Save image</a> <span style="color:#6f6a61;font-size:14px">On a phone: press and hold the image, then Save.</span></p>
-<h2 style="font-size:16px;margin:16px 0 6px">2. Post text (${post.length.toLocaleString()} characters)</h2>
-<textarea id="fbpost" rows="22" style="width:100%;font:15px/1.5 system-ui,sans-serif;padding:10px;border:1px solid #eadfce;border-radius:6px">${escapeHtml(post)}</textarea>
-<button type="button" style="${BTN}" data-copy-from="fbpost">Copy post text</button>
+<h2 style="font-size:16px;margin:16px 0 6px">2. Short post (${short.length.toLocaleString()} characters, no links)</h2>
+<textarea id="fbshort" rows="16" style="${AREA}">${escapeHtml(short)}</textarea>
+<button type="button" style="${BTN}" data-copy-from="fbshort">Copy short post</button>
+<h2 style="font-size:16px;margin:16px 0 6px">3. First comment: sources (${comment.length.toLocaleString()} characters)</h2>
+<p style="margin:0 0 6px;color:#6f6a61;font-size:14px">Post this as the first comment right after posting, so every claim keeps its source.</p>
+<textarea id="fbcomment" rows="8" style="${AREA}">${escapeHtml(comment)}</textarea>
+<button type="button" style="${BTN}" data-copy-from="fbcomment">Copy first comment</button>
+<h2 style="font-size:16px;margin:24px 0 6px">Or: the full brief as one post (${post.length.toLocaleString()} characters, links inside)</h2>
+<textarea id="fbpost" rows="10" style="${AREA}">${escapeHtml(post)}</textarea>
+<button type="button" style="${BTN}" data-copy-from="fbpost">Copy full post</button>
 </main>
 <script>${COPY_SCRIPT}</script>
 </body></html>`;

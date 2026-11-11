@@ -30,7 +30,7 @@ export async function recentCoverage(today: string, days = 4, distDir = path.res
     if (issue.dryRun) continue; // test drafts were never posted
     for (const s of issue.sections) {
       for (const md of [s.body, s.soWhat ?? "", ...s.items.map((i) => i.text)]) {
-        for (const [, label, url] of md.matchAll(/\[([^\]]+)\]\(([^)\s]+)\)/g)) {
+        for (const [, label, url] of md.matchAll(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g)) {
           if (url.includes("news.ycombinator.com")) continue;
           urls.set(canonicalUrl(url), date);
           // Labels like "the discussion" or "Hacker News" aren't headlines.

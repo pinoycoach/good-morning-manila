@@ -56,7 +56,7 @@ export function canonicalUrl(url: string): string {
 
 /** Plain text from our light markdown. */
 export const mdToText = (md: string): string =>
-  md.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*(.+?)\*\*/g, "$1").replace(/\*(.+?)\*/g, "$1");
+  md.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\([^)]+\)/g, "$1").replace(/\*\*(.+?)\*\*/g, "$1").replace(/\*(.+?)\*/g, "$1");
 
 export const todayLocal = (): string => {
   const d = new Date();

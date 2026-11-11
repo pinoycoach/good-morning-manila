@@ -1,6 +1,6 @@
 import { mergeGroups, triage } from "./cluster.js";
 import type { RecentCoverage } from "./memory.js";
-import { config } from "./config.js";
+import { config, feedWindowHours } from "./config.js";
 import type { ScoredStory, Selection, Story } from "./types.js";
 import { canonicalUrl } from "./util.js";
 
@@ -62,7 +62,7 @@ function scoreNews(s: Story): ScoredStory {
   // Some feeds stamp local time as UTC, which reads as "from the future"; never let that count as extra fresh.
   const ageHours = Math.max(0, s.publishedAt ? (Date.now() - Date.parse(s.publishedAt)) / 3.6e6 : 12);
   const weight = config.feeds.find((f) => f.name === s.source)?.weight ?? 1;
-  const momentum = weight * Math.max(0.1, 1 - ageHours / config.maxAgeHours);
+  const momentum = weight * Math.max(0.1, 1 - ageHours / feedWindowHours());
   reasons.push(`${s.source}, ${ageHours.toFixed(1)}h old`);
 
   const coverage = (s.related?.length ?? 0) * 0.5;
