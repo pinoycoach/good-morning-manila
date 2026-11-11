@@ -231,7 +231,7 @@ export function check(raw: z.infer<typeof IssueSchema>, sel: Selection): { secti
   const corpus = sourceText(sel);
 
   const clean = (md: string, where: string) =>
-    md.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (match, label: string, url: string) => {
+    md.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (match, label: string, url: string) => {
       if (allowed.has(url)) return match;
       warnings.push(`${where}: removed link to unknown URL ${url}`);
       return label;

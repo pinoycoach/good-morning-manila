@@ -1,5 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
-import { config } from "./config.js";
+import { config, feedWindowHours, FUTURE_SLACK_MS } from "./config.js";
 import type { Story } from "./types.js";
 import { clip, getJson, getText, stripHtml, todayLocal } from "./util.js";
 
@@ -37,7 +37,15 @@ async function harvestFeed(feed: (typeof config.feeds)[number], now: number): Pr
     })),
   ];
   return raw
-    .filter((r) => r.title && r.url && now - Date.parse(r.date) < config.maxAgeHours * 3.6e6)
+    // A feed item dated in the future (a typo, or an evergreen page stamped next year) is not news: on Diskarte
+    // one out-scored every real story (2026-11-11).
+    .filter((r) => {
+      const age = now - Date.parse(r.date);
+      return r.title && r.url && age < feedWindowHours(now) * 3.6e6 && age > -FUTURE_SLACK_MS;
+    })
+    // One busy feed must not crowd out the rest (Manila Times Business sends 50 a day): newest 25 per feed.
+    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+    .slice(0, 25)
     .map((r, i) => ({
       id: `rss-${feed.name.toLowerCase().replace(/\W+/g, "-")}-${i}`,
       kind: "news" as const,
@@ -109,6 +117,8 @@ export async function harvest(): Promise<Story[]> {
       console.warn(`  ! ${name} failed: ${err instanceof Error ? err.message : err}`);
     }
   }
+  // Square brackets in a source title break the [title](url) links the writer copies. Round ones are safe.
+  for (const s of stories) s.title = s.title.replace(/\[/g, "(").replace(/\]/g, ")");
   if (!stories.some((s) => s.kind === "news")) throw new Error("No news harvested from any source; aborting draft.");
   return stories;
 }

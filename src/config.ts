@@ -31,17 +31,22 @@ export const config = {
    */
   feeds: [
     // OFWs and the diaspora
-    { name: "Inquirer Global Nation", url: "https://globalnation.inquirer.net/feed", weight: 1.2 },
+    // Inquirer's article pages refuse our reader (every one of 24 picked in the first 5 days), so its feeds are
+    // weighted down: they still point us at a story, and a readable outlet on the same event carries the facts.
+    { name: "Inquirer Global Nation", url: "https://globalnation.inquirer.net/feed", weight: 0.9 },
     { name: "Asian Journal", url: "https://www.asianjournal.com/feed/", weight: 1.1 },
-    { name: "Arab News", url: "https://www.arabnews.com/cat/1/rss.xml", weight: 0.9 },
+    // Arab News removed 2026-11-12: its feed returned nothing on any of the first 5 days.
+    { name: "GMA Pinoy Abroad", url: "https://data.gmanetwork.com/gno/rss/pinoyabroad/feed.xml", weight: 1.3 },
     // Economy, prices, policy
     { name: "BusinessWorld", url: "https://www.bworldonline.com/economy/feed/", weight: 1.3 },
-    { name: "Inquirer Business", url: "https://business.inquirer.net/feed", weight: 1.2 },
+    { name: "Inquirer Business", url: "https://business.inquirer.net/feed", weight: 0.8 },
+    { name: "GMA Money", url: "https://data.gmanetwork.com/gno/rss/money/feed.xml", weight: 1.2 },
+    { name: "Manila Times Business", url: "https://www.manilatimes.net/business/feed/", weight: 1.1 },
     { name: "PhilStar Business", url: "https://www.philstar.com/rss/business", weight: 1.2 },
     { name: "Rappler", url: "https://www.rappler.com/business/feed/", weight: 1.2 },
     // General news, lower weight: policy that touches families, without the politics
     { name: "PhilStar", url: "https://www.philstar.com/rss/headlines", weight: 0.8 },
-    { name: "Inquirer", url: "https://newsinfo.inquirer.net/feed", weight: 0.8 },
+    { name: "Inquirer", url: "https://newsinfo.inquirer.net/feed", weight: 0.6 },
     // Opinion, for "Sabi nila": named columnists, quoted short and labelled as opinion
     { name: "PhilStar Opinion", url: "https://www.philstar.com/rss/opinion", weight: 0.7, opinion: true },
   ] as { name: string; url: string; weight: number; opinion?: boolean }[],
@@ -53,3 +58,14 @@ export const config = {
 };
 
 export const DAY_MS = 24 * 3600 * 1000;
+
+/**
+ * How far back feed stories count, in hours. Mondays reach back over the weekend (no Saturday or Sunday brief),
+ * so Friday-evening to Sunday news is not lost. Manila time decides the weekday.
+ */
+export function feedWindowHours(now = Date.now()): number {
+  const weekday = new Intl.DateTimeFormat("en-US", { timeZone: process.env.TZ || "Asia/Manila", weekday: "short" }).format(now);
+  return weekday === "Mon" ? 78 : config.maxAgeHours;
+}
+/** A feed date may run this far ahead of our clock (time zones, clock drift) and still count as "now". */
+export const FUTURE_SLACK_MS = 3600 * 1000;
