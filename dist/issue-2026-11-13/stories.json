@@ -2,6 +2,24 @@
   {
     "id": "rss-inquirer-global-nation-0",
     "kind": "news",
+    "title": "Nvidia CEO Huang resigns after his affair raises nat’l security concerns",
+    "url": "https://globalnation.inquirer.net/347126/nvidia-ceo-huang-resigns-after-his-affair-raises-natl-security-concerns",
+    "source": "Inquirer Global Nation",
+    "publishedAt": "2026-11-12T23:05:32.000Z",
+    "summary": "UNITED STATES — Nvidia CEO Jensen Huang resigned Thursday after his extramarital affair raised national security concerns, in a spectacular downfall for the longtime head of the chipmaker, a vital player in the artificial intelligence boom. The company named Colette Kress as interim chief executive. She is the current executive vice president and chief financial"
+  },
+  {
+    "id": "rss-inquirer-global-nation-1",
+    "kind": "news",
+    "title": "DOJ to press case build-up vs Thomas Markle",
+    "url": "https://globalnation.inquirer.net/347121/doj-to-press-case-build-up-vs-thomas-markle",
+    "source": "Inquirer Global Nation",
+    "publishedAt": "2026-11-12T22:45:34.000Z",
+    "summary": "MANILA, Philippines — The Department of Justice (DOJ) is pressing ahead with its domestic case build-up against Thomas Markle over his alleged violations of Child Sexual Abuse or Exploitation Materials (CSAEM), even though the suspect has already been indicted in the United States. Markle is the estranged father of Meghan Markle, the Duchess of Sussex."
+  },
+  {
+    "id": "rss-inquirer-global-nation-2",
+    "kind": "news",
     "title": "Death toll rises to 8 in Brooklyn building collapse",
     "url": "https://globalnation.inquirer.net/347118/death-toll-rises-to-8-in-brooklyn-building-collapse",
     "source": "Inquirer Global Nation",
@@ -9,7 +27,7 @@
     "summary": "NEW YORK — At least eight people have died after a three-story building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said Thursday, as firefighters kept digging through the rubble to find others who may be trapped beneath the wreckage. The building came down Wednesday afternoon. At least 17"
   },
   {
-    "id": "rss-inquirer-global-nation-1",
+    "id": "rss-inquirer-global-nation-3",
     "kind": "news",
     "title": "Atom: ‘Rather than roll out red carpet for Trump, roll him out of PH’",
     "url": "https://globalnation.inquirer.net/347111/atom-rather-than-roll-out-red-carpet-for-trump-roll-him-out-of-ph",
@@ -18,7 +36,7 @@
     "summary": "MANILA, Philippines—The August Twenty-One Movement (Atom) joined groups opposing US President Donald Trump’s upcoming visit for the 49th Asean Summit and Related Meetings. The organization said Trump should not be welcomed with a red carpet. “Rather than roll out a red carpet for a leader like Trump, we should roll him out of the Philippines"
   },
   {
-    "id": "rss-inquirer-global-nation-2",
+    "id": "rss-inquirer-global-nation-4",
     "kind": "news",
     "title": "Palace welcomes audit of P22.9-B Asean Summits budget",
     "url": "https://globalnation.inquirer.net/347104/palace-welcomes-audit-of-p22-9-b-asean-summits-budget",
@@ -27,7 +45,7 @@
     "summary": "MANILA, Philippines — Malacañang on Thursday said the government is ready to be audited over its P22.9-billion allocation for the Philippines’ hosting of the 48th and 49th Association of Southeast Asian Nations (Asean) Summit and Related Summits this year. This amount is notably higher than the P3.79 billion spent during the Philippines’ hosting of the Asean"
   },
   {
-    "id": "rss-inquirer-global-nation-3",
+    "id": "rss-inquirer-global-nation-5",
     "kind": "news",
     "title": "Korean, Filipina partner nabbed for alleged estafa in Pampanga",
     "url": "https://globalnation.inquirer.net/347099/korean-filipina-partner-nabbed-for-alleged-estafa-in-pampanga",
@@ -36,7 +54,7 @@
     "summary": "ANGELES CITY — Operatives of the Criminal Investigation and Detection Group (CIDG) have arrested a 47-year-old Korean national and his 31-year-old Filipina girlfriend for allegedly duping other Koreans into giving them P4 million. They were arrested as soon as they accepted an additional P1.6 million from their victims during an entrapment operation at Barangay Cutcut"
   },
   {
-    "id": "rss-inquirer-global-nation-4",
+    "id": "rss-inquirer-global-nation-6",
     "kind": "news",
     "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
     "url": "https://globalnation.inquirer.net/347094/israeli-strike-on-a-gaza-hospital-kills-6-people-health-authorities-say",
@@ -45,7 +63,7 @@
     "summary": "KHAN YOUNIS, Gaza Strip — An Israeli airstrike targeting the Nasser Hospital in southern Gaza killed six people, including a general surgeon, and wounded at least a dozen more, Gaza’s Health Ministry said. The strike was carried out early Thursday, according to the Israeli military, which said it struck a Hamas commander and other militants,"
   },
   {
-    "id": "rss-inquirer-global-nation-5",
+    "id": "rss-inquirer-global-nation-7",
     "kind": "news",
     "title": "HRW urges Asean to step up pressure on Myanmar junta",
     "url": "https://globalnation.inquirer.net/347090/hrw-urges-asean-to-step-up-pressure-on-myanmar-junta",
@@ -54,7 +72,7 @@
     "summary": "MANILA, Philippines — Human Rights Watch (HRW) on Thursday urged Southeast Asian leaders gathering in the Philippines this weekend to increase pressure on Myanmar’s military junta to end attacks on civilians, lift restrictions on humanitarian assistance and begin credible dialogue on a transition to civilian rule. In a Nov. 5 letter to President Ferdinand Marcos"
   },
   {
-    "id": "rss-inquirer-global-nation-6",
+    "id": "rss-inquirer-global-nation-8",
     "kind": "news",
     "title": "China says US using spy claims to justify technology ‘blockade’",
     "url": "https://globalnation.inquirer.net/347087/china-says-us-using-spy-claims-to-justify-technology-blockade",
@@ -63,7 +81,7 @@
     "summary": "BEIJING – Beijing accused the United States on Thursday of using spurious spying claims as a pretext to impose a technological “blockade” on China, following claims that Nvidia boss Jensen Huang was the victim of a Chinese espionage plot. “China’s technological progress is driven by independent innovation and open cooperation. The US side should stop"
   },
   {
-    "id": "rss-inquirer-global-nation-7",
+    "id": "rss-inquirer-global-nation-9",
     "kind": "news",
     "title": "‘Peruvian pope’ makes jubilant return to ‘homeland’",
     "url": "https://globalnation.inquirer.net/347083/peruvian-pope-makes-jubilant-return-to-homeland",
@@ -72,7 +90,7 @@
     "summary": "LIMA — Pope Leo XIV arrived in his “beloved” Peru on Wednesday, a nostalgic return to the nation where he spent two decades as a missionary before being tapped to lead the world’s 1.4 billion Catholics. The 71-year-old pontiff landed in Lima on the last leg of an arduous three-nation Latin American tour, just weeks"
   },
   {
-    "id": "rss-inquirer-global-nation-8",
+    "id": "rss-inquirer-global-nation-10",
     "kind": "news",
     "title": "S. Korea: Man arrested over killing of son’s alleged sex crime victim",
     "url": "https://globalnation.inquirer.net/347035/s-korea-man-arrested-over-killing-of-sons-alleged-sex-crime-victim",
@@ -81,7 +99,7 @@
     "summary": "South Korean police on Wednesday apprehended a man on suspicion of murdering a teenager who was a victim of an alleged sexual crime committed by his son. The man in his 50s was placed under emergency arrest at around 1:40 a.m. after police found the female victim dead at a house in northeastern Seoul following"
   },
   {
-    "id": "rss-inquirer-global-nation-9",
+    "id": "rss-inquirer-global-nation-11",
     "kind": "news",
     "title": "PNP to declare full alert status on Friday for Asean Summit",
     "url": "https://globalnation.inquirer.net/347076/pnp-to-declare-full-alert-status-on-friday-for-asean-summit",
@@ -90,7 +108,7 @@
     "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Thursday said that it would place some of its police units under full alert status ahead of the 49th Association of Southeast Asian Nations (Asean) Summit. The Philippines is preparing to host the regional high-stakes meeting from Nov. 15 to 17, where foreign leaders and delegations"
   },
   {
-    "id": "rss-inquirer-global-nation-10",
+    "id": "rss-inquirer-global-nation-12",
     "kind": "news",
     "title": "Nepal’s push for Himalayan climate agenda falls short at COP31",
     "url": "https://globalnation.inquirer.net/347044/nepals-push-for-himalayan-climate-agenda-falls-short-at-cop31",
@@ -99,7 +117,7 @@
     "summary": "Nepal’s diplomatic push to secure a dedicated place for the climate crisis facing the Himalayas and other mountain regions in global climate negotiations has suffered a setback, with its proposal for a separate mountain agenda failing to secure formal recognition at the 31st United Nations Climate Change Conference (COP31). Speaking to the Press Trust of"
   },
   {
-    "id": "rss-inquirer-global-nation-11",
+    "id": "rss-inquirer-global-nation-13",
     "kind": "news",
     "title": "How AI worsens online violence against Middle East women",
     "url": "https://globalnation.inquirer.net/347047/how-ai-worsens-online-violence-against-middle-east-women",
@@ -108,7 +126,7 @@
     "summary": "It happens all the time, says Kholoud al-Ameri, an Iraqi journalist and the editor of a news website. “Female journalists here are often getting messages, and mostly from men,” she explains. “They somehow find you online and then they say they just want to talk or they want to add you on Instagram or Facebook,”"
   },
   {
-    "id": "rss-inquirer-global-nation-12",
+    "id": "rss-inquirer-global-nation-14",
     "kind": "news",
     "title": "PNP to take action vs disruptive Asean Summit rallyists",
     "url": "https://globalnation.inquirer.net/347070/pnp-to-take-action-vs-disruptive-asean-summit-rallyists",
@@ -117,7 +135,7 @@
     "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Thursday warned that they would disperse and take action against anyone who may trample on foreign delegates and leaders visiting the country during the 49th Association of Southeast Asian Nations (Asean) Summit. Several groups, including the Bagong Alyansang Makabayan, announced that they would hold public demonstrations"
   },
   {
-    "id": "rss-inquirer-global-nation-13",
+    "id": "rss-inquirer-global-nation-15",
     "kind": "news",
     "title": "Chinese woman accused of spying on Nvidia chief entered Taiwan 8 times",
     "url": "https://globalnation.inquirer.net/347064/chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-8-times",
@@ -126,7 +144,7 @@
     "summary": "TAIPEI — The woman accused of spying for Beijing during an affair with Nvidia founder Jensen Huang visited Taiwan a total of eight times in 2024 and 2025, a Taiwanese government minister said Thursday. Taiwan, a dominant player in the global semiconductor industry, sits at the centre of strategic competition between the United States and"
   },
   {
-    "id": "rss-inquirer-global-nation-14",
+    "id": "rss-inquirer-global-nation-16",
     "kind": "news",
     "title": "N. Korea unlikely to attend Apec or hold talks with US – official",
     "url": "https://globalnation.inquirer.net/347038/n-korea-unlikely-to-attend-apec-or-hold-talks-with-us-official",
@@ -135,7 +153,7 @@
     "summary": "North Korea is unlikely to attend the Asia Pacific Economic Cooperation summit set to be held in China next week, a South Korean presidential official said Thursday. “It would be difficult to say there is zero possibility of talks (between North Korea and the United States), but I think the probability might not be high,”"
   },
   {
-    "id": "rss-inquirer-global-nation-15",
+    "id": "rss-inquirer-global-nation-17",
     "kind": "news",
     "title": "Marcos asks public for patience over Asean Summit disruptions",
     "url": "https://globalnation.inquirer.net/347055/marcos-asks-public-for-patience-over-asean-summit-disruptions",
@@ -144,7 +162,7 @@
     "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. on Thursday called on the public to bear with temporary inconveniences brought about by the country’s hosting of the 49th Association of Southeast Asian Nations (Asean) Summit, saying its benefits for the Philippines would outweigh them. In his BBM Vlog 285: Asean 2026, Marcos said the gathering would yield policies that"
   },
   {
-    "id": "rss-inquirer-global-nation-16",
+    "id": "rss-inquirer-global-nation-18",
     "kind": "news",
     "title": "S. Korea’s Lee to attend Asean, Apec summits in Philippines, China",
     "url": "https://globalnation.inquirer.net/347041/s-koreas-lee-to-attend-asean-apec-summits-in-philippines-china",
@@ -153,7 +171,7 @@
     "summary": "South Korean President Lee Jae Myung will attend summits of the Association of Southeast Asian Nations and the Asia-Pacific Economic Cooperation next week, his national security adviser said Thursday. The South Korean president will depart Monday first for Manila where he will attend the ASEAN summit until Tuesday, followed by a two-day trip to China’s"
   },
   {
-    "id": "rss-inquirer-global-nation-17",
+    "id": "rss-inquirer-global-nation-19",
     "kind": "news",
     "title": "PH-US-Japan-Australia coordination mechanism now operating – Teodoro",
     "url": "https://globalnation.inquirer.net/347034/ph-us-japan-australia-coordination-mechanism-now-operating-teodoro",
@@ -162,7 +180,7 @@
     "summary": "MANILA, Philippines — A military coordination mechanism involving the Philippines, the United States, Japan and Australia is already operating as the four countries seek to strengthen joint operations and information sharing, Defense Secretary Gilberto Teodoro Jr. said. In a media interview in Cebu, Teodoro was asked about the Combined Coordination Center (CCC), which the four"
   },
   {
-    "id": "rss-inquirer-global-nation-18",
+    "id": "rss-inquirer-global-nation-20",
     "kind": "news",
     "title": "Trump to flex muscles on Asia tour after midterms losses",
     "url": "https://globalnation.inquirer.net/347031/trump-to-flex-muscles-on-asia-tour-after-midterms-losses",
@@ -171,7 +189,7 @@
     "summary": "WASHINGTON — After his party suffered a midterms hammering, President Donald Trump faces a new challenge: proving he is still the boss of US foreign policy on the global stage. With Trump politically hamstrung as he enters the remaining two-year ‘lame duck’ period of his White House tenure, world leaders may be quietly wondering how"
   },
   {
-    "id": "rss-inquirer-global-nation-19",
+    "id": "rss-inquirer-global-nation-21",
     "kind": "news",
     "title": "Indonesian vice president resigns as eligibility questioned",
     "url": "https://globalnation.inquirer.net/347027/indonesian-vice-president-resigns-as-eligibility-questioned",
@@ -180,7 +198,7 @@
     "summary": "Indonesian Vice President Gibran Rakabuming Raka, the son of former President Joko Widodo, popularly known as Jokowi, resigned Wednesday amid controversy over his eligibility for office, political sources said. Gibran had earlier tendered his resignation to President Prabowo Subianto. The country’s Supreme Court last month invalidated the education certificate Gibran used for his 2024 vice-presid…"
   },
   {
-    "id": "rss-inquirer-global-nation-20",
+    "id": "rss-inquirer-global-nation-22",
     "kind": "news",
     "title": "New York building collapses: One dead, several injured",
     "url": "https://globalnation.inquirer.net/347024/new-york-building-collapses-one-dead-several-injured",
@@ -189,7 +207,7 @@
     "summary": "NEW YORK — One person was killed and several others injured Wednesday after a three-story building collapsed near a construction site in New York, city authorities said. Images from the scene showed firefighters sifting through a pile of rubble in front of what appeared to be a residential property with its walls torn down, exposing"
   },
   {
-    "id": "rss-inquirer-global-nation-21",
+    "id": "rss-inquirer-global-nation-23",
     "kind": "news",
     "title": "Russian ambassador to US dies – foreign ministry",
     "url": "https://globalnation.inquirer.net/347021/russian-ambassador-to-us-dies-foreign-ministry",
@@ -198,31 +216,13 @@
     "summary": "MOSCOW — Russia’s ambassador to the United States, Alexander Darchiev, has died suddenly at age 66 after one and a half years in the job, Moscow’s foreign ministry announced Wednesday. The ministry called Darchiev an “outstanding diplomat, an experienced leader and a kind colleague”. He was appointed in March 2025. Moscow did not give more details"
   },
   {
-    "id": "rss-inquirer-global-nation-22",
+    "id": "rss-inquirer-global-nation-24",
     "kind": "news",
     "title": "US envoys to meet Putin, Zelensky after war talks in Abu Dhabi",
     "url": "https://globalnation.inquirer.net/347007/us-envoys-to-meet-putin-zelensky-after-war-talks-in-abu-dhabi",
     "source": "Inquirer Global Nation",
     "publishedAt": "2026-11-12T07:09:12.000Z",
     "summary": "DUBLIN, Ireland — US envoys will separately meet Russia’s Vladimir Putin and Ukraine’s Volodymyr Zelensky on Thursday as they seek to capitalize on “openings” from two days of talks in Abu Dhabi on ending the war in Ukraine. Steve Witkoff and Jared Kushner will travel first to Moscow to meet the Russian president before flying to"
-  },
-  {
-    "id": "rss-inquirer-global-nation-23",
-    "kind": "news",
-    "title": "Trump defends Iran war in Veterans Day address",
-    "url": "https://globalnation.inquirer.net/346997/trump-defends-iran-war-in-veterans-day-address",
-    "source": "Inquirer Global Nation",
-    "publishedAt": "2026-11-12T06:58:55.000Z",
-    "summary": "WASHINGTON, United States — President Donald Trump defended the war against Iran Wednesday at a US Veterans Day commemoration that saw his defense secretary publicly admonished for a lack of decorum. “The bravery and skill of our amazing American warriors has absolutely been incredible,” Trump said in an address at Arlington National Cemetery just outside"
-  },
-  {
-    "id": "rss-inquirer-global-nation-24",
-    "kind": "news",
-    "title": "Hegseth, others reprimanded by guard at US military tomb",
-    "url": "https://globalnation.inquirer.net/346988/hegseth-others-reprimanded-by-guard-at-us-military-tomb",
-    "source": "Inquirer Global Nation",
-    "publishedAt": "2026-11-12T06:47:24.000Z",
-    "summary": "WASHINGTON, United States — A US military guard was seen loudly reprimanding Defense Secretary Pete Hegseth and his group on Veterans Day, after they laughed and chatted near a sacred tomb at Arlington National Cemetery. Video circulated widely on US networks and social media showed Hegseth and a group reportedly including his senior advisors gathering to"
   },
   {
     "id": "rss-asian-journal-0",
@@ -259,24 +259,6 @@
     "source": "GMA Pinoy Abroad",
     "publishedAt": "2026-11-11T17:24:50.000Z",
     "summary": "DMW Secretary Hans Leo Cacdac expressed optimism that ASEAN leaders would adopt a proposed regional declaration aimed at strengthening fair, ethical, and safe recruitment practices."
-  },
-  {
-    "id": "rss-gma-pinoy-abroad-2",
-    "kind": "news",
-    "title": "Filipino community in Italy responds to bomb threats in schools",
-    "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1009198/filipino-community-in-italy-responds-to-bomb-threats-in-schools/story/",
-    "source": "GMA Pinoy Abroad",
-    "publishedAt": "2026-11-11T16:50:53.000Z",
-    "summary": "ROME, Italy -- Filipino mothers and working parents rushed from their workplaces on Wednesday, November 11, 2026, to collect their children following a wave of bomb threats across roughly 6,300 schools in Italy."
-  },
-  {
-    "id": "rss-gma-pinoy-abroad-3",
-    "kind": "news",
-    "title": "6,000 Filipinos in Saudi Arabia given aid amid Houthi attacks, says DMW",
-    "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1009192/6-000-filipinos-in-saudi-arabia-given-aid-amid-houthi-attacks-says-dmw/story/",
-    "source": "GMA Pinoy Abroad",
-    "publishedAt": "2026-11-11T15:57:08.000Z",
-    "summary": "Around 6,000 Filipinos in Saudi Arabia were given aid amid the ongoing attacks of the Houthi rebel group, including those who were affected by the bombing of an oil giant\"s building in Riyadh."
   },
   {
     "id": "rss-businessworld-0",
@@ -686,6 +668,132 @@
   {
     "id": "rss-manila-times-business-0",
     "kind": "news",
+    "title": "Mynt, ACEN help cushion declines in Ayala's banking, property businesses",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/mynt-acen-help-cushion-declines-in-ayalas-banking-property-businesses/2469152",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:58:38.000Z",
+    "summary": "AYALA Corp.'s digital finance and power businesses delivered stronger earnings in the first nine months of 2026, cushioning weaker results from its property and banking units as the conglomerate continued to expand its growth engines.Mynt, operator of e-wallet GCash, posted a 17-percent increase in net income to P16.5 billion, while Ayala Corp. Energy and Infrastructure Corp. (ACEIC) recorded a 6…"
+  },
+  {
+    "id": "rss-manila-times-business-1",
+    "kind": "news",
+    "title": "CREIT posts steady 9-month net income of P1.03B",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/creit-posts-steady-9-month-net-income-of-p103b/2469151",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:57:38.000Z",
+    "summary": "CITICORE Energy REIT Corp. (CREIT) reported steady earnings in the first nine months of 2026 that were backed by stable revenues, which allowed the company to declare a cash dividend of P0.049 per share for the third quarter.In a disclosure on Thursday, the renewable energy-focused real estate investment trust (REIT) said net income from January to September reached P1.03 billion on revenues of P…"
+  },
+  {
+    "id": "rss-manila-times-business-2",
+    "kind": "news",
+    "title": "SM Hotels opens luxury rooftop venue at Conrad Manila",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/sm-hotels-opens-luxury-rooftop-venue-at-conrad-manila/2469145",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:50:31.000Z",
+    "summary": "SM Hotels and Convention Centers (SMHCC), the hospitality arm of SM Prime Holdings Inc., is expanding its meetings, incentives, conventions and exhibitions (MICE) portfolio at the SM Mall of Asia (MOA) Complex with the opening of a luxury rooftop events venue at Conrad Manila.In a statement, SMHCC said DEWEY, the complex's first dedicated luxury rooftop events venue, would cater to private celebr…"
+  },
+  {
+    "id": "rss-manila-times-business-3",
+    "kind": "news",
+    "title": "Home sales, rentals lift Rockwell Land net to P4.2B",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/home-sales-rentals-lift-rockwell-land-net-to-p42b/2469144",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:48:05.000Z",
+    "summary": "ROCKWELL Land Corp. posted a 20.3-percent increase in net income in the first nine months of 2026, driven by stronger residential sales and higher commercial revenues following the consolidation of Alabang Commercial Corp. (ACC).In a quarterly report filed with the Securities and Exchange Commission, the property developer reported consolidated net income of P4.2 billion, up from P3.49 billion in…"
+  },
+  {
+    "id": "rss-manila-times-business-4",
+    "kind": "news",
+    "title": "Ayala Malls Nuvali expansion now open",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/ayala-malls-nuvali-expansion-now-open/2469143",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:47:15.000Z",
+    "summary": "AYALA Malls Nuvali has opened a three-level expansion in Santa Rosa, Laguna, adding new retail, dining and leisure offerings as it strengthens its position as a lifestyle destination in the growing southern Luzon market.The expansion, unveiled on Thursday, features a fully air-conditioned building with a roof deck, a one-kilometer outdoor walkway called the Nuvali Greenway, and more than 1,000 ad…"
+  },
+  {
+    "id": "rss-manila-times-business-5",
+    "kind": "news",
+    "title": "Alliance Global profit hits P22.3B, 5% higher",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/alliance-global-profit-hits-p223b-5-higher/2469119",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:40:50.000Z",
+    "summary": "ALLIANCE Global Group Inc. (AGI), the holding company of tycoon Andrew Tan, reported a five-percent increase in net income to P22.3 billion in the first nine months of 2026, supported by stronger spirits sales and growth in its property leasing and hospitality businesses.The conglomerate on Thursday said earnings growth accelerated in the third quarter, with net income rising 11 percent year-on-y…"
+  },
+  {
+    "id": "rss-manila-times-business-6",
+    "kind": "news",
+    "title": "Filinvest Land posts 4.8% drop in earnings to P3.47B",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/filinvest-land-posts-48-drop-in-earnings-to-p347b/2469118",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:32:46.000Z",
+    "summary": "FILINVEST Land Inc. (FLI) on Thursday reported a 4.8-percent decline in net income to P3.47 billion in the first nine months of 2026 despite a 33-percent increase in residential reservation sales that already surpassed its full-year 2025 total.The property developer said consolidated revenues and other income reached P19.43 billion from January to September, down from P20.08 billion in the same p…"
+  },
+  {
+    "id": "rss-manila-times-business-7",
+    "kind": "news",
+    "title": "ACEN units give up 13 new wind, solar contracts",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/acen-units-give-up-13-new-wind-solar-contracts/2469002",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:20:22.000Z",
+    "summary": "ELEVEN subsidiaries of ACEN Corp., the Ayala Group’s listed renewable energy (RE) company, voluntarily gave up 13 wind and solar contracts on Nov. 11 as the Department of Energy reviews stalled RE projects.In a disclosure on Thursday, ACEN said the move would have no material impact on its operations. All 13 projects were in early development, and ACEN had yet to make final investment decisions o…"
+  },
+  {
+    "id": "rss-manila-times-business-8",
+    "kind": "news",
+    "title": "First Gen profit rises to P12.5B on RE gains",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/first-gen-profit-rises-to-p125b-on-re-gains/2469001",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:19:13.000Z",
+    "summary": "LOPEZ-LED power producer First Gen Corp. reported Thursday that its attributable net income rose to P12.5 billion from P12.1 billion a year earlier, as stronger renewable energy (RE) earnings helped cushion the impact of last year’s sale of a 60-percent stake in its natural gas portfolio to Prime Infrastructure Capital Inc.Consolidated revenues surged 88 percent to P68.2 billion in the first nine…"
+  },
+  {
+    "id": "rss-manila-times-business-9",
+    "kind": "news",
+    "title": "PFDA to upgrade provincial fish ports, market",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/pfda-to-upgrade-provincial-fish-ports-market/2469000",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:18:24.000Z",
+    "summary": "THE Philippine Fisheries Development Authority (PFDA) said Thursday it will build a modern fish port in Camiguin and a fish market with its own ice plant in Pampanga, and expand an existing fish port in Camarines Sur.The plan in Camiguin is for the Mambajao Modern Fish Port to improve fish handling and help move catches from landing sites to markets. In 2024, the province produced an average of 1…"
+  },
+  {
+    "id": "rss-manila-times-business-10",
+    "kind": "news",
+    "title": "FDC’s net income drops 6.1% to P10.8B",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/fdcs-net-income-drops-61-to-p108b/2468999",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:14:49.000Z",
+    "summary": "FILINVEST Development Corp. (FDC) said on Thursday its attributable net income fell 6.1 percent to P10.8 billion in the first nine months from P11.5 billion a year earlier, even as its banking and power businesses lifted group revenues.The Gotianun-led conglomerate posted a consolidated net income of P13.3 billion. Total revenues and other income rose 10 percent to P99 billion, led by banking, th…"
+  },
+  {
+    "id": "rss-manila-times-business-11",
+    "kind": "news",
+    "title": "APEC host Shenzhen next-gen startups still bank on foreign buyers",
+    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/apec-host-shenzhen-next-gen-startups-still-bank-on-foreign-buyers/2468998",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:13:45.000Z",
+    "summary": "SHENZHEN, China ─ The Asia-Pacific Economic Cooperation forum taking place on Nov. 18-19 is something of a coming-out party for this southern city, which the Communist Party used as an early testbed for its embrace of business and market economics.Shenzhen is now the country’s Silicon Valley, its skyline crowded with gleaming skyscrapers housing tech giants including Tencent, while neighborhoods…"
+  },
+  {
+    "id": "rss-manila-times-business-12",
+    "kind": "news",
+    "title": "NVIDIA names Colette Kress interim CEO after Jensen Huang resigns",
+    "url": "https://www.manilatimes.net/2026/11/13/business/sunday-business-it/nvidia-names-colette-kress-interim-ceo-after-jensen-huang-resigns/2468997",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:12:10.000Z",
+    "summary": "NVIDIA has appointed Chief Financial Officer Colette Kress as interim chief executive officer following the resignation of co-founder Jensen Huang as president, CEO and member of the company's board, effective Nov. 12, 2026.Kress will retain her position as executive vice president and CFO while assuming the interim role. The board said it would begin searching for a permanent successor, consider…"
+  },
+  {
+    "id": "rss-manila-times-business-13",
+    "kind": "news",
+    "title": "The proof behind every carbon credit",
+    "url": "https://www.manilatimes.net/2026/11/13/business/science-technology/the-proof-behind-every-carbon-credit/2468996",
+    "source": "Manila Times Business",
+    "publishedAt": "2026-11-12T21:07:24.000Z",
+    "summary": "A CARBON credit may look like a simple unit of climate action. In practice, it is the end point of a long chain of evidence: a project must show that it reduced or removed greenhouse gas (GHG) emissions, measure the result, pass independent verification and meet the rules of the market where the credit will be used.That chain is now taking shape in the Philippines. But the country’s growing proje…"
+  },
+  {
+    "id": "rss-manila-times-business-14",
+    "kind": "news",
     "title": "BIR may surpass P3T gross collections by Nov",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/bir-may-surpass-p3t-gross-collections-by-nov/2468860",
     "source": "Manila Times Business",
@@ -693,7 +801,7 @@
     "summary": "THE Bureau of Internal Revenue (BIR) is targeting to surpass P3 trillion in gross revenue collections before the end of November, after its collections reached P2.81 trillion in the first 10 months of 2026.“We are looking to breach the P3 trillion mark in revenue collections before the end of November and aim to sustain our above 5-percent year-on-year growth,” BIR Commissioner Charlito Mendoza s…"
   },
   {
-    "id": "rss-manila-times-business-1",
+    "id": "rss-manila-times-business-15",
     "kind": "news",
     "title": "BSP to weigh GDP drop in future rate decision",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/bsp-to-weigh-gdp-drop-in-future-rate-decision/2468859",
@@ -702,7 +810,7 @@
     "summary": "THE Bangko Sentral ng Pilipinas (BSP) will take into account the implications of the country’s latest economic growth figures in determining its next monetary policy moves.“We are carefully assessing the implications of the latest growth data for the inflation outlook,” the central bank said in a statement late Wednesday.The central bank, however, stressed future policy decisions would continue t…"
   },
   {
-    "id": "rss-manila-times-business-2",
+    "id": "rss-manila-times-business-16",
     "kind": "news",
     "title": "Monthly ceiling for credit card finance charges stays",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/monthly-ceiling-for-credit-card-finance-charges-stays/2468858",
@@ -711,7 +819,7 @@
     "summary": "THE Bangko Sentral ng Pilipinas (BSP) has retained the existing cap on credit card finance charges but allowed banks and other credit card issuers to collect higher fees on installment loans and cash advances.In a circular on Thursday, signed by BSP Governor Eli Remolona Jr., the monthly add-on rate ceiling for credit card installment loans will increase to 1.5 percent from 1 percent, while the m…"
   },
   {
-    "id": "rss-manila-times-business-3",
+    "id": "rss-manila-times-business-17",
     "kind": "news",
     "title": "Peso, PSEi post losses",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/peso-psei-post-losses/2468843",
@@ -720,7 +828,7 @@
     "summary": "THE peso weakened further on Thursday, losing by 45 centavos against the greenback, while the main index of the Philippines Stock exchange fell as investors remained cautious amid corporate earnings releases.The local currency closed at P63.7, weaker than the P63.25 posted on Wednesday. It opened at P63.25 and traded from P63.25 to P63.7.The volume reached $1.720 trillion, up from the previous P1…"
   },
   {
-    "id": "rss-manila-times-business-4",
+    "id": "rss-manila-times-business-18",
     "kind": "news",
     "title": "PH to sign first free trade pact with LatAm country at APEC",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/ph-to-sign-first-free-trade-pact-with-latam-country-at-apec/2468839",
@@ -729,7 +837,7 @@
     "summary": "THE Philippines-Chile Comprehensive Economic Partnership Agreement (CEPA) will be signed during the Asia-Pacific Economic Cooperation (APEC) Summit on Nov. 19, Trade Secretary Cristina Roque said.Negotiations for the CEPA concluded in July and the pact marks the Philippines’ first free trade agreement with a Latin American country.Roque said the agreement would open the South American country’s m…"
   },
   {
-    "id": "rss-manila-times-business-5",
+    "id": "rss-manila-times-business-19",
     "kind": "news",
     "title": "PPA extends Asian Terminal’s South Harbor concession to 2063",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/ppa-extends-asian-terminals-south-harbor-concession-to-2063/2468838",
@@ -738,7 +846,7 @@
     "summary": "PORTS and logistics operator Asian Terminals Inc.’s (ATI) Manila South Harbor concession agreement has been extended to 2063, the company said on Thursday.ATI said it was granted a 25-year renewal of its concession for the operation and development of the Manila South Harbor, with the additional 25-year term beginning May 2038. It added that it had already signed the concessional agreement renewa…"
   },
   {
-    "id": "rss-manila-times-business-6",
+    "id": "rss-manila-times-business-20",
     "kind": "news",
     "title": "Lessons from the US midterm election",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/lessons-from-the-us-midterm-election/2468819",
@@ -747,7 +855,7 @@
     "summary": "THE crushing defeat of the Republican Party in the recent US midterm elections serves as a stark, cautionary tale for Malacañang. Across mature and developing democracies alike, no amount of political branding, media control or campaign spending can shield a sitting administration from public wrath caused by soaring living costs, unfulfilled promises and institutional corruption.In the United Sta…"
   },
   {
-    "id": "rss-manila-times-business-7",
+    "id": "rss-manila-times-business-21",
     "kind": "news",
     "title": "Defense logistics firm to develop drone port",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/defense-logistics-firm-to-develop-drone-port/2468817",
@@ -756,7 +864,7 @@
     "summary": "A PROPOSED drone port in Aurora would start by testing unmanned aerial and maritime aircraft, and training their operators, with an eye toward eventually manufacturing drones and components in the ecozone.The Aurora Pacific Economic Zone and Freeport Authority (Apeco) said on Thursday it had signed a memorandum of understanding with defense logistics company Anglicotech Philippines Inc. to explor…"
   },
   {
-    "id": "rss-manila-times-business-8",
+    "id": "rss-manila-times-business-22",
     "kind": "news",
     "title": "Who benefits from the proposed P350K income tax exemption?",
     "url": "https://www.manilatimes.net/2026/11/13/business/top-business/who-benefits-from-the-proposed-p350k-income-tax-exemption/2468816",
@@ -765,7 +873,7 @@
     "summary": "IN his fifth State of the Nation Address on July 27, President Ferdinand Marcos Jr. proposed raising the annual personal income tax exemption threshold from P250,000 to P350,000. For workers with taxable income just below the proposed cutoff, the change would wipe out their income tax bill.House Speaker Faustino Dy and Majority Leader Sandro Marcos filed House Bill 10345 to amend the Tax Code. Th…"
   },
   {
-    "id": "rss-manila-times-business-9",
+    "id": "rss-manila-times-business-23",
     "kind": "news",
     "title": "PLDT’s 9-month profit falls 8% amid higher costs",
     "url": "https://www.manilatimes.net/2026/11/13/business/corporate-news/pldts-9-month-profit-falls-8-amid-higher-costs/2468807",
@@ -774,139 +882,13 @@
     "summary": "PLDT Inc.’s attributable net income fell 8 percent to P21.67 billion in the first nine months this year from P23.65 billion in 2025, as higher costs weighed on earnings despite growth in service revenues.PLDT chief financial adviser Stanley Yang said on Thursday that the decline was more pronounced in the third quarter (Q3), when depreciation increased and operating expenses rose 5 percent, drive…"
   },
   {
-    "id": "rss-manila-times-business-10",
+    "id": "rss-manila-times-business-24",
     "kind": "news",
     "title": "Cebu Pacific reports P12.78B Jan-Sept. loss",
     "url": "https://www.manilatimes.net/2026/11/13/business/corporate-news/cebu-pacific-reports-p1278b-jan-sept-loss/2468806",
     "source": "Manila Times Business",
     "publishedAt": "2026-11-12T16:07:00.000Z",
     "summary": "BUDGET carrier Cebu Pacific swung to a P12.78-billion net loss in the first nine months of the year from a P9.47-billion profit in the same period in 2025, as higher fuel costs and foreign exchange losses outweighed revenue gains.In a disclosure on Thursday, the airline reported a third-quarter net loss of P6.91 billion, reversing a P499.02-million profit a year earlier.Quarterly revenues rose to…"
-  },
-  {
-    "id": "rss-manila-times-business-11",
-    "kind": "news",
-    "title": "Nvidia board to decide CEO’s future",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/nvidia-board-to-decide-ceos-future/2468353",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:06:00.000Z",
-    "summary": "NVIDIA’S board met late Wednesday to decide whether to oust CEO Jensen Huang, a source familiar with the matter told Reuters, as the world’s dominant supplier of artificial intelligence (AI) chips grapples with reports of two extramarital affairs involving its longtime leader.The meeting marked a sharp shift from Sunday, when Nvidia’s board expressed confidence in Huang and his leadership team. U…"
-  },
-  {
-    "id": "rss-manila-times-business-12",
-    "kind": "news",
-    "title": "Alphabet HK, SG bond sales draw $5B in orders",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/alphabet-hk-sg-bond-sales-draw-5b-in-orders/2468352",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:05:00.000Z",
-    "summary": "GOOGLE parent Alphabet’s first Hong Kong and Singapore dollar bond sales drew combined orders of about $5 billion early Thursday, including orders from banks arranging the deals, according to deal statistics seen by Reuters.The strong order books give Alphabet flexibility to increase its planned financing as it accelerates investment in AI infrastructure, even as recent volatility in technology s…"
-  },
-  {
-    "id": "rss-manila-times-business-13",
-    "kind": "news",
-    "title": "Global EV sales return to growth in October",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/global-ev-sales-return-to-growth-in-october/2468351",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:04:00.000Z",
-    "summary": "GLOBAL demand for electrified cars returned to growth in October, reflecting a very low US comparison base coupled with continued growth in Europe, data from the United Kingdom-based research firm Benchmark Mineral Intelligence showed on Thursday.“Even though the Chinese market is down domestically, that has then in turn resulted in a lot of OEMs pushing the exports and contributing significantly…"
-  },
-  {
-    "id": "rss-manila-times-business-14",
-    "kind": "news",
-    "title": "China’s AI firms seek Nvidia chip capacity",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/chinas-ai-firms-seek-nvidia-chip-capacity/2468348",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:03:00.000Z",
-    "summary": "BEIJING — Chinese artificial intelligence (AI) companies are trying to rent Nvidia-powered computing capacity at data centers outside China, concerned that a scandal involving the US chipmaker’s chief executive Jensen Huang could spur Washington to tighten restrictions on their remote use of advanced processors.The moves underline concern among Chinese technology companies over the potential clos…"
-  },
-  {
-    "id": "rss-manila-times-business-15",
-    "kind": "news",
-    "title": "Nissan reduces losses, vows to return to profit",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/nissan-reduces-losses-vows-to-return-to-profit/2468346",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:02:00.000Z",
-    "summary": "TOKYO — Japanese automaker Nissan trimmed its losses over the first half of the fiscal year, compared to the previous year, and on Wednesday reaffirmed its promise to turn profitable for the full year.Losses at Nissan Motor Co., based in the port city of Yokohama, for the April–September period totaled 39.7 billion yen ($250 million), smaller than the 221.9-billion-yen red ink for the same period…"
-  },
-  {
-    "id": "rss-manila-times-business-16",
-    "kind": "news",
-    "title": "Juana’t a time",
-    "url": "https://www.manilatimes.net/2026/11/13/business/boardroom-watch/juanat-a-time/2468249",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:01:00.000Z",
-    "summary": "Joann Comedido Founder Arte ni JuanaJoann Comedido did not plan to become a bag maker. She planned to run a restaurant.The 45-year-old Mandaue City native had built a food business from the ground up — until the Covid-19 pandemic forced it to close in 2020, leaving her at home with no income and no clear next move.“It’s a long story of ups and downs sa akong negosyo (in my business). I used to ha…"
-  },
-  {
-    "id": "rss-manila-times-business-17",
-    "kind": "news",
-    "title": "Intermex rejects Western Union merger termination",
-    "url": "https://www.manilatimes.net/2026/11/13/business/foreign-business/intermex-rejects-western-union-merger-termination/2468344",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:01:00.000Z",
-    "summary": "INTERMEX on Wednesday rejected Western Union’s decision to terminate their merger agreement, demanding the money transfer company take all necessary actions to complete the deal.Western Union had said on Tuesday it was ending the agreement to acquire the Latin America and the Caribbean-focused payment transfer firm after the companies failed to secure regulatory approvals.Western Union agreed las…"
-  },
-  {
-    "id": "rss-manila-times-business-18",
-    "kind": "news",
-    "title": "PH approved foreign investments hit P336B",
-    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/ph-approved-foreign-investments-hit-p336b/2468753",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:00:00.000Z",
-    "summary": "FOREIGN investment commitments to the Philippines more than doubled in the third quarter of 2026, with manufacturing attracting the biggest share of overseas capital.Data from the Philippine Statistics Authority (PSA) showed that approved foreign investments from July to September reached P166.03 billion, up 125.3 percent from P73.69 billion in the same period last year.The increase brought total…"
-  },
-  {
-    "id": "rss-manila-times-business-19",
-    "kind": "news",
-    "title": "Nvidia CEO Jensen Huang resigns",
-    "url": "https://www.manilatimes.net/2026/11/12/business/sunday-business-it/nvidia-ceo-jensen-huang-resigns/2468754",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T14:41:57.000Z",
-    "summary": "SAN FRANCISCO — Jensen Huang resigned as chief executive of AI giant Nvidia on Thursday, the company said, after revelations he had two extramarital affairs, including one with a woman accused of spying for China.Chief financial officer Colette Kress will serve as interim CEO while the board searches for a permanent successor, ending Huang’s 33-year run at the helm of the global juggernaut he co-…"
-  },
-  {
-    "id": "rss-manila-times-business-20",
-    "kind": "news",
-    "title": "Prada’s new Milan exhibition turns a century of fashion into fresh discoveries",
-    "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/pradas-new-milan-exhibition-turns-a-century-of-fashion-into-fresh-discoveries/2468612",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T13:50:35.000Z",
-    "summary": "MILAN — Iconic A-line skirts twirl overhead, silver-covered handbags gleam in a secret underground passage and a spacesuit prototype brings more than a century of fashion history into the future at Prada’s new permanent exhibition in Milan, called “Pradasphere.”The highly visual journey through the Italian luxury brand’s evolution is connecting Prada aficionados with the fashion house’s heritage…"
-  },
-  {
-    "id": "rss-manila-times-business-21",
-    "kind": "news",
-    "title": "Nvidia tumbles early amid questions about Nvidia CEO Jensen Huang’s future",
-    "url": "https://www.manilatimes.net/2026/11/12/business/sunday-business-it/nvidia-tumbles-early-amid-questions-about-nvidia-ceo-jensen-huangs-future/2468447",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T12:36:48.000Z",
-    "summary": "NEW YORK — Shares of Nvidia, the chipmaker at the center of the global artificial intelligence boom, tumbled early Thursday with the tenure of CEO Jensen Huang threatened by revelations of an affair with a woman reported to be a suspected Chinese spy.The company's stock has been under pressure for weeks, both because of reporting about the affair and questions about a potential bubble in the AI s…"
-  },
-  {
-    "id": "rss-manila-times-business-22",
-    "kind": "news",
-    "title": "Stock indices as of November 12, 2026",
-    "url": "https://www.manilatimes.net/2026/11/12/business/stock-watch/stock-indices-as-of-november-12-2026/2468159",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T07:22:26.000Z",
-    "summary": ""
-  },
-  {
-    "id": "rss-manila-times-business-23",
-    "kind": "news",
-    "title": "Grand Theft Auto Online: top video game's roleplay cash cow",
-    "url": "https://www.manilatimes.net/2026/11/12/business/science-technology/grand-theft-auto-online-top-video-games-roleplay-cash-cow/2468122",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T06:26:47.000Z",
-    "summary": "PARIS, France — One of the world's best-selling video games, \"Grand Theft Auto V\" owes much of its staying power to its online multiplayer version.As fans await the release of the follow-up \"GTA VI\" on November 19, attention is also turning to the online platform run by the franchise's creator, Rockstar Games.Thirteen years after the game's release, \"GTA Online\" continues to attract millions of p…"
-  },
-  {
-    "id": "rss-manila-times-business-24",
-    "kind": "news",
-    "title": "Nvidia preparing to oust CEO Jensen Huang — US media",
-    "url": "https://www.manilatimes.net/2026/11/12/business/sunday-business-it/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/2468000",
-    "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T01:00:00.000Z",
-    "summary": "NEW YORK — Nvidia's board is preparing to oust its co-founder and CEO Jensen Huang, US media reported Wednesday, as the chip giant's chief faces new accusations of infidelity, after revelations he had an affair with a woman accused of spying for China.The tech company's board was preparing to meet as soon as Wednesday to determine Huang's future, according to the Wall Street Journal, which quoted…"
   },
   {
     "id": "rss-philstar-business-0",
@@ -1190,6 +1172,33 @@
   {
     "id": "rss-inquirer-0",
     "kind": "news",
+    "title": "PDEA destroys P162.5-M illegal drugs, expired medicines in Zamboanga Sur",
+    "url": "https://newsinfo.inquirer.net/2340511/pdea-destroys-p162-5-m-illegal-drugs-expired-medicines-in-zamboanga-sur",
+    "source": "Inquirer",
+    "publishedAt": "2026-11-12T23:48:42.000Z",
+    "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del Sur, in a bid to prevent the seized contraband from being recycled back into the streets. The Philippine Drug Enforcement Agency in Zamboanga Peninsula (PDEA-9) led the thermal destruction of"
+  },
+  {
+    "id": "rss-inquirer-1",
+    "kind": "news",
+    "title": "Two weather systems to bring rain in parts of PH on Friday, Nov. 13",
+    "url": "https://newsinfo.inquirer.net/2340512/weather-for-friday-nov-13",
+    "source": "Inquirer",
+    "publishedAt": "2026-11-12T22:25:18.000Z",
+    "summary": "MANILA, Philippines — Two different weather systems are forecast to bring rain over various parts of the country on Friday, the state weather bureau said. According to the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) in its latest weather forecast, the northeast monsoon or “amihan” will continue to affect and bring rain over parts"
+  },
+  {
+    "id": "rss-inquirer-2",
+    "kind": "news",
+    "title": "Garcia: Poll converting Naga into HUC ‘will not be a walk in the park’",
+    "url": "https://newsinfo.inquirer.net/2340508/garcia-poll-converting-naga-into-huc-will-not-be-a-walk-in-the-park",
+    "source": "Inquirer",
+    "publishedAt": "2026-11-12T22:09:21.000Z",
+    "summary": "MANILA, Philippines — The outcome of Naga City’s upcoming plebiscite on its proposed conversion into a highly urbanized city (HUC) remains uncertain, Commission on Elections (Comelec) Chair George Erwin Garcia said on Thursday. Garcia said the plebiscite “will not be a walk in the park,” as either the “Yes” or “No” vote could prevail. He"
+  },
+  {
+    "id": "rss-inquirer-3",
+    "kind": "news",
     "title": "Highlights: Day 43 of Sara Duterte impeachment trial | Nov. 12, 2026",
     "url": "https://newsinfo.inquirer.net/2340500/highlights-day-43-of-sara-duterte-impeachment-trial-nov-12-2026",
     "source": "Inquirer",
@@ -1197,7 +1206,7 @@
     "summary": "MANILA, Philippines — The 43rd day of Vice President Sara Duterte’s Senate impeachment trial ended with the defense having dropped all of its originally scheduled bank witnesses and the court adjourning until after the ASEAN Summit. Presiding officer Sen. Francis Escudero granted lead defense counsel Sheila Sison’s request to cancel Friday’s session, with Sison noting"
   },
   {
-    "id": "rss-inquirer-1",
+    "id": "rss-inquirer-4",
     "kind": "news",
     "title": "Lotto results on Thursday, November 12, 2026",
     "url": "https://newsinfo.inquirer.net/2340497/lotto-results-on-thursday-november-12-2026",
@@ -1206,7 +1215,7 @@
     "summary": "MANILA, Philippines—No ticket holder hit the jackpot in the Super Lotto 6/49 and Lotto 6/42 draws on Thursday, November 12, according to the Philippine Charity Sweepstakes Office. Super Lotto 6/49 draw result: 44-23-35-13-03-21 Jackpot prize: ₱103.36 million Lotto 6/42 draw result: 15-39-42-38-35-36 Jackpot prize: ₱15.86 million. The 6D Lotto draw produced the winning combination 4-1-7-4-4-1"
   },
   {
-    "id": "rss-inquirer-2",
+    "id": "rss-inquirer-5",
     "kind": "news",
     "title": "Chua: Duterte camp’s ‘K-drama’ defense only plays on public sympathy",
     "url": "https://newsinfo.inquirer.net/2340484/chua-duterte-camps-k-drama-defense-only-plays-on-public-sympathy",
@@ -1215,7 +1224,7 @@
     "summary": "MANILA, Philippines — Public prosecutor and Manila Rep. Joel Chua accused Vice President Sara Duterte’s lawyers of setting up a defense that is more of a Korean drama (K-drama), claiming that they are trying to gain sympathy from the people instead of addressing pressing issues. In a press briefing on Thursday, Chua said the two defense"
   },
   {
-    "id": "rss-inquirer-3",
+    "id": "rss-inquirer-6",
     "kind": "news",
     "title": "Dangerous heat index grips 9 areas on Thursday",
     "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",
@@ -1224,7 +1233,7 @@
     "summary": "MANILA, Philippines — Nine areas in Luzon and the Visayas were gripped by a dangerous heat index on Thursday amid the effects of the El Nino phenomenon, according to the state weather bureau. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) classifies as dangerous heat indices ranging from 42°C to 51°C due to increased"
   },
   {
-    "id": "rss-inquirer-4",
+    "id": "rss-inquirer-7",
     "kind": "news",
     "title": "Zamboanga mayor offers P2-M bounty for killers of Basilan judge",
     "url": "https://newsinfo.inquirer.net/2340460/zamboanga-mayor-offers-p2-m-bounty-for-killers-of-basilan-judge",
@@ -1233,7 +1242,7 @@
     "summary": "PAGADIAN CITY, Zamboanga del Sur — Zamboanga City Mayor Khymer Olaso has offered a P2-million cash reward for credible information leading to the identification and arrest of the gunmen behind the deadly attack on an Isabela City judge in Barangay Tumaga, Zamboanga City early Thursday morning. Speaking at a press briefing at City Hall late"
   },
   {
-    "id": "rss-inquirer-5",
+    "id": "rss-inquirer-8",
     "kind": "news",
     "title": "DOJ chief defends legality of bounty for Bato dela Rosa’s arrest",
     "url": "https://newsinfo.inquirer.net/2340473/doj-chief-defends-legality-of-bounty-for-bato-dela-rosas-arrest",
@@ -1242,7 +1251,7 @@
     "summary": "MANILA, Philippines — Justice Secretary Fredderick Vida defended the bounty offered for any information that could lead to the arrest of Sen. Ronald “Bato” dela Rosa. Dela Rosa has been in hiding since last May, when the International Criminal Court (ICC) issued an arrest warrant for him. The government has already offered a P50 million"
   },
   {
-    "id": "rss-inquirer-6",
+    "id": "rss-inquirer-9",
     "kind": "news",
     "title": "Brian Poe: ‘Most Trusted’ award inspires him to work harder to serve",
     "url": "https://newsinfo.inquirer.net/2340457/brian-poe-most-trusted-award-inspires-him-to-work-harder-to-serve",
@@ -1251,7 +1260,7 @@
     "summary": "MANILA, Philippines— Rather than viewing recognition as a measure of personal success, FPJ Panday Bayanihan Party-List Rep. Brian Poe sees it as a renewed responsibility to work harder and remain worthy of the Filipino people’s trust. Poe delivered that message on Thursday as he accepted the award for the Top Performing, Most Trusted Party-List in"
   },
   {
-    "id": "rss-inquirer-7",
+    "id": "rss-inquirer-10",
     "kind": "news",
     "title": "Mendoza thanks Marcos for appointment as BOC chief",
     "url": "https://newsinfo.inquirer.net/2340447/mendoza-thanks-marcos-for-appointment-as-boc-chief",
@@ -1260,7 +1269,7 @@
     "summary": "MANILA, Philippines — Charlito Martin Mendoza thanked President Ferdinand Marcos on Thursday for his new assignment as Bureau of Customs (BOC) chief, which is part of the administration’s latest sweeping leadership reshuffle. Under the reshuffle, Bases Conversion and Development Authority (BCDA) Joshua Bingcang will be the new director general of the Philippine Economic Zone Authority"
   },
   {
-    "id": "rss-inquirer-8",
+    "id": "rss-inquirer-11",
     "kind": "news",
     "title": "Ateneo de Zamboanga College of Law condemns killing of Basilan judge",
     "url": "https://newsinfo.inquirer.net/2340449/ateneo-de-zamboanga-college-of-law-condemns-killing-of-basilan-judge",
@@ -1269,7 +1278,7 @@
     "summary": "PAGADIAN CITY, Zamboanga del Sur – The Ateneo de Zamboanga University (AdZU) College of Law on Thursday condemned the deadly attack on Regional Trial Court (RTC) Judge Joseph Wee Sit, calling on authorities to ensure swift justice for the victim. In a statement, the Jesuit-run law school expressed deep grief over the killing of Wee"
   },
   {
-    "id": "rss-inquirer-9",
+    "id": "rss-inquirer-12",
     "kind": "news",
     "title": "Prosec: Defense withdrew BPI exec to prevent ‘Pandora’s box’ opening",
     "url": "https://newsinfo.inquirer.net/2340448/defense-withdrew-bpi-exec-to-prevent-pandoras-box-opening",
@@ -1278,7 +1287,7 @@
     "summary": "MANILA, Philippines — Members of the prosecution panel believe the decision of Vice President Sara Duterte’s legal team to withdraw the presentation of a Bank of the Philippine Islands (BPI) official was brought by a yearning to play safe. The prosecutors think that if the defense team will push through with its plan, the action might"
   },
   {
-    "id": "rss-inquirer-10",
+    "id": "rss-inquirer-13",
     "kind": "news",
     "title": "Motorcycle taxi group pushes for industry legalization, rider protection",
     "url": "https://newsinfo.inquirer.net/2340446/motorcycle-taxi-group-pushes-for-industry-legalization-rider-protection",
@@ -1287,7 +1296,7 @@
     "summary": "MANILA, Philippines — Motorcycle taxi riders’ group Metro has called for a review of rider limits, saying these should be based on passenger demand and not restrict drivers’ livelihoods. Metro co-convener Jayson Luna said the Department of Transportation and the Land Transportation Franchising and Regulatory Board (LTFRB) should introduce long-term reforms that benefit both riders"
   },
   {
-    "id": "rss-inquirer-11",
+    "id": "rss-inquirer-14",
     "kind": "news",
     "title": "AMLC files civil forfeiture case vs Romualdez",
     "url": "https://newsinfo.inquirer.net/2340444/amlc-files-civil-forfeiture-case-vs-romualdez",
@@ -1296,7 +1305,7 @@
     "summary": "MANILA, Philippines—The Anti-Money Laundering Council (AMLC) has filed a civil forfeiture case that covers the bank accounts of former House Speaker Martin Romualdez, a witness told the Sandiganbayan Third Division on Thursday. Defense attorney Rashel Ann Pomoy confirmed this with AMLC financial investigator Jan Mark Busa, who testified as witness for the prosecution during the"
   },
   {
-    "id": "rss-inquirer-12",
+    "id": "rss-inquirer-15",
     "kind": "news",
     "title": "Two more Bukidnon centenarians receive P50,000 cash incentives",
     "url": "https://newsinfo.inquirer.net/2340419/two-more-bukidnon-centenarians-receive-p50000-cash-incentives",
@@ -1305,7 +1314,7 @@
     "summary": "DANGCAGAN, Bukidnon — Two more living centenarians in southern Bukidnon received P50,000 each in cash incentives from the provincial government on Wednesday, November 11, as part of its continuing recognition of the province’s oldest residents. Ellen Salumintao, Provincial Social Welfare and Development Office (PSWDO) head, personally went to the homes of the beneficiaries to hand"
   },
   {
-    "id": "rss-inquirer-13",
+    "id": "rss-inquirer-16",
     "kind": "news",
     "title": "DepEd cites private sector role in NCR schools’ tech transformation",
     "url": "https://newsinfo.inquirer.net/2340413/deped-cites-private-sector-role-in-ncr-schools-tech-transformation",
@@ -1314,7 +1323,7 @@
     "summary": "MANILA, Philippines— The Department of Education (DepEd) emphasized the vital role of public-private partnerships in driving nationwide digital transformation. DepEd issued that statement on Thursday, as public schools in the National Capital Region, including those in Navotas City and Caloocan City, received 133 information and communications technology (ICT) units. Education Secretary Sonny Ang…"
   },
   {
-    "id": "rss-inquirer-14",
+    "id": "rss-inquirer-17",
     "kind": "news",
     "title": "Prosec: VP Duterte’s bank accounts, undeclared balances still undisputed",
     "url": "https://newsinfo.inquirer.net/2340404/prosec-vp-dutertes-bank-accounts-undeclared-balances-still-undisputed",
@@ -1323,7 +1332,7 @@
     "summary": "MANILA, Philippines — Vice President Sara Z. Duterte’s lawyers have yet to dispute bank accounts and balances that formed part of the P817.87 million in alleged unexplained wealth identified by forensic accounting expert Alexander Cabrera. Rep. Zia Alonto Adiong, House prosecution spokesperson, pointed this out on Thursday in a press briefing after the 43rd day of"
   },
   {
-    "id": "rss-inquirer-15",
+    "id": "rss-inquirer-18",
     "kind": "news",
     "title": "Troops sent to North Cotabato village to pacify warring MILF groups",
     "url": "https://newsinfo.inquirer.net/2340393/troops-sent-to-north-cotabato-village-to-pacify-warring-milf-groups",
@@ -1332,7 +1341,7 @@
     "summary": "COTABATO CITY — The Army’s 33rd Infantry Battalion (IB) deployed troops, backed by armored personnel carriers, on Thursday to a village in Aleosan, North Cotabato, to pacify warring armed groups identified with the Moro Islamic Liberation Front (MILF). ‎‎Colonel Ramel Hojilla, North Cotabato police director, said two minor siblings were killed on Tuesday after hostilities"
   },
   {
-    "id": "rss-inquirer-16",
+    "id": "rss-inquirer-19",
     "kind": "news",
     "title": "Alcantara returns new batch of stolen public funds, increasing pot to P866M",
     "url": "https://newsinfo.inquirer.net/2340402/alcantara-returns-new-batch-of-stolen-public-funds-increasing-pot-to-p866m",
@@ -1341,7 +1350,7 @@
     "summary": "MANILA, Philippines—Former Public Works-Bulacan District Engineer Henry Alcantara has returned another batch of cold cash to the Bureau of Treasury, increasing the pot to P866.4 million. Justice Undersecretary Deo Marco made the revelation on Thursday, noting that the stolen public funds have been recently turned over to the Bureau of Treasury (BTr). Marco added that"
   },
   {
-    "id": "rss-inquirer-17",
+    "id": "rss-inquirer-20",
     "kind": "news",
     "title": "Two dead, five injured as motorcycle, hearse collide in Negros Oriental",
     "url": "https://newsinfo.inquirer.net/2340389/two-dead-five-injured-as-motorcycle-hearse-collide-in-negros-oriental",
@@ -1350,7 +1359,7 @@
     "summary": "BACOLOD CITY — Two students were killed while five others were injured after a motorcycle collided with a hearse van along the national highway in Barangay Iniban, Ayungon town, Negros Oriental, on Wednesday night, November 11. Police identified the fatalities as the 22-year-old male driver of the black Honda XRM 125 motorcycle, a Criminology student"
   },
   {
-    "id": "rss-inquirer-18",
+    "id": "rss-inquirer-21",
     "kind": "news",
     "title": "Prosecution points to ‘lavish spending’ by VP Duterte’s spouse",
     "url": "https://newsinfo.inquirer.net/2340379/prosecution-points-to-lavish-spending-by-vp-dutertes-spouse",
@@ -1359,7 +1368,7 @@
     "summary": "Updated @ 7:35 p.m., Thursday, Nov. 12, 2026 MANILA, Philippines — The “lavish spending” of Vice President Sara Duterte and her husband, lawyer Manases Carpio, runs counter to the constitutional requirement for public officials to lead modest lives, House prosecutors said on Thursday. The House prosecution panel made the argument after defense witnesses Anel Martin"
   },
   {
-    "id": "rss-inquirer-19",
+    "id": "rss-inquirer-22",
     "kind": "news",
     "title": "Manila acquires permanent site for Universidad de Manila",
     "url": "https://newsinfo.inquirer.net/2340384/manila-acquires-permanent-site-for-universidad-de-manila",
@@ -1368,7 +1377,7 @@
     "summary": "MANILA, Philippines — The City of Manila on Thursday announced that it had acquired eight adjoining properties along C.M. Recto Avenue from the Land Bank of the Philippines worth P975 million, which will serve as the permanent site of Universidad de Manila (UdM). Manila Mayor Francisco “Isko Moreno” Domagoso said the property was originally valued"
   },
   {
-    "id": "rss-inquirer-20",
+    "id": "rss-inquirer-23",
     "kind": "news",
     "title": "El Niño takes toll on fishers’ health, livelihoods",
     "url": "https://newsinfo.inquirer.net/2340381/el-nino-takes-toll-on-fishers-health-livelihoods",
@@ -1377,40 +1386,13 @@
     "summary": "MANILA, Philippines — Filipino fisherfolk are experiencing skin problems, heat-related illnesses and reduced fishing hours as extreme heat affects their work at sea, prompting an environmental group to urge the government to provide alternative livelihoods and stronger social protection as a very strong El Niño persists in the Pacific. El Niño is a climate phenomenon"
   },
   {
-    "id": "rss-inquirer-21",
+    "id": "rss-inquirer-24",
     "kind": "news",
     "title": "Sandigan justice scolds BJMP official over statements on Romualdez aide",
     "url": "https://newsinfo.inquirer.net/2340378/sandigan-justice-scolds-bjmp-official-over-statements-on-romualdez",
     "source": "Inquirer",
     "publishedAt": "2026-11-12T17:44:08.000Z",
     "summary": "MANILA, Philippines — Sandiganbayan Third Division Chairperson Associate Justice Karl Miranda on Thursday scolded an official of the Bureau of Jail Management and Penology (BJMP) over her statements regarding the presence of an aide inside the jail cell of former House Speaker Martin Romualdez. This came after BJMP Jail Superintendent Maria Lourdes Pacion was once"
-  },
-  {
-    "id": "rss-inquirer-22",
-    "kind": "news",
-    "title": "Or. Mindoro receives P17.8-M medical equipment, 2 ambulances from PCSO",
-    "url": "https://newsinfo.inquirer.net/2340371/or-mindoro-receives-p17-8-m-medical-equipment-2-ambulances-from-pcso",
-    "source": "Inquirer",
-    "publishedAt": "2026-11-12T17:37:00.000Z",
-    "summary": "CALAPAN CITY, Oriental Mindoro — The Philippine Charity Sweepstakes Office has turned over P17.8 million worth of medical equipment and two patient transport vehicles to the provincial government of Oriental Mindoro. The donation includes one portable digital X-ray machine, eight electrocardiogram (ECG) units, and five mechanical ventilators for the Oriental Mindoro Provincial Hospital (OMPH), al…"
-  },
-  {
-    "id": "rss-inquirer-23",
-    "kind": "news",
-    "title": "Puerto Galera wind energy stabilizes Mindoro power",
-    "url": "https://newsinfo.inquirer.net/2340361/puerto-galera-wind-energy-stabilizes-mindoro-power",
-    "source": "Inquirer",
-    "publishedAt": "2026-11-12T17:05:46.000Z",
-    "summary": "CALAPAN CITY, Oriental Mindoro — Wind power generated in Puerto Galera is helping stabilize the province’s electricity supply amid critically low power reserves and recurring forecasts of Red Alert conditions, power sector data showed. The Philippine Hybrid Energy Systems Inc. (PHESI) wind farm has supplied electricity to the Oriental Mindoro grid since Nov. 2, with"
-  },
-  {
-    "id": "rss-inquirer-24",
-    "kind": "news",
-    "title": "Pia Cayetano irked as prosec questions Carpio’s spending for athletes",
-    "url": "https://newsinfo.inquirer.net/2340365/pia-cayetano-irked-as-prosec-questions-carpios-spending-for-athletes",
-    "source": "Inquirer",
-    "publishedAt": "2026-11-12T17:01:45.000Z",
-    "summary": "MANILA, Philippines — Sen. Pia Cayetano on Thursday said she could not hide her “disdain” on the line of questioning of the prosecution in the impeachment trial of Vice President Sara Duterte when it touched on the purchase of shoes of respondent’s spouse Manases Carpio intended for his son and other athletes and their guardians."
   },
   {
     "id": "rss-philstar-opinion-0",
@@ -1470,46 +1452,6 @@
     "source": "PhilStar Opinion",
     "publishedAt": "2026-11-12T16:00:00.000Z",
     "summary": "A member of popular P-pop girl group BINI issued a public apology yesterday after being sanctioned by the Land Transportation Office for distracted driving.",
-    "opinion": true
-  },
-  {
-    "id": "rss-philstar-opinion-6",
-    "kind": "news",
-    "title": "The economy: BBM’s record vs. past presidents",
-    "url": "https://www.philstar.com/opinion/2026/11/12/2569494/economy-bbms-record-vs-past-presidents",
-    "source": "PhilStar Opinion",
-    "publishedAt": "2026-11-11T16:00:00.000Z",
-    "summary": "The Philippine economy grew 2.1 percent in the third quarter of 2026, the slowest quarterly growth in output of goods and services (what you call the Gross Domestic Product) in 16 years. The 2.1 percent third quarter growth brings January-September 2026 GDP growth to 2.5 percent.",
-    "opinion": true
-  },
-  {
-    "id": "rss-philstar-opinion-7",
-    "kind": "news",
-    "title": "Democrats won the midterms; that won’t change much for American allies",
-    "url": "https://www.philstar.com/opinion/2026/11/12/2569495/democrats-won-midterms-wont-change-much-american-allies",
-    "source": "PhilStar Opinion",
-    "publishedAt": "2026-11-11T16:00:00.000Z",
-    "summary": "Shortly after the Democratic Party won back the House and Senate in the US midterm elections, House Democratic Leader (and likely the next Speaker of the House) Hakeem Jeffries announced, “America is back.”",
-    "opinion": true
-  },
-  {
-    "id": "rss-philstar-opinion-8",
-    "kind": "news",
-    "title": "Struggle between Heartland and Rimland",
-    "url": "https://www.philstar.com/opinion/2026/11/12/2569497/struggle-between-heartland-and-rimland",
-    "source": "PhilStar Opinion",
-    "publishedAt": "2026-11-11T16:00:00.000Z",
-    "summary": "For more than a century, geopolitical writers have warned that China could one day threaten the world. As far back as 1904, Mackinder warned that “a stable ruthlessly run China could one day imperil the world’s freedom because it combined Rimland frontage with a vast Eurasian hinterland.”",
-    "opinion": true
-  },
-  {
-    "id": "rss-philstar-opinion-9",
-    "kind": "news",
-    "title": "Sickest man of Asia",
-    "url": "https://www.philstar.com/opinion/2026/11/12/2569502/sickest-man-asia",
-    "source": "PhilStar Opinion",
-    "publishedAt": "2026-11-11T16:00:00.000Z",
-    "summary": "Sickest man of Asia And there it goes – the Philippines under Marcos 2.0 is again facing one of its most challenging periods, just a few nightmares away from the crisis that hounded the first Marcos regime or the pandemic era.",
     "opinion": true
   },
   {

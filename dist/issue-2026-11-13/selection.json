@@ -1,47 +1,63 @@
 {
   "deepDives": [
     {
-      "id": "rss-philstar-business-12",
+      "id": "rss-manila-times-business-17",
       "kind": "news",
-      "title": "Austerity",
-      "url": "https://www.philstar.com/business/2026/11/13/2569708/austerity",
-      "source": "PhilStar Business",
-      "publishedAt": "2026-11-12T16:00:00.000Z",
-      "summary": "The Philippine economy has slowed down for the last five quarters, hitting 2.4 percent year-on-year. October headline inflation has hit a 44-month high of 7.8 percent.",
-      "score": 3.327279772444445,
+      "title": "Peso, PSEi post losses",
+      "url": "https://www.manilatimes.net/2026/11/13/business/top-business/peso-psei-post-losses/2468843",
+      "source": "Manila Times Business",
+      "publishedAt": "2026-11-12T16:14:00.000Z",
+      "summary": "THE peso weakened further on Thursday, losing by 45 centavos against the greenback, while the main index of the Philippines Stock exchange fell as investors remained cautious amid corporate earnings releases.The local currency closed at P63.7, weaker than the P63.25 posted on Wednesday. It opened at P63.25 and traded from P63.25 to P63.7.The volume reached $1.720 trillion, up from the previous P1…",
+      "score": 3.9316906459259267,
       "weird": 0,
       "reasons": [
-        "reader relevance 3/3: Inflation at 44-month high of 7.8 percent",
-        "update to a recent story",
-        "PhilStar Business, 5.0h old",
-        "peso or prices"
+        "reader relevance 3/3: Peso weakens 45 centavos; affects remittance value",
+        "Manila Times Business, 6.6h old",
+        "peso or prices",
+        "merged: GMA Money"
+      ],
+      "related": [
+        {
+          "source": "GMA Money",
+          "title": "Peso slides to P63.7:$1",
+          "url": "https://www.gmanetwork.com/news/money/economy/1009277/peso-slides-to-p63-7-1/story/",
+          "text": "The Philippine peso continued its downtrend for the second straight trading day on Thursday.\nThe local currency shed 45 centavos to close at P63.7:$1, from P63.25:$1.\nRizal Commercial Banking Corp. chief economist Michael Ricafort attributed the peso’s weakness to “higher US dollar versus major global currencies.”\nThe dollar’s strength came “amid increased odds of future Fed rate hike/s in the coming months a day after faster-than-expected US CPI (consumer price index) data.”\nPeso strengthens further to P62.585 vs. $1\nPeso claws back P62-to-$1 level on lower oil prices\nPeso dips vs. US dollar on October inflation worries\nData from the US Bureau of Labor Statistics showed that inflation rose by 0.4%, exceeding economists' forecast of 0.3%.\nDespite the peso's weakness, Ricafort said the local currency would be supported by the seasonal increase in OFW remittances, export sales, and other US dollar sales to be converted to pesos in the fourth quarter in time for the Christmas holiday-related spending. — BM, GMA News\nFollow facebook.com/gmanewsonline for real-time news and developments in the Philippines and around the world.",
+          "kind": "thin"
+        }
       ],
       "article": {
         "status": "ok",
         "kind": "article",
-        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nThe Philippine economy has slowed down for the last five quarters, hitting 2.4 percent year-on-year. October headline inflation has hit a 44-month high of 7.8 percent.\nBut the economy grew only by 0.1 percent in the third quarter compared with the second. That’s one tenth of one percent. We are at a standstill.\nQuarter-on-quarter, agriculture, forestry and fishing sectors contracted by 7.7 percent; services sector crawled at a measly 0.4 percent; industry grew by 1.5 percent.\nHousehold consumption, quarter-on-quarter grew by a measly 0.4 percent. This tells us that local private consumption — the powerhouse that usually drives up to 70 percent of the Philippine economy, has plateaued.\nFor an immediate look at economic health and real-time distress, the quarter-on-quarter number is more revealing. It tells you exactly how policies, inflation and consumer confidence are interacting in the present moment. If the QoQ numbers flatline for consecutive periods, the YoY numbers will inevitably follow them downward.\nS&P Global Ratings confirmed that we are actively experiencing stagflation. Some are asking, shouldn’t we be pursuing an austerity plan by now?\nI first heard of the word austerity as a kid when I was listening to my parents talk about it on the dinner table. Then president Carlos Garcia declared an austerity program in response to a severe foreign exchange crisis, curb post-war inflation and eliminate rampant government corruption.\nWhat is austerity and why is it so controversial?\nAusterity is a set of political and economic measures implemented by governments to reduce budget deficits and public debt. This is typically done through a combination of spending cuts (such as freezing public-sector wages, reducing social services or delaying infrastructure projects) and tax increases.\nAusterity measures call for sacrifices on the part of the public as a civic and patriotic duty to respond to a dire national situation. But it absolutely requires the government to lead by example.\nMr. Garcia’s austerity call was like BSP Governor Eli Remolona Jr.’s call for Filipinos to avoid luxury goods, live frugally and prioritize local products to mobilize national savings.\nGarcia’s plan aimed to boost local food production (to cut down on rice imports) and reduce reliance on imported fuel and spare parts. All of those sound familiar to us over 70 years later.\nThe next time the government needed an austerity program was in the early 80s. The Marcoses led an extravagant lifestyle and pampered their cronies. Our pre-BSP Central Bank was eventually caught doctoring the books to show we had more dollars than we actually did.\nAs a result, we could no longer pay our debts. We sought a debt payment moratorium and the price IMF imposed involved the classic shock therapy: austerity. That included the following:\nSlashing the public sector budget deficit (cutting it from 4.5 percent of GNP down to 1.5 percent); tightly choking money supply and domestic credit by issuing high-yield Central Bank bills (Jobo bills) that pushed interest rates sky-high; letting the peso float and devalue sharply and raising taxes and import surcharges while dismantling state monopolies.\nEconomists observed that while the IMF program successfully stopped hyperinflation and balanced the country’s external accounts within two years, the human and economic toll was devastating.\nIt caused the deepest post-war recession. Because credit dried up and government spending vanished overnight, there was massive closure of businesses. The Philippine economy contracted by 7.6 percent in 1984 and another 7.3 percent in 1985, wiping out a decade of gains and causing real per capita income to fall by 18 percent.\nShrinking the economy so violently caused the country’s debt-to-GDP ratio to spike even higher, locking the country into devoting up to 45 percent of its national budget to debt servicing for the next two decades.\nAre we approaching a similar crisis level now?\nWell, we are getting close. The government’s budget deficit is projected at 5.4 percent of GDP (roughly P1.66 trillion) for the full year 2026. Total debt servicing now equals 29.5 percent (P2.005 trillion) of the budget’s total size.\nFor 2027, debt servicing rises to P2.704 trillion — driven by a 51.5 percent jump in maturing principal payments — representing 39.2 percent of total projected government disbursements.\nThe peso may now seem to be falling like a rock but unlike in 1983, we are not facing an imminent foreign exchange collapse or an IMF bailout. Most of the government’s debt today is borrowed locally in pesos rather than in US dollars, and the country holds $97.4 billion in gross international reserves (a four-year low). We can still service our obligations without begging foreign creditors for a moratorium.\nThat is more reason why BBM must try harder to enact self-imposed fiscal discipline to avoid reaching a crisis point where outside institutions like the IMF dictate the terms. Our economic growth is already at a standstill. Austerity forced by the IMF will kill it.\nIf the government cuts unproductive spending (ghost projects, redundant agencies, non-essential overhead and pork projects like multi-purpose buildings) it will lower its borrowing needs. Treasury yields will eventually fall, forcing banks to go back to their real job of assessing risk and lending to productive private businesses.\nWe are heading into very turbulent years ahead and by doing nothing, an austerity program may again be forced on us.\nBBM should address severe loss of business and consumer confidence by cleaning up the budgeting process now to reduce the need for more debts. Otherwise, we will fall off a fiscal cliff like we did in 1983 under his father.\nIf our economic indicators continue to severely disappoint, even Sara Duterte will start looking attractive if only because she would be a change from a non-performing BBM. That’s something like Americans voting for Trump because Joe Biden failed them on high prices.\nBBM shouldn’t end his term confirming that the Marcos family is totally bad news for government finances and the national economy.\nBoo Chanco’s email address is [email protected]. Follow him on X @boochanco.\nHer first teachers were drivers. Now she's taking the wheel at Grab Philippines.\nREVIEW: vivo V80 Lite 5G is built for the scroll, the stream and more things in between\nKenny Rogers Roasters brings rich flavor and better nutrition together in New Garlic Parmesan Roast\nCebu Pacific welcomes Dreamer Plane, marks 30 years of making dreams fly\nRefined yet approachable: Tasting the masterfully crafted new Cantonese menu at Crystal Dragon, City of Dreams Manila\nFuse digital financing helps Ilonggo families and businesses manage everyday needs\nAyala Malls set to welcome its most anticipated wave of debuts yet\nFirst 100 vivo V80 pre-orders get access to Enhypen event\nGlobe At Home makes holiday connections more rewarding with exclusive GFiber offers\nPlanning a ‘friendsgiving’? Here are gifts and deals for every kind of friend\nPhilippines faces difficult mix of high inflation, sluggish growth — BSP\nReturn of turboprops to NAIA under review\nAirlines need government relief\nMalampaya gas deliveries hit highest mark in 5 years\nGT Capital earns P23 billion in 9 months\nACEN shifts RE strategy, reshuffles leadership\nBSP weighs weak growth as inflation stays elevated\nLa…"
+        "text": "THE peso weakened further on Thursday, losing by 45 centavos against the greenback, while the main index of the Philippines Stock exchange fell as investors remained cautious amid corporate earnings releases.\nThe local currency closed at P63.7, weaker than the P63.25 posted on Wednesday. It opened at P63.25 and traded from P63.25 to P63.7.\nThe volume reached $1.720 trillion, up from the previous P1.421 trillion.\nRizal Commercial Banking Corp. chief economist Michael Ricafort said the peso weakened as the US dollar strengthened against major global currencies.\nHe added that this “increased the odds of future US Fed rate hike,” which could weigh on the local currency.\nThe Philippine Stock Exchange composite index (PSEi), meanwhile, closed lower amid the downward revision in the country’s economic growth outlook.\nAlthough net foreign buying helped limit the decline.\nThe benchmark index slipped 0.57 percent, or 32.41 points, to close at 5,660.55. Despite the decline, foreign investors were net buyers, recording inflows of P329 million.\nLuis Limlingan, head of sales at Regina Capital Development Corp., said investors remained cautious following BMI’s downward revision of its Philippine economic growth forecasts, which added to concerns about the country’s economic trajectory.\nMarket participants also stayed on the sidelines while awaiting further corporate earnings results and fresh catalysts that could support a recovery, he said.\nAmong actively traded stocks, Manila Electric Co. (Meralco) and PLDT Inc. declined ahead of their removal from MSCI indexes, while GCash-related shares gained amid foreign buying, according to AB Capital Securities Inc.\nThe information technology sector recorded the biggest value turnover at P2.15 billion, while financials and property stocks posted smaller declines.\nIndustrial stocks led sectoral losses, falling 1.78 percent, followed by mining and oil, which dropped 3.91 percent. Services declined 0.37 percent, while holdings shed 0.76 percent.\nThe broader market was negative, with 131 decliners against 41 advancers, while 62 issues were unchanged. Total value turnover reached P6.71 billion, excluding extraordinary block sales.\nAmong index constituents, SMC Corp. led gainers, rising 4.10 percent, followed by Globe Telecom Inc., which added 4.06 percent. Universal Robina Corp. and JG Summit Holdings Inc. also advanced.\nACEN Corp. was the biggest index decliner, falling 8.05 percent, followed by Semirara Mining and Power Corp., which lost 6.91 percent, and GT Capital Holdings Inc., which dropped 5.35 percent.\nThe peso also weakened, with the dollar trading at P63.68, up 0.68 percent."
       }
     },
     {
-      "id": "rss-businessworld-1",
+      "id": "rss-manila-times-business-16",
       "kind": "news",
-      "title": "Metro Manila wholesale construction materials price growth in October hits three-year high",
-      "url": "https://bworldonline.com/economy/2026/11/12/793593/metro-manila-wholesale-construction-materials-price-growth-in-october-hits-three-year-high/",
-      "source": "BusinessWorld",
-      "publishedAt": "2026-11-12T13:46:06.000Z",
-      "summary": "WHOLESALE price growth of construction materials in Metro Manila accelerated in October to its strongest reading in more…",
-      "score": 2.5860182824074074,
+      "title": "Monthly ceiling for credit card finance charges stays",
+      "url": "https://www.manilatimes.net/2026/11/13/business/top-business/monthly-ceiling-for-credit-card-finance-charges-stays/2468858",
+      "source": "Manila Times Business",
+      "publishedAt": "2026-11-12T16:15:00.000Z",
+      "summary": "THE Bangko Sentral ng Pilipinas (BSP) has retained the existing cap on credit card finance charges but allowed banks and other credit card issuers to collect higher fees on installment loans and cash advances.In a circular on Thursday, signed by BSP Governor Eli Remolona Jr., the monthly add-on rate ceiling for credit card installment loans will increase to 1.5 percent from 1 percent, while the m…",
+      "score": 3.452668423703704,
       "weird": 0,
       "reasons": [
-        "reader relevance 2/3: Construction material prices hit three-year high",
-        "BusinessWorld, 7.2h old",
-        "peso or prices",
-        "promoted to deep dive in place of \"Farmers question delay in 60-day pork import restr\""
+        "reader relevance 3/3: Credit card finance charge cap kept at 3%",
+        "Manila Times Business, 6.6h old",
+        "something to act on",
+        "merged: Inquirer Business"
+      ],
+      "related": [
+        {
+          "source": "Inquirer Business",
+          "title": "BSP keeps 3% cap on credit card finance charges",
+          "url": "https://business.inquirer.net/620498/bsp-keeps-3-cap-on-credit-card-finance-charges"
+        }
       ],
       "article": {
         "status": "ok",
         "kind": "article",
-        "text": "WHOLESALE price growth of construction materials in Metro Manila accelerated in October to its strongest reading in more than three years, driven mainly by higher increases in structural steel prices, while retail price growth remained steady, the Philippine Statistics Authority (PSA) said.\nThe construction materials wholesale price index (CMWPI) in the National Capital Region (NCR) rose 3.7% year on year in October, faster than the 3.4% increase in September, reversing the year-earlier 0.2% decline, according to the PSA.\nThe October reading was the strongest since the 5.6% recorded in August 2023.\nMeanwhile, the construction materials retail price index (CMRPI) rose 2% year on year in October, unchanged for a third consecutive month but exceeding the year-earlier 0.9% increase, the PSA said in a separate report.\nThe July retail price growth reading of 2.1% had been the strongest since May 2023, when the rate hit 2.6%.\nThe PSA attributed the acceleration in wholesale price growth mainly to structural steel, which posted a 5.2% increase in October, accelerating from 3% in September.\nWholesale price increases also accelerated for fuels and lubricants (9.7% from 8.9%), sand and gravel (5.5% from 5%), and concrete products (4.9% from 4.8%).\nCement price growth picked up to 3.2% from 2.5% previously, while hardware prices rose 0.9%, against 0.6% increase in September.\nThe PSA also reported price growth picking up in metal products (1% from 0.7%), and plumbing fixtures, accessories and waterworks (1% from 0.9%).\nOn the other hand, wholesale price growth slowed for lumber to 2.7% from 3.2%, plywood to 0.8% from 1%, and tileworks to 1% from 2.5%.\nPrices of doors, jambs, and steel casements rose 0.7%, weakening from the 0.8% increase in September.\nThe remaining commodity groups maintained their respective growth rates compared to the previous month, the PSA said.\nFor the first 10 months, wholesale construction materials prices rose by an average of 2.5% year on year.\nThe PSA said the steady annual growth in retail construction materials prices reflected faster increases in some commodity groups, offset by slower growth in others.\nElectrical materials prices grew 3% year on year in October, accelerating from 2.5% in September.\nMasonry materials price growth was 3%, against 2.6% a year earlier, while painting materials and related compounds price growth accelerated to 2.8% from 2.7%.\nMeanwhile, carpentry materials price growth slowed to 0.5% from 0.9%, while that of plumbing materials eased to 0.6% from 0.9% in September.\nMiscellaneous construction materials price growth declined to 0.6% from 0.8%.\nPrice growth in tinsmithry materials remained unchanged at 3.8%, according to the PSA.\nFor the first 10 months, retail construction materials prices rose by an average of 1.7% year on year.\nThe CMWPI reflects price activity in the bulk market, reflecting procurement by major construction firms, while the CMRPI tends to track activity in smaller building projects, including do-it-yourself work. — Juliana Chloe A. Gonzales"
+        "text": "THE Bangko Sentral ng Pilipinas (BSP) has retained the existing cap on credit card finance charges but allowed banks and other credit card issuers to collect higher fees on installment loans and cash advances.\nIn a circular on Thursday, signed by BSP Governor Eli Remolona Jr., the monthly add-on rate ceiling for credit card installment loans will increase to 1.5 percent from 1 percent, while the maximum one-time processing fee for cash advances will rise to P300 from P200 per transaction.\n“Such maximum processing fee and interest rates or finance charges shall be subject to periodic review by the Bangko Sentral,” Remolona said.\nIn a separate statement, the central bank said these “adjustments aim to balance consumer protection with access to credit.”\n“They also provide credit card issuers more flexibility in setting charges as operating costs rise,” it added.\nDespite the changes, the BSP maintained the 3-percent monthly ceiling on finance charges for regular credit card transactions, equivalent to an annual interest rate of 36 percent.\nThe central bank first introduced the ceilings in 2020 as part of measures to protect credit card borrowers, with partial adjustments made in 2023. The latest revisions are covered by BSP Circular 1242, issued on Nov. 10.\nIt regularly reviews credit card fee and charge ceilings, taking into consideration prevailing economic conditions, the financial soundness of banks and other financial institutions, and consistency with its monetary policy settings, among other factors.\nThe revised ceilings will apply only to new transactions entered into from the circular’s effectivity date, which is 15 calendar days after its publication in the Official Gazette or a newspaper of general circulation.\nExisting credit card installment loans will remain subject to their previously agreed terms and conditions, the central bank said.\n“All credit card fees and charges remain subject to existing consumer protection, disclosure and transparency requirements,” it added."
       }
     },
     {
@@ -52,11 +68,11 @@
       "source": "PhilStar Business",
       "publishedAt": "2026-11-12T16:00:00.000Z",
       "summary": "Low-cost carrier Cebu Pacific has fallen into a wider net loss of almost P13 billion in nine months, as expenses rose quicker than revenue, pulled by higher jet fuel prices.",
-      "score": 2.5994373333333334,
+      "score": 2.525910288888889,
       "weird": 0,
       "reasons": [
-        "reader relevance 2/3: Airline losses tied to fuel and peso costs",
-        "PhilStar Business, 5.0h old",
+        "reader relevance 2/3: Airline loss from jet fuel costs may affect fares",
+        "PhilStar Business, 6.9h old",
         "peso or prices",
         "merged: Inquirer Business",
         "merged: Manila Times Business"
@@ -78,133 +94,123 @@
       "article": {
         "status": "ok",
         "kind": "article",
-        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — Low-cost carrier Cebu Pacific has fallen into a wider net loss of almost P13 billion in nine months, as expenses rose quicker than revenue, pulled by higher jet fuel prices.\nBased on its financial report, Cebu Pacific’s parent Cebu Air Inc. said its net loss worsened to P12.84 billion in the nine months to September.\nDuring the same period last year, Cebu Pacific was cruising on smooth skies with a P9.46-billion profit, showing how drastic the impact of elevated jet fuel prices is.\nCebu Pacific booked a 10-percent growth in revenue to P96.23 billion. However, the airline took a 24-percent hike in expenses to P99.23 billion, as jet fuel rates ballooned to fresh highs.\nThe airline owned by the Gokongweis earned more revenues as it flew more passengers between January and September. Cebu Pacific’s passenger volume grew by four percent to 20.77 million, showing the resilience of Philippine air travel demand.\nThis is why Cebu Pacific president and chief commercial officer Alexander Lao is confident the carrier would set a new record for passenger traffic this year in spite of economic risks.\nLao said the airline is projected to surpass the 27-million level in 2026, beating the previous high of 26.88 million last year.\nHowever, Cebu Pacific is suffering from rising prices, recording a 52-percent hike in flying costs to P44.13 billion, as jet fuel prices go up because of security tensions in the Middle East.\nThe carrier also raised servicing costs by eight percent to P12.41 billion. Cebu Pacific said it has paid more for aircraft servicing due to new fees applied by airport operators.\nStill, Cebu Pacific is matching demand with capacity. It will secure a final delivery for an Airbus A330neo by December, leading the industry with a fleet of 100 aircraft.\nFor 2027, Lao said Cebu Pacific would receive seven new aircraft—all of which are single-aisle jets—as the airline expands its fleet to meet future demand.\nCebu Pacific is the country’s largest carrier by fleet and passenger size, offering more than 2,190 flights weekly to domestic and international destinations.\nHer first teachers were drivers. Now she's taking the wheel at Grab Philippines.\nREVIEW: vivo V80 Lite 5G is built for the scroll, the stream and more things in between\nKenny Rogers Roasters brings rich flavor and better nutrition together in New Garlic Parmesan Roast\nCebu Pacific welcomes Dreamer Plane, marks 30 years of making dreams fly\nRefined yet approachable: Tasting the masterfully crafted new Cantonese menu at Crystal Dragon, City of Dreams Manila\nFuse digital financing helps Ilonggo families and businesses manage everyday needs\nAyala Malls set to welcome its most anticipated wave of debuts yet\nFirst 100 vivo V80 pre-orders get access to Enhypen event\nGlobe At Home makes holiday connections more rewarding with exclusive GFiber offers\nPlanning a ‘friendsgiving’? Here are gifts and deals for every kind of friend\nPhilippines faces difficult mix of high inflation, sluggish growth — BSP\nReturn of turboprops to NAIA under review\nAirlines need government relief\nMalampaya gas deliveries hit highest mark in 5 years\nGT Capital earns P23 billion in 9 months\nACEN shifts RE strategy, reshuffles leadership\nBSP weighs weak growth as inflation stays elevated\nDollar account nina VP Sara at Mans Carpio, nais kalkalin ng prosekusyon\nImpeachment lang ni Sara ang pag-asa ng makabagong sakdalista\nTestigo, ‘nag-ambag’ sa P200K credit card bill ni Carpio\nVP Sara trial, itutuloy pagkatapos ng ASEAN Summit\n‘VP Sara tumanggap ng P2.1 milyong sa ‘loose investment’ sa GenCorp’\nPhilstar.com is one of the most vibrant, opinionated, discerning communities of readers on cyberspace. With your meaningful insights, help shape the stories that can shape the country. Sign up now!"
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — Low-cost carrier Cebu Pacific has fallen into a wider net loss of almost P13 billion in nine months, as expenses rose quicker than revenue, pulled by higher jet fuel prices.\nBased on its financial report, Cebu Pacific’s parent Cebu Air Inc. said its net loss worsened to P12.84 billion in the nine months to September.\nDuring the same period last year, Cebu Pacific was cruising on smooth skies with a P9.46-billion profit, showing how drastic the impact of elevated jet fuel prices is.\nCebu Pacific booked a 10-percent growth in revenue to P96.23 billion. However, the airline took a 24-percent hike in expenses to P99.23 billion, as jet fuel rates ballooned to fresh highs.\nThe airline owned by the Gokongweis earned more revenues as it flew more passengers between January and September. Cebu Pacific’s passenger volume grew by four percent to 20.77 million, showing the resilience of Philippine air travel demand.\nThis is why Cebu Pacific president and chief commercial officer Alexander Lao is confident the carrier would set a new record for passenger traffic this year in spite of economic risks.\nLao said the airline is projected to surpass the 27-million level in 2026, beating the previous high of 26.88 million last year.\nHowever, Cebu Pacific is suffering from rising prices, recording a 52-percent hike in flying costs to P44.13 billion, as jet fuel prices go up because of security tensions in the Middle East.\nThe carrier also raised servicing costs by eight percent to P12.41 billion. Cebu Pacific said it has paid more for aircraft servicing due to new fees applied by airport operators.\nStill, Cebu Pacific is matching demand with capacity. It will secure a final delivery for an Airbus A330neo by December, leading the industry with a fleet of 100 aircraft.\nFor 2027, Lao said Cebu Pacific would receive seven new aircraft—all of which are single-aisle jets—as the airline expands its fleet to meet future demand.\nCebu Pacific is the country’s largest carrier by fleet and passenger size, offering more than 2,190 flights weekly to domestic and international destinations.\nHer first teachers were drivers. Now she's taking the wheel at Grab Philippines.\nREVIEW: vivo V80 Lite 5G is built for the scroll, the stream and more things in between\nKenny Rogers Roasters brings rich flavor and better nutrition together in New Garlic Parmesan Roast\nCebu Pacific welcomes Dreamer Plane, marks 30 years of making dreams fly\nRefined yet approachable: Tasting the masterfully crafted new Cantonese menu at Crystal Dragon, City of Dreams Manila\nFuse digital financing helps Ilonggo families and businesses manage everyday needs\nAyala Malls set to welcome its most anticipated wave of debuts yet\nFirst 100 vivo V80 pre-orders get access to Enhypen event\nGlobe At Home makes holiday connections more rewarding with exclusive GFiber offers\nPlanning a ‘friendsgiving’? Here are gifts and deals for every kind of friend\nManulife Philippines picks first female president/CEO\nAirlines need government relief\nPhilippines faces difficult mix of high inflation, sluggish growth — BSP\nMalampaya gas deliveries hit highest mark in 5 years\nAyala profit weakens on softer cyclical businesses\nPLDT in selling mode, targets P26 billion from tower, share sale\nCebu Landmasters profit slips in 9 months\nMeat importers seek repeal of import ban\nForeign investments rebound 25% in August\nLawyers tussle over VP spouse’s ‘lavish’ lifestyle\nThe ledger on trial: Why true accountability can’t stop at the Vice President’s door\nChiz cautions senator-judges against harsh questioning of witnesses\nLIVE: Sara Duterte impeachment trial, Nov. 12\nPhilstar.com is one of the most vibrant, opinionated, discerning communities of readers on cyberspace. With your meaningful insights, help shape the stories that can shape the country. Sign up now!"
       }
     }
   ],
   "gem": {
-    "id": "rss-manila-times-business-2",
+    "id": "rss-manila-times-business-22",
     "kind": "news",
-    "title": "Monthly ceiling for credit card finance charges stays",
-    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/monthly-ceiling-for-credit-card-finance-charges-stays/2468858",
+    "title": "Who benefits from the proposed P350K income tax exemption?",
+    "url": "https://www.manilatimes.net/2026/11/13/business/top-business/who-benefits-from-the-proposed-p350k-income-tax-exemption/2468816",
     "source": "Manila Times Business",
-    "publishedAt": "2026-11-12T16:15:00.000Z",
-    "summary": "THE Bangko Sentral ng Pilipinas (BSP) has retained the existing cap on credit card finance charges but allowed banks and other credit card issuers to collect higher fees on installment loans and cash advances.In a circular on Thursday, signed by BSP Governor Eli Remolona Jr., the monthly add-on rate ceiling for credit card installment loans will increase to 1.5 percent from 1 percent, while the m…",
-    "score": 2.225317565740741,
+    "publishedAt": "2026-11-12T16:09:00.000Z",
+    "summary": "IN his fifth State of the Nation Address on July 27, President Ferdinand Marcos Jr. proposed raising the annual personal income tax exemption threshold from P250,000 to P350,000. For workers with taxable income just below the proposed cutoff, the change would wipe out their income tax bill.House Speaker Faustino Dy and Majority Leader Sandro Marcos filed House Bill 10345 to amend the Tax Code. Th…",
+    "score": 2.154251098148148,
     "weird": 0,
     "reasons": [
-      "reader relevance 2/3: Credit card finance charge cap stays at 3 percent",
-      "actionable",
-      "Manila Times Business, 4.8h old",
-      "something to act on",
-      "merged: Inquirer Business"
-    ],
-    "related": [
-      {
-        "source": "Inquirer Business",
-        "title": "BSP keeps 3% cap on credit card finance charges",
-        "url": "https://business.inquirer.net/620498/bsp-keeps-3-cap-on-credit-card-finance-charges"
-      }
+      "reader relevance 2/3: Explains proposed P350K income tax exemption beneficiaries",
+      "Manila Times Business, 6.7h old",
+      "something to act on"
     ],
     "article": {
       "status": "ok",
       "kind": "article",
-      "text": "THE Bangko Sentral ng Pilipinas (BSP) has retained the existing cap on credit card finance charges but allowed banks and other credit card issuers to collect higher fees on installment loans and cash advances.\nIn a circular on Thursday, signed by BSP Governor Eli Remolona Jr., the monthly add-on rate ceiling for credit card installment loans will increase to 1.5 percent from 1 percent, while the maximum one-time processing fee for cash advances will rise to P300 from P200 per transaction.\n“Such maximum processing fee and interest rates or finance charges shall be subject to periodic review by the Bangko Sentral,” Remolona said.\nIn a separate statement, the central bank said these “adjustments aim to balance consumer protection with access to credit.”\n“They also provide credit card issuers more flexibility in setting charges as operating costs rise,” it added.\nDespite the changes, the BSP maintained the 3-percent monthly ceiling on finance charges for regular credit card transactions, equivalent to an annual interest rate of 36 percent.\nThe central bank first introduced the ceilings in 2020 as part of measures to protect credit card borrowers, with partial adjustments made in 2023. The latest revisions are covered by BSP Circular 1242, issued on Nov. 10.\nIt regularly reviews credit card fee and charge ceilings, taking into consideration prevailing economic conditions, the financial soundness of banks and other financial institutions, and consistency with its monetary policy settings, among other factors.\nThe revised ceilings will apply only to new transactions entered into from the circular’s effectivity date, which is 15 calendar days after its publication in the Official Gazette or a newspaper of general circulation.\nExisting credit card installment loans will remain subject to their previously agreed terms and conditions, the central bank said.\n“All credit card fees and charges remain subject to existing consumer protection, disclosure and transparency requirements,” it added."
+      "text": "IN his fifth State of the Nation Address on July 27, President Ferdinand Marcos Jr. proposed raising the annual personal income tax exemption threshold from P250,000 to P350,000. For workers with taxable income just below the proposed cutoff, the change would wipe out their income tax bill.\nHouse Speaker Faustino Dy and Majority Leader Sandro Marcos filed House Bill 10345 to amend the Tax Code. The bill’s explanatory note says the measure would ease the burden on low- and middle-income earners and help households cope with rising prices.\nWorkers with annual taxable income above P250,000 and up to P350,000 would no longer owe personal income tax. Those already at or below P250,000 would see no change in their income tax liability.\nAt P350,000 in annual taxable income, the proposed change would save a worker about P15,000 a year, or the equivalent of P1,250 a month. Those earning above the new threshold would also benefit, with their savings depending on the final rate schedule.\nHow would the government offset the revenue loss?\nThe Department of Finance’s proposed Promoting Growth, Revenue and Equity toward Socio-Economic Sustainability Bill pairs targeted tax relief with new or higher levies. The department has proposed higher excise taxes on sweetened beverages, alcohol, vape products and other tobacco-related products. It is also looking at changes to taxes on certain plastic products and other nonessential goods.\nThe package would raise excise taxes on vehicles valued above P8 million and extend excise taxes to private aircraft and vessels. These measures would shift some of the tax burden from wages to luxury spending.\nOn the corporate side, the package would exempt micro and small enterprises from the minimum corporate income tax and apply a 15-percent global minimum tax to covered multinational enterprises.\nKeeping tax relief in step with inflation\nA higher threshold would give workers immediate relief, but inflation would gradually erode its value. Workers who get a raise that merely keeps pace with rising prices could still end up paying a larger share of their income in tax if the brackets stay fixed.\nCongress should consider adjusting the threshold and tax brackets automatically for inflation. That would help preserve the value of the relief and spare workers from waiting years for another amendment to the Tax Code. Lawmakers would also have to weigh the cost of those adjustments against the revenue needed to fund public services.\nHouse Bill 10345 was referred to the House Committee on Ways and Means on July 29. As Congress considers the measure, it has two decisions to make: How much relief workers should get now, and how to keep that relief from losing value as prices rise.\nMark S. Gorriceta is the chairman and managing partner of the law firm Gorriceta Africa Cauton & Saavedra (www.gorricetalaw.com).\nGerard Ceasar S. Baguio is a managing associate at Gorriceta Africa Cauton and Saavedra, who specializes in taxation, litigation and real estate.\nThe firm is a member of the Financial Executives Institute of the Philippines (Finex)."
     }
   },
   "quickHits": [
     {
-      "id": "rss-inquirer-business-18",
+      "id": "rss-businessworld-1",
       "kind": "news",
-      "title": "Farmers question delay in 60-day pork import restriction",
-      "url": "https://business.inquirer.net/620543/farmers-question-delay-in-60-day-pork-import-restriction",
-      "source": "Inquirer Business",
-      "publishedAt": "2026-11-12T15:38:04.000Z",
-      "summary": "MANILA, Philippines — The Federation of Free Farmers (FFF) has welcomed the government’s 60-day restriction on certain pork imports but questioned the Department of Agriculture’s (DA) delay in implementing the measure, saying the agency should have acted sooner as rising imports and frozen pork inventories continued to drive down prices received by local hog raisers.",
-      "score": 2.8883755899259267,
+      "title": "Metro Manila wholesale construction materials price growth in October hits three-year high",
+      "url": "https://bworldonline.com/economy/2026/11/12/793593/metro-manila-wholesale-construction-materials-price-growth-in-october-hits-three-year-high/",
+      "source": "BusinessWorld",
+      "publishedAt": "2026-11-12T13:46:06.000Z",
+      "summary": "WHOLESALE price growth of construction materials in Metro Manila accelerated in October to its strongest reading in more…",
+      "score": 2.5063639842592593,
       "weird": 0,
       "reasons": [
-        "reader relevance 3/3: Pork import restriction delay affects prices and farmers",
-        "update to a recent story",
-        "Inquirer Business, 5.4h old",
-        "peso or prices",
-        "moved to quick hits (lead was unreadable)"
+        "reader relevance 2/3: Construction material prices at three-year high",
+        "BusinessWorld, 9.1h old",
+        "peso or prices"
       ],
       "article": {
-        "status": "unavailable",
-        "text": "",
-        "reason": "https://business.inquirer.net/620543/farmers-question-delay-in-60-day-pork-import-restriction -> HTTP 403"
+        "status": "ok",
+        "kind": "article",
+        "text": "WHOLESALE price growth of construction materials in Metro Manila accelerated in October to its strongest reading in more than three years, driven mainly by higher increases in structural steel prices, while retail price growth remained steady, the Philippine Statistics Authority (PSA) said.\nThe construction materials wholesale price index (CMWPI) in the National Capital Region (NCR) rose 3.7% year on year in October, faster than the 3.4% increase in September, reversing the year-earlier 0.2% decline, according to the PSA.\nThe October reading was the strongest since the 5.6% recorded in August 2023.\nMeanwhile, the construction materials retail price index (CMRPI) rose 2% year on year in October, unchanged for a third consecutive month but exceeding the year-earlier 0.9% increase, the PSA said in a separate report.\nThe July retail price growth reading of 2.1% had been the strongest since May 2023, when the rate hit 2.6%.\nThe PSA attributed the acceleration in wholesale price growth mainly to structural steel, which posted a 5.2% increase in October, accelerating from 3% in September.\nWholesale price increases also accelerated for fuels and lubricants (9.7% from 8.9%), sand and gravel (5.5% from 5%), and concrete products (4.9% from 4.8%).\nCement price growth picked up to 3.2% from 2.5% previously, while hardware prices rose 0.9%, against 0.6% increase in September.\nThe PSA also reported price growth picking up in metal products (1% from 0.7%), and plumbing fixtures, accessorie…"
       }
     },
     {
-      "id": "rss-manila-times-business-3",
+      "id": "rss-gma-money-13",
       "kind": "news",
-      "title": "Peso, PSEi post losses",
-      "url": "https://www.manilatimes.net/2026/11/13/business/top-business/peso-psei-post-losses/2468843",
-      "source": "Manila Times Business",
-      "publishedAt": "2026-11-12T16:14:00.000Z",
-      "summary": "THE peso weakened further on Thursday, losing by 45 centavos against the greenback, while the main index of the Philippines Stock exchange fell as investors remained cautious amid corporate earnings releases.The local currency closed at P63.7, weaker than the P63.25 posted on Wednesday. It opened at P63.25 and traded from P63.25 to P63.7.The volume reached $1.720 trillion, up from the previous P1…",
-      "score": 2.5247064546296296,
+      "title": "Farmers may earn up to P8 per kilo as palay buying price rises --NFA",
+      "url": "https://www.gmanetwork.com/news/money/economy/1009233/farmers-may-earn-up-to-p8-per-kilo-as-palay-buying-price-rises-nfa/story/",
+      "source": "GMA Money",
+      "publishedAt": "2026-11-12T04:01:25.000Z",
+      "summary": "The National Food Authority (NFA) said on Thursday that farmers may earn up to P8 per kilo after it recently raised the palay buying price to P30 per kilogram.",
+      "score": 2.0468547555555556,
       "weird": 0,
       "reasons": [
-        "reader relevance 2/3: Peso and stocks fall further on Thursday",
-        "Manila Times Business, 4.8h old",
+        "reader relevance 2/3: Palay buying price raised; farmer income change",
+        "GMA Money, 18.8h old",
+        "peso or prices"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "The National Food Authority (NFA) said on Thursday that farmers may earn up to P8 per kilo after it recently raised the palay buying price to P30 per kilogram.\n\"Malaking epekto ito sa mga magsasaka. Unang-una, tumaas ang presyo, meaning malaki ang take-home nila. Sa tinatayang P16-P17 production cost eh kung susumahin nga baka kumita sila 'pag pinatuyo nila lahat and all, kumita sila diyan ng mga 7 hanggang P8 per kilo,\" said NFA administrator Larry Lacson in an interview with Super Radyo dzBB.\n(This is a big impact for the farmers. First, the price increased, meaning their take-home [pay] is higher. With the estimated P16-P17 production cost, if you sum it all up, they might earn, if they dry everything and all, they could earn around P7 to P8 per kilo.)\nThe NFA earlier set the buying price for clean and dry palay at P28 to P30 per kilo. Meanwhile, farmers can now also procure 500 bags per cropping season from individual growers, up from the previous ceiling of 200 bags per farmer.\nNFA: One-ton bag use cuts palay handling time from 1 hour to just 15 minutes\nNFA targets procurement of 500,000 MT of palay for ongoing harvest season\nNFA: Palay procurement barely half of 790K MT target for 2026\nAlthough there were concerns that farmers face high production costs, the NFA said the higher palay buying price can still allow farmers to recover their expenses.\n\"Opo, totoo po 'yan, malaki po ang kanilang gastos actually kaya ang tinatayang production cost umaabot na nga ng P17 pero s…"
+      }
+    },
+    {
+      "id": "rss-philstar-business-7",
+      "kind": "news",
+      "title": "BSP weighs weak growth as inflation stays elevated",
+      "url": "https://www.philstar.com/business/2026/11/13/2569703/bsp-weighs-weak-growth-inflation-stays-elevated",
+      "source": "PhilStar Business",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas signaled that it would factor in the sharp slowdown in economic growth when setting interest rates, even as elevated inflation keeps pressure on the central bank to maintain a tight monetary stance.",
+      "score": 2.0207282222222225,
+      "weird": 0,
+      "reasons": [
+        "reader relevance 2/3: BSP weighing growth slowdown in rate decisions",
+        "update to a recent story",
+        "PhilStar Business, 6.9h old",
         "peso or prices",
-        "merged: GMA Money"
+        "merged: Manila Times Business"
       ],
       "related": [
         {
-          "source": "GMA Money",
-          "title": "Peso slides to P63.7:$1",
-          "url": "https://www.gmanetwork.com/news/money/economy/1009277/peso-slides-to-p63-7-1/story/"
+          "source": "Manila Times Business",
+          "title": "BSP to weigh GDP drop in future rate decision",
+          "url": "https://www.manilatimes.net/2026/11/13/business/top-business/bsp-to-weigh-gdp-drop-in-future-rate-decision/2468859"
         }
       ],
       "article": {
         "status": "ok",
-        "kind": "article",
-        "text": "THE peso weakened further on Thursday, losing by 45 centavos against the greenback, while the main index of the Philippines Stock exchange fell as investors remained cautious amid corporate earnings releases.\nThe local currency closed at P63.7, weaker than the P63.25 posted on Wednesday. It opened at P63.25 and traded from P63.25 to P63.7.\nThe volume reached $1.720 trillion, up from the previous P1.421 trillion.\nRizal Commercial Banking Corp. chief economist Michael Ricafort said the peso weakened as the US dollar strengthened against major global currencies.\nHe added that this “increased the odds of future US Fed rate hike,” which could weigh on the local currency.\nThe Philippine Stock Exchange composite index (PSEi), meanwhile, closed lower amid the downward revision in the country’s economic growth outlook.\nAlthough net foreign buying helped limit the decline.\nThe benchmark index slipped 0.57 percent, or 32.41 points, to close at 5,660.55. Despite the decline, foreign investors were net buyers, recording inflows of P329 million.\nLuis Limlingan, head of sales at Regina Capital Development Corp., said investors remained cautious following BMI’s downward revision of its Philippine economic growth forecasts, which added to concerns about the country’s economic trajectory.\nMarket participants also stayed on the sidelines while awaiting further corporate earnings results and fresh catalysts that could support a recovery, he said.\nAmong actively traded stocks, Manila Electric Co…"
-      }
-    },
-    {
-      "id": "rss-manila-times-business-18",
-      "kind": "news",
-      "title": "PH approved foreign investments hit P336B",
-      "url": "https://www.manilatimes.net/2026/11/13/business/top-business/ph-approved-foreign-investments-hit-p336b/2468753",
-      "source": "Manila Times Business",
-      "publishedAt": "2026-11-12T16:00:00.000Z",
-      "summary": "FOREIGN investment commitments to the Philippines more than doubled in the third quarter of 2026, with manufacturing attracting the biggest share of overseas capital.Data from the Philippine Statistics Authority (PSA) showed that approved foreign investments from July to September reached P166.03 billion, up 125.3 percent from P73.69 billion in the same period last year.The increase brought total…",
-      "score": 2.516150888888889,
-      "weird": 0,
-      "reasons": [
-        "reader relevance 2/3: Foreign investment commitments more than doubled in Q3",
-        "Manila Times Business, 5.0h old",
-        "something to act on"
-      ],
-      "article": {
-        "status": "ok",
         "kind": "thin",
-        "text": "FOREIGN investment commitments to the Philippines more than doubled in the third quarter of 2026, with manufacturing attracting the biggest share of overseas capital.\nData from the Philippine Statistics Authority (PSA) showed that approved foreign investments from July to September reached P166.03 billion, up 125.3 percent from P73.69 billion in the same period last year.\nThe increase brought total approved foreign investment pledges in the first nine months of 2026 to P336.45 billion, nearly double the P170.17 billion recorded last year.\nBy country of origin, Taiwan emerged as the largest source of approved foreign investments during the quarter, accounting for P76.27 billion, or 45.9 percent of the total.\nSingapore followed with P40.48 billion, equivalent to 24.4 percent, while South Korea ranked third with P29.48 billion, representing 17.8 percent of the total.\nBy industry, manufacturing attracted the largest amount of foreign investment pledges at P86.16 billion, accounting for 51.9 percent of the total.\nElectricity, gas, steam and air-conditioning supply followed with P52.61 billion, while information and communication secured P18.84 billion.\nThe three industries collectively accounted for 94.9 percent of approved foreign investment commitments in the third quarter.\nThe PSA said six of the country’s 16 investment promotion agencies reported foreign investment approvals during the quarter. These were the Board of Investments, Clark Development Corp., Philippine Economic…"
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) signaled that it would factor in the sharp slowdown in economic growth when setting interest rates, even as elevated inflation keeps pressure on the central bank to maintain a tight monetary stance.\n“In the face of a difficult combination of elevated inflation and slowing economic growth, the BSP remains determined to fulfill our mandate of pursuing price stability conducive to sustained and balanced growth,” the BSP said.\nThe central bank said monetary policy could not directly control inflation caused by recent global supply shocks, but would focus on preventing these price increases from spreading more broadly through the economy and dislodging inflation expectations.\n“In the BSP’s efforts to bring inflation down, it takes important account of the weakness in aggregate demand. It is also mindful of the need to prevent the…"
       }
     },
     {
-      "id": "rss-manila-times-business-8",
+      "id": "rss-philstar-business-19",
       "kind": "news",
-      "title": "Who benefits from the proposed P350K income tax exemption?",
-      "url": "https://www.manilatimes.net/2026/11/13/business/top-business/who-benefits-from-the-proposed-p350k-income-tax-exemption/2468816",
-      "source": "Manila Times Business",
-      "publishedAt": "2026-11-12T16:09:00.000Z",
-      "summary": "IN his fifth State of the Nation Address on July 27, President Ferdinand Marcos Jr. proposed raising the annual personal income tax exemption threshold from P250,000 to P350,000. For workers with taxable income just below the proposed cutoff, the change would wipe out their income tax bill.House Speaker Faustino Dy and Majority Leader Sandro Marcos filed House Bill 10345 to amend the Tax Code. Th…",
-      "score": 2.2216508990740738,
+      "title": "Philippines faces difficult mix of high inflation, sluggish growth — BSP",
+      "url": "https://www.philstar.com/business/2026/11/12/2569657/philippines-faces-difficult-mix-high-inflation-sluggish-growth-bsp",
+      "source": "PhilStar Business",
+      "publishedAt": "2026-11-12T03:07:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas is focusing on the “second-round effects” of global supply shocks and the risk of eroding public trust as the country faces “a difficult combination” of rising inflation and sluggish growth.",
+      "score": 2.010576933333333,
       "weird": 0,
       "reasons": [
-        "reader relevance 2/3: Explains proposed P350K income tax exemption",
-        "Manila Times Business, 4.9h old",
-        "something to act on"
+        "reader relevance 2/3: BSP on high inflation with sluggish growth",
+        "PhilStar Business, 19.7h old",
+        "peso or prices"
       ],
       "article": {
         "status": "ok",
         "kind": "article",
-        "text": "IN his fifth State of the Nation Address on July 27, President Ferdinand Marcos Jr. proposed raising the annual personal income tax exemption threshold from P250,000 to P350,000. For workers with taxable income just below the proposed cutoff, the change would wipe out their income tax bill.\nHouse Speaker Faustino Dy and Majority Leader Sandro Marcos filed House Bill 10345 to amend the Tax Code. The bill’s explanatory note says the measure would ease the burden on low- and middle-income earners and help households cope with rising prices.\nWorkers with annual taxable income above P250,000 and up to P350,000 would no longer owe personal income tax. Those already at or below P250,000 would see no change in their income tax liability.\nAt P350,000 in annual taxable income, the proposed change would save a worker about P15,000 a year, or the equivalent of P1,250 a month. Those earning above the new threshold would also benefit, with their savings depending on the final rate schedule.\nHow would the government offset the revenue loss?\nThe Department of Finance’s proposed Promoting Growth, Revenue and Equity toward Socio-Economic Sustainability Bill pairs targeted tax relief with new or higher levies. The department has proposed higher excise taxes on sweetened beverages, alcohol, vape products and other tobacco-related products. It is also looking at changes to taxes on certain plastic products and other nonessential goods.\nThe package would raise excise taxes on vehicles valued abov…"
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — The Bangko Sentral ng Pilipinas is focusing on the “second-round effects” of global supply shocks and the risk of eroding public trust as the country faces “a difficult combination” of rising inflation and sluggish growth.\nThe BSP said on Wednesday, November 12, that it is also considering weak aggregate demand as it works to bring inflation down. It added that restoring price stability and purchasing power is crucial to rebuilding public confidence in the central bank and the economy.\n\"Signs of improvement would include easing inflation, more stable inflation expectations, stronger business and consumer confidence, and a recovery in investment and employment,\" the central bank said.\nIntending to bring inflation back to its 3% target by 2028, the BSP has raised its benchmark interest rate by 125 basis points in 2026 alone, with a \"jumbo\" 50-basis-point hike imple…"
       }
     }
   ],
@@ -238,59 +244,16 @@
       "publishedAt": "2026-11-12T16:00:00.000Z",
       "summary": "For forty-odd session days, reporters covering the Senate have watched two very different worlds collide. Inside the chamber, senator-judges in maroon robes parse bank records, land titles and corporate disclosures. Just outside, everyday workers and middle-class taxpayers tallying their grocery bills worry about heavy taxes and billions lost to broken flood-control projects. Beyond our borders,…",
       "opinion": true,
-      "score": 1.5830050787037035,
+      "score": 1.5401143027777777,
       "weird": 0,
       "reasons": [
         "relevance 1 (money) (politics)",
-        "PhilStar Opinion, 5.0h old"
-      ],
-      "article": {
-        "status": "unavailable",
-        "text": "",
-        "reason": "The operation was aborted due to timeout"
-      }
-    },
-    {
-      "id": "rss-philstar-opinion-6",
-      "kind": "news",
-      "title": "The economy: BBM’s record vs. past presidents",
-      "url": "https://www.philstar.com/opinion/2026/11/12/2569494/economy-bbms-record-vs-past-presidents",
-      "source": "PhilStar Opinion",
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "summary": "The Philippine economy grew 2.1 percent in the third quarter of 2026, the slowest quarterly growth in output of goods and services (what you call the Gross Domestic Product) in 16 years. The 2.1 percent third quarter growth brings January-September 2026 GDP growth to 2.5 percent.",
-      "opinion": true,
-      "score": 1.07,
-      "weird": 0,
-      "reasons": [
-        "relevance 1 (money)",
-        "PhilStar Opinion, 29.0h old"
+        "PhilStar Opinion, 6.9h old"
       ],
       "article": {
         "status": "ok",
         "kind": "article",
-        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nThe Philippine economy grew 2.1 percent in the third quarter of 2026, the slowest quarterly growth in output of goods and services (what you call the Gross Domestic Product) in 16 years. The 2.1 percent third quarter growth brings January-September 2026 GDP growth to 2.5 percent.\nFor the whole of 2026, economic or GDP growth will be 2.8 percent – the slowest in six years or since the negative 9.5 percent growth in 2020 because of COVID.\nFor the remaining years of the Ferdinand Marcos Jr. (BBM) presidency (up to June 30, 2028), economic growth will be sluggish. Food prices will remain elevated. Electricity or energy prices will remain elevated.\nThe next president, the successor to BBM, would also do badly on the economic front – especially if that president were Sara Duterte (assuming she is not convicted) and, for that matter, Leni Robredo, who for all practical purposes is a plain ho…"
-      }
-    },
-    {
-      "id": "rss-philstar-opinion-8",
-      "kind": "news",
-      "title": "Struggle between Heartland and Rimland",
-      "url": "https://www.philstar.com/opinion/2026/11/12/2569497/struggle-between-heartland-and-rimland",
-      "source": "PhilStar Opinion",
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "summary": "For more than a century, geopolitical writers have warned that China could one day threaten the world. As far back as 1904, Mackinder warned that “a stable ruthlessly run China could one day imperil the world’s freedom because it combined Rimland frontage with a vast Eurasian hinterland.”",
-      "opinion": true,
-      "score": 0.4605,
-      "weird": 0,
-      "reasons": [
-        "relevance 0.15",
-        "PhilStar Opinion, 29.0h old",
-        "something to act on"
-      ],
-      "article": {
-        "status": "unavailable",
-        "text": "",
-        "reason": "The operation was aborted due to timeout"
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nFor forty-odd session days, reporters covering the Senate have watched two very different worlds collide. Inside the chamber, senator-judges in maroon robes parse bank records, land titles and corporate disclosures. Just outside, everyday workers and middle-class taxpayers tallying their grocery bills worry about heavy taxes and billions lost to broken flood-control projects. Beyond our borders, foreign diplomats and investors arriving for our turn as ASEAN chair watch this divided screen with quiet alarm.\nAs Vice President Sara Duterte’s defense team streamlines its case, slashing its bank witness list to save time, Filipinos ask a plain question: Is this trial worth the stress, and where does it all end? To answer fairly, we must weigh both sides, the three possible endings, and how the world sees us trying to clean house while hosting the region.\nThe core reason this trial cannot b…"
       }
     },
     {
@@ -302,16 +265,58 @@
       "publishedAt": "2026-11-12T16:00:00.000Z",
       "summary": "‘So from the standpoint of power supply adequacy, we are prepared to serve our customers,’ Zaldarriaga asserted.",
       "opinion": true,
-      "score": 0.23745076180555552,
+      "score": 0.23101714541666665,
       "weird": 0,
       "reasons": [
         "relevance 0.15",
-        "PhilStar Opinion, 5.0h old"
+        "PhilStar Opinion, 6.9h old"
       ],
       "article": {
         "status": "ok",
         "kind": "article",
         "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\n“The most expensive electricity is no electricity,” Joe Zaldarriaga, official spokesman of the Manila Electric Company (Meralco), quipped at our Kapihan sa Manila Bay news forum last Wednesday. As far as the 8.3 million customers in the Meralco franchise areas are concerned, however, he downplayed fears of power supply shortage and rate hikes that will ensue from the ongoing “Super El Niño” phenomenon projected to last until middle of next year.\n“So from the standpoint of power supply adequacy, we are prepared to serve our customers,” Zaldarriaga asserted.\nZaldarriaga confessed he merely borrowed this quote from Governor of Leyte Jericho “Icot” Petilla. Serving as Department of Energy (DOE) secretary from 2012 to 2015, Petilla first declared it during the administration of the late president PNoy Aquino. Petilla argued that power generators, distributors and cooperatives must be finan…"
+      }
+    },
+    {
+      "id": "rss-philstar-opinion-1",
+      "kind": "news",
+      "title": "16 years later, still no justice for slain genius",
+      "url": "https://www.philstar.com/opinion/2026/11/13/2569770/16-years-later-still-no-justice-slain-genius",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "summary": "Sixteen years ago this Sunday, soldiers slew botanist Leonard Co. He was researching native trees in the mountain forests of Kananga, Leyte when an Army patrol fired at him and four companions. Leonard and two of the four fell dead.",
+      "opinion": true,
+      "score": 0.23101714541666665,
+      "weird": 0,
+      "reasons": [
+        "relevance 0.15",
+        "PhilStar Opinion, 6.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "article",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nSixteen years ago this Sunday, soldiers slew botanist Leonard Co. He was researching native trees in the mountain forests of Kananga, Leyte when an Army patrol fired at him and four companions. Leonard and two of the four fell dead.\nThe soldiers initially reported that they ambushed Leonard’s group whom they suspected to be communist rebels. Ambushed! Leonard and the four were unarmed and in civvies. Meaning, the soldiers had lain in wait not at uniformed enemies but at civilians – a clear violation of human rights.\nThey wasted a genius. Leonard at the time was the country’s foremost botanist. He not only had discovered and co-studied several plant species, among those the Rafflesia aurantia, Rafflesia leonardi, Xanthostemon fruticosus, and Vaccinium oscarlopezianum. He also trained dozens of botanists, naming and describing to them from memory more than 10,000 indigenous flora.\nNo on…"
+      }
+    },
+    {
+      "id": "rss-philstar-opinion-3",
+      "kind": "news",
+      "title": "Mother of mountains",
+      "url": "https://www.philstar.com/opinion/2026/11/13/2569776/mother-mountains",
+      "source": "PhilStar Opinion",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "summary": "I have been laid low by the infernal flu/cough virus and I swear that as I carry on in years, the bouts and the recovery have been long and draining, almost depressing.",
+      "opinion": true,
+      "score": 0.23101714541666665,
+      "weird": 0,
+      "reasons": [
+        "relevance 0.15",
+        "PhilStar Opinion, 6.9h old"
+      ],
+      "article": {
+        "status": "ok",
+        "kind": "thin",
+        "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nI have been laid low by the infernal flu/cough virus and I swear that as I carry on in years, the bouts and the recovery have been long and draining, almost depressing.\nI now fear future possibilities where you literally go two to three nights without sleep due to the sound and feeling of drowning, so much so that we have opened our eyes to finding a used Lazy Boy chair to sleep in upright!\nI have also been captured if not enchanted by AI movies that take off from “The Hobbit” and the “Lord of the Rings.” I warn you all before curiosity gets you, it is beyond habit forming that my own daughter calls it my recuperation with addiction binge watching!\nWatching warlocks and war dogs has had me thinking of replacing our sweet old Great Dane Missy, while my wife Karen wants to adopt a retired K9 to reward it with a spoiled life.\nI don’t know if it’s a sign, but I received an email about K9…"
       }
     }
   ],
