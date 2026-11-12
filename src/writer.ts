@@ -124,14 +124,15 @@ ${guide}
 </voice_guide>${samples.length ? `\n\nWriting samples that show the voice. Learn the rhythm, word choice and attitude. Never reuse their sentences or topics.\n${samples.join("\n")}` : ""}`;
 }
 
-async function callClaude(sel: Selection, date: string): Promise<z.infer<typeof IssueSchema>> {
+async function callClaudeOnce(sel: Selection, date: string, effort: "high" | "medium"): Promise<z.infer<typeof IssueSchema>> {
   const client = new Anthropic();
+  // The reply and Claude's thinking share max_tokens. 21,000 is the most a single non-streamed call allows.
   const response = await client.beta.messages.parse({
     model: config.model,
-    max_tokens: 16000,
+    max_tokens: 21000,
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
-    output_config: { effort: "high", format: zodOutputFormat(IssueSchema) },
+    output_config: { effort, format: zodOutputFormat(IssueSchema) },
     system: SYSTEM + loadVoice(),
     messages: [{ role: "user", content: `Write the issue for ${date} from this material:\n\n${material(sel)}` }],
   });
@@ -141,6 +142,22 @@ async function callClaude(sel: Selection, date: string): Promise<z.infer<typeof 
   if (response.stop_reason === "max_tokens") throw new Error("Issue was cut off at max_tokens.");
   if (!response.parsed_output) throw new Error("Claude's reply did not match the issue schema.");
   return response.parsed_output;
+}
+
+/**
+ * One retry. On 2026-11-13 the reply was cut off mid-sentence (thinking had used up the room), the JSON could not be
+ * read, and there was no issue that morning. A second try with less thinking leaves more room for the issue itself.
+ */
+async function callClaude(sel: Selection, date: string): Promise<z.infer<typeof IssueSchema>> {
+  try {
+    return await callClaudeOnce(sel, date, "high");
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    // Only a cut-off or unreadable reply is worth a second call; a refusal or a missing key is not.
+    if (!/parse structured output|cut off at max_tokens|did not match the issue schema/i.test(message)) throw err;
+    console.warn(`  ! first try failed (${message.slice(0, 120)}); trying once more with less thinking`);
+    return callClaudeOnce(sel, date, "medium");
+  }
 }
 
 /** Placeholder issue for testing the pipeline without Claude credentials. Never publishable. */
@@ -311,7 +328,8 @@ export async function write(sel: Selection, date: string, opts: { dryRun?: boole
     try {
       raw = await callClaude(sel, date);
     } catch (err) {
-      if (err instanceof Anthropic.AuthenticationError || !(err instanceof Anthropic.APIError)) {
+      // The key hint only when the key is the problem; a cut-off reply once got this hint and it misled.
+      if (err instanceof Anthropic.AuthenticationError || !process.env.ANTHROPIC_API_KEY) {
         throw new Error(
           `${err instanceof Error ? err.message : err}\nSet ANTHROPIC_API_KEY in .env, or test the pipeline with: npm run draft -- --dry-run`,
         );
